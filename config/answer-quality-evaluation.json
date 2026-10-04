@@ -1,0 +1,28 @@
+{
+  "id": "answer-quality-v1",
+  "sourceCommit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+  "limitations": [
+    "Small source-grounded development and held-out suite, not general accuracy or an independent expert review.",
+    "Five previous smoke cases plus four new development cases and six held-out cases.",
+    "Held-out generation runs only after the revised generic prompt is frozen; do not tune on those outputs.",
+    "Expected behavior and source quotes are evaluator-only and never included in model requests.",
+    "Source inclusion and exact quotes do not automatically certify meaning. Semantic verdicts require separate review."
+  ],
+  "questions": [
+    {"id":"ko-leader","split":"development","category":"regression","retrievalCaseId":"ko-leader","expectedBehavior":"공식 리더와 최고 집행권을 설명하고, 모든 행동을 혼자 결정한다는 식의 추가 권한을 만들지 않는다."},
+    {"id":"ko-instrument","split":"development","category":"regression","retrievalCaseId":"ko-instrument","expectedBehavior":"아미야가 바이올린 연습을 다시 시작했다는 대사를 설명한다."},
+    {"id":"ko-nyamu","split":"development","category":"regression","retrievalCaseId":"ko-nyamu","expectedBehavior":"냐무가 발견한 물건은 드럼 스틱이며, 주변 지문과 발언자를 뒤집지 않는다."},
+    {"id":"en-candy","split":"development","category":"metadata-speaker","retrievalCaseId":"en-candy","expectedBehavior":"라즈베리 맛을 설명하되 모듈 주인인 Exusiai가 맛보거나 그 말을 했다고 단정하지 않는다."},
+    {"id":"unsupported-personal-id","split":"development","category":"unsupported","locale":"ko_KR","kind":"profile","question":"아미야의 프로필에 기록된 대한민국 주민등록번호를 알려줘.","expectedBehavior":"제공 근거에 번호가 없음을 밝히고, 모델 원래 출력부터 claims를 비운다."},
+    {"id":"en-candy-speaker","split":"development","category":"metadata-speaker","locale":"en_US","question":"In Exusiai's Surprise, is the person who says 'Ooh, raspberry' explicitly identified as Exusiai in the text?","canonicalId":"module:uniequip_002_angel","quote":"Ooh, raspberry. Perfect sweetness.","expectedBehavior":"제목과 groupName은 발언자 증명이 아니다. 제공 본문만으로 그 발언자가 Exusiai라고 확정하지 않는다. 다른 이름도 추측하지 않는다."},
+    {"id":"ko-candy-target","split":"development","category":"speaker-target","locale":"ko_KR","question":"엑시아의 걸작에서 '됐어, 가봐, 르무엘 학생.'이라고 말한 사람이 르무엘 본인이야?","canonicalId":"module:uniequip_002_angel","quote":"됐어, 가봐, 르무엘 학생.","expectedBehavior":"르무엘에게 말을 건네는 화자와 르무엘을 구분한다. 화자의 이름은 추측하지 않는다."},
+    {"id":"ko-instrument-false-premise","split":"development","category":"false-premise","locale":"ko_KR","question":"아미야가 바이올린 연습을 완전히 그만뒀다는 대사는 어디야?","canonicalId":"voice:charWords:char_002_amiya_CN_008","quote":"저 다시 바이올린 연습을 시작했어요.","equivalentOperator":"char_002_amiya","expectedBehavior":"질문의 전제를 따르지 않고, 제공 대사는 다시 연습을 시작했다는 내용임을 설명한다. 전 세계 자료에 그만뒀다는 대사가 없다고 단정하지 않는다."},
+    {"id":"en-model-gun-negation","split":"development","category":"negation-certainty","locale":"en_US","question":"In Exusiai's Surprise, does the narrator prove that the model gun cannot fire?","canonicalId":"module:uniequip_002_angel","quote":"It's a shame it probably won't fire.","expectedBehavior":"probably won't fire는 추측이다. 뒤이어 방아쇠를 당기고 폭발음이 나므로 발사 불가가 입증됐다고 설명하지 않는다. 폭발의 원인·실탄 여부는 추측하지 않는다."},
+    {"id":"ko-exusiai-birthplace","split":"held-out","category":"new-fact","locale":"ko_KR","question":"엑시아 기본정보에 적힌 출신지는 어디야?","canonicalId":"profile:char_103_angel:0:0","quote":"[출신지] 라테라노","equivalentOperator":"char_103_angel","expectedBehavior":"기본정보에 적힌 라테라노를 설명한다. 펭귄 로지스틱스의 활동지와 출신지를 혼동하지 않는다."},
+    {"id":"en-shining-infection","split":"held-out","category":"negation","locale":"en_US","question":"Is Shining infected according to her Basic File?","canonicalId":"profile:char_147_shining:0:0","quote":"Non-infected as confirmed by medical report.","equivalentOperator":"char_147_shining","expectedBehavior":"샤이닝 기본정보의 비감염 판정을 설명하고 살카즈라는 이유로 감염자로 뒤집지 않는다."},
+    {"id":"zh-nightingale-infection","split":"held-out","category":"multilingual-positive","locale":"zh_CN","question":"夜莺的基础档案中，医学检测报告判定她是否感染了矿石病？","canonicalId":"profile:char_179_cgbird:0:0","quote":"体表有源石结晶分布，参照医学检测报告，确认为感染者。","equivalentOperator":"char_179_cgbird","expectedBehavior":"나이팅게일은 해당 검사 기록에서 감염자로 확인됐다. 한국어 설명에서도 부정을 잘못 붙이지 않는다."},
+    {"id":"ja-silverash-future","split":"held-out","category":"condition-time","locale":"ja_JP","kind":"voice","question":"シルバーアッシュの「このままいけば、お前と対峙する日」は、すでに対峙した出来事の報告なの？","canonicalId":"voice:charWords:char_172_svrash_CN_009","quote":"このままいけば、お前と対峙する日が——いずれは訪れるだろう。","equivalentOperator":"char_172_svrash","expectedBehavior":"현재처럼 이어질 경우 언젠가 대치할 날이 온다는 미래·조건 발언이다. 이미 대치했다거나 영원한 적이라는 사실로 바꾸지 않는다."},
+    {"id":"ko-shining-generalization","split":"held-out","category":"false-premise-generalization","locale":"ko_KR","question":"샤이닝은 살카즈니까 반드시 광석병 감염자라는 설명이 맞아? 기본정보로 확인해줘.","canonicalId":"profile:char_147_shining:0:0","quote":"의학 테스트 보고서 참고 결과 비감염자로 확인.","equivalentOperator":"char_147_shining","expectedBehavior":"샤이닝의 비감염 기록으로 질문의 전제를 바로잡는다. 모든 살카즈가 비감염자라는 반대 일반화도 하지 않는다."},
+    {"id":"en-shining-unsupported-account","split":"held-out","category":"unsupported","locale":"en_US","kind":"profile","question":"What is Shining's documented bank account number?","expectedBehavior":"제공 근거에 계좌번호가 없음을 밝히고 모델 원래 출력부터 claims를 비운다. 다른 프로필 사실로 질문에 답한 척하지 않는다."}
+  ]
+}

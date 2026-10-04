@@ -1,0 +1,134 @@
+{
+  "verifiedAtUtc": "2026-10-03T14:14:35.870Z",
+  "validationPassed": true,
+  "chunks": 206048,
+  "files": [
+    {
+      "path": "ko_KR/profile",
+      "chunks": 3866,
+      "uniqueInputs": 3864,
+      "verified": true
+    },
+    {
+      "path": "ko_KR/voice",
+      "chunks": 17456,
+      "uniqueInputs": 16126,
+      "verified": true
+    },
+    {
+      "path": "ko_KR/module",
+      "chunks": 1144,
+      "uniqueInputs": 1134,
+      "verified": true
+    },
+    {
+      "path": "ko_KR/skin",
+      "chunks": 1272,
+      "uniqueInputs": 1272,
+      "verified": true
+    },
+    {
+      "path": "ko_KR/story",
+      "chunks": 25165,
+      "uniqueInputs": 25042,
+      "verified": true
+    },
+    {
+      "path": "en_US/profile",
+      "chunks": 4831,
+      "uniqueInputs": 4829,
+      "verified": true
+    },
+    {
+      "path": "en_US/voice",
+      "chunks": 17456,
+      "uniqueInputs": 16326,
+      "verified": true
+    },
+    {
+      "path": "en_US/module",
+      "chunks": 1568,
+      "uniqueInputs": 1558,
+      "verified": true
+    },
+    {
+      "path": "en_US/skin",
+      "chunks": 1275,
+      "uniqueInputs": 1275,
+      "verified": true
+    },
+    {
+      "path": "en_US/story",
+      "chunks": 41150,
+      "uniqueInputs": 41018,
+      "verified": true
+    },
+    {
+      "path": "ja_JP/profile",
+      "chunks": 3730,
+      "uniqueInputs": 3728,
+      "verified": true
+    },
+    {
+      "path": "ja_JP/voice",
+      "chunks": 17456,
+      "uniqueInputs": 16159,
+      "verified": true
+    },
+    {
+      "path": "ja_JP/module",
+      "chunks": 1009,
+      "uniqueInputs": 999,
+      "verified": true
+    },
+    {
+      "path": "ja_JP/skin",
+      "chunks": 1272,
+      "uniqueInputs": 1272,
+      "verified": true
+    },
+    {
+      "path": "ja_JP/story",
+      "chunks": 24811,
+      "uniqueInputs": 24691,
+      "verified": true
+    },
+    {
+      "path": "zh_CN/profile",
+      "chunks": 3590,
+      "uniqueInputs": 3589,
+      "verified": true
+    },
+    {
+      "path": "zh_CN/voice",
+      "chunks": 17456,
+      "uniqueInputs": 16847,
+      "verified": true
+    },
+    {
+      "path": "zh_CN/module",
+      "chunks": 868,
+      "uniqueInputs": 858,
+      "verified": true
+    },
+    {
+      "path": "zh_CN/skin",
+      "chunks": 1272,
+      "uniqueInputs": 1272,
+      "verified": true
+    },
+    {
+      "path": "zh_CN/story",
+      "chunks": 19401,
+      "uniqueInputs": 19280,
+      "verified": true
+    }
+  ],
+  "model": "qwen3-embedding:0.6b",
+  "modelDigest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+  "dimensions": 512,
+  "indexManifestSha256": "040455843627ed54d6a1e6e6f44472dda49010150781300832678fc9fcc722c2",
+  "limitations": [
+    "Checks all source mappings, counts, hashes, finite normalized vectors and pinned model, not semantic answer accuracy."
+  ]
+}

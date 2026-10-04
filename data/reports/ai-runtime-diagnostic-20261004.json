@@ -1,0 +1,625 @@
+{
+  "model": "gemma4:12b",
+  "cases": [
+    {
+      "stage": "plain",
+      "startedAtUtc": "2026-10-03T15:25:58.901Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 64,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": true,
+      "modelsBefore": [],
+      "firstTokenMs": 108042,
+      "metrics": {
+        "total_duration": 114037434900,
+        "load_duration": 101194713200,
+        "prompt_eval_count": 24,
+        "prompt_eval_duration": 6835728000,
+        "eval_count": 2,
+        "eval_duration": 6000507000
+      },
+      "response": "4",
+      "elapsedMs": 114041,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "plain",
+      "startedAtUtc": "2026-10-03T15:31:03.764Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 64,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ],
+      "firstTokenMs": 8712,
+      "metrics": {
+        "total_duration": 9190111500,
+        "load_duration": 6058100,
+        "prompt_eval_count": 24,
+        "prompt_eval_duration": 8690117000,
+        "eval_count": 2,
+        "eval_duration": 486179000
+      },
+      "response": "4",
+      "elapsedMs": 9195,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "schema",
+      "startedAtUtc": "2026-10-03T15:31:31.547Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": false,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ],
+      "firstTokenMs": 17272,
+      "error": "The operation was aborted due to timeout",
+      "errorName": "TimeoutError",
+      "elapsedMs": 180003,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "plain",
+      "preset": "gpu40",
+      "startedAtUtc": "2026-10-03T15:34:48.841Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 64,
+        "num_ctx": 8192,
+        "num_batch": 256,
+        "num_gpu": 40
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ],
+      "firstTokenMs": 11163,
+      "receivedCharacters": 1,
+      "metrics": {
+        "total_duration": 11270421800,
+        "load_duration": 10816172100,
+        "prompt_eval_count": 24,
+        "prompt_eval_duration": 339529000,
+        "eval_count": 2,
+        "eval_duration": 111434000
+      },
+      "response": "4",
+      "expectedResponsePassed": true,
+      "elapsedMs": 11274,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "schema",
+      "preset": "gpu40",
+      "startedAtUtc": "2026-10-03T15:35:57.193Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 8192,
+        "num_batch": 256,
+        "num_gpu": 40
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ],
+      "firstTokenMs": 311,
+      "receivedCharacters": 211,
+      "metrics": {
+        "total_duration": 7295901600,
+        "load_duration": 3190600,
+        "prompt_eval_count": 71,
+        "prompt_eval_duration": 294270000,
+        "eval_count": 94,
+        "eval_duration": 6988969000
+      },
+      "response": "{\n  \"claims\": [\n    {\n      \"text\": \"로도스 아일랜드의 공식 리더는 아미야이다.\",\n      \"citations\": [\n        {\n          \"source\": 1,\n          \"quote\": \"로도스 아일랜드의 공식 리더는 아미야다.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"\"\n}",
+      "elapsedMs": 7300,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "one",
+      "preset": "gpu40",
+      "startedAtUtc": "2026-10-03T15:36:31.199Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 1200,
+        "num_ctx": 8192,
+        "num_batch": 256,
+        "num_gpu": 40
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ],
+      "metrics": {
+        "total_duration": 9073659900,
+        "load_duration": 3784300,
+        "prompt_eval_count": 544,
+        "prompt_eval_duration": 760618000,
+        "eval_count": 111,
+        "eval_duration": 8284013999
+      },
+      "claims": [
+        {
+          "text": "아미야는 로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있습니다.",
+          "citations": [
+            {
+              "source": 1,
+              "quote": "로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있다."
+            }
+          ]
+        }
+      ],
+      "uncertainty": "",
+      "rejectedClaims": 0,
+      "expectedQuoteCited": true,
+      "sources": [
+        {
+          "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+          "title": "프로필"
+        }
+      ],
+      "elapsedMs": 10615,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "five",
+      "preset": "gpu40",
+      "startedAtUtc": "2026-10-03T15:37:24.163Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 1200,
+        "num_ctx": 8192,
+        "num_batch": 256,
+        "num_gpu": 40
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ],
+      "metrics": {
+        "total_duration": 90108525000,
+        "load_duration": 2775200,
+        "prompt_eval_count": 937,
+        "prompt_eval_duration": 28630061000,
+        "eval_count": 111,
+        "eval_duration": 61467197000
+      },
+      "claims": [
+        {
+          "text": "아미야는 로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있습니다.",
+          "citations": [
+            {
+              "source": 1,
+              "quote": "로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있다."
+            }
+          ]
+        }
+      ],
+      "uncertainty": "",
+      "rejectedClaims": 0,
+      "expectedQuoteCited": true,
+      "sources": [
+        {
+          "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+          "title": "프로필"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+          "title": "대화 1"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_003#chunk:0:b07fae45421c",
+          "title": "대화 2"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+          "title": "대화 3"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_004#chunk:0:805ea3e5cd77",
+          "title": "대화 3"
+        }
+      ],
+      "elapsedMs": 96341,
+      "modelsAfter": [
+        {
+          "name": "qwen3-embedding:0.6b",
+          "size": 2370652077,
+          "size_vram": 2370652077,
+          "context_length": 4096
+        },
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "five",
+      "preset": "gpu40-release",
+      "startedAtUtc": "2026-10-03T15:39:23.322Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 1200,
+        "num_ctx": 8192,
+        "num_batch": 256,
+        "num_gpu": 40
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "qwen3-embedding:0.6b",
+          "size": 2370652077,
+          "size_vram": 2370652077,
+          "context_length": 4096
+        },
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ],
+      "modelsAfterRelease": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ],
+      "metrics": {
+        "total_duration": 5999718400,
+        "load_duration": 4210000,
+        "prompt_eval_count": 937,
+        "prompt_eval_duration": 329929000,
+        "eval_count": 111,
+        "eval_duration": 5659265000
+      },
+      "claims": [
+        {
+          "text": "아미야는 로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있습니다.",
+          "citations": [
+            {
+              "source": 1,
+              "quote": "로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있다."
+            }
+          ]
+        }
+      ],
+      "uncertainty": "",
+      "rejectedClaims": 0,
+      "expectedQuoteCited": true,
+      "sources": [
+        {
+          "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+          "title": "프로필"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+          "title": "대화 1"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_003#chunk:0:b07fae45421c",
+          "title": "대화 2"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+          "title": "대화 3"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_004#chunk:0:805ea3e5cd77",
+          "title": "대화 3"
+        }
+      ],
+      "elapsedMs": 8501,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 8784057463,
+          "size_vram": 6535145061,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "plain",
+      "preset": "baseline",
+      "startedAtUtc": "2026-10-04T01:35:26.747Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 64,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": true,
+      "modelsBefore": [],
+      "firstTokenMs": 8418,
+      "receivedCharacters": 1,
+      "metrics": {
+        "total_duration": 8467485700,
+        "load_duration": 8258509900,
+        "prompt_eval_count": 24,
+        "prompt_eval_duration": 153599000,
+        "eval_count": 2,
+        "eval_duration": 53830000
+      },
+      "response": "4",
+      "expectedResponsePassed": true,
+      "elapsedMs": 8471,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "plain",
+      "preset": "baseline",
+      "startedAtUtc": "2026-10-04T01:36:04.510Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 64,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ],
+      "firstTokenMs": 275,
+      "receivedCharacters": 1,
+      "metrics": {
+        "total_duration": 289398100,
+        "load_duration": 2503700,
+        "prompt_eval_count": 24,
+        "prompt_eval_duration": 264927000,
+        "eval_count": 2,
+        "eval_duration": 19187000
+      },
+      "response": "4",
+      "expectedResponsePassed": true,
+      "elapsedMs": 293,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "schema",
+      "preset": "baseline",
+      "startedAtUtc": "2026-10-04T01:36:13.919Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ],
+      "firstTokenMs": 333,
+      "receivedCharacters": 211,
+      "metrics": {
+        "total_duration": 1952391800,
+        "load_duration": 2639700,
+        "prompt_eval_count": 71,
+        "prompt_eval_duration": 319271000,
+        "eval_count": 94,
+        "eval_duration": 1622281000
+      },
+      "response": "{\n  \"claims\": [\n    {\n      \"text\": \"로도스 아일랜드의 공식 리더는 아미야이다.\",\n      \"citations\": [\n        {\n          \"source\": 1,\n          \"quote\": \"로도스 아일랜드의 공식 리더는 아미야다.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"\"\n}",
+      "elapsedMs": 1955,
+      "modelsAfter": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    },
+    {
+      "stage": "five",
+      "preset": "baseline",
+      "startedAtUtc": "2026-10-04T01:36:44.543Z",
+      "model": "gemma4:12b",
+      "options": {
+        "temperature": 0,
+        "num_predict": 1200,
+        "num_ctx": 8192,
+        "num_batch": 256
+      },
+      "completed": true,
+      "modelsBefore": [
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ],
+      "metrics": {
+        "total_duration": 2598739700,
+        "load_duration": 2507400,
+        "prompt_eval_count": 937,
+        "prompt_eval_duration": 347055000,
+        "eval_count": 144,
+        "eval_duration": 2227104000
+      },
+      "claims": [
+        {
+          "text": "아미야는 로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있습니다.",
+          "citations": [
+            {
+              "source": 1,
+              "quote": "로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있다."
+            }
+          ]
+        }
+      ],
+      "uncertainty": "아미야가 로도스 아일랜드 내에서 행사하는 구체적인 권한의 범위나 세부 내용은 자료에 명시되어 있지 않습니다.",
+      "rejectedClaims": 0,
+      "expectedQuoteCited": true,
+      "sources": [
+        {
+          "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+          "title": "프로필"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+          "title": "대화 1"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_003#chunk:0:b07fae45421c",
+          "title": "대화 2"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+          "title": "대화 3"
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_004#chunk:0:805ea3e5cd77",
+          "title": "대화 3"
+        }
+      ],
+      "elapsedMs": 5772,
+      "modelsAfter": [
+        {
+          "name": "qwen3-embedding:0.6b",
+          "size": 2370652077,
+          "size_vram": 2370652077,
+          "context_length": 4096
+        },
+        {
+          "name": "gemma4:12b",
+          "size": 7914787961,
+          "size_vram": 7914787961,
+          "context_length": 8192
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Controlled runtime checks, not general answer accuracy.",
+    "Only project-selected sources and installed models; no download or global settings changes."
+  ],
+  "updatedAtUtc": "2026-10-04T01:36:50.316Z"
+}

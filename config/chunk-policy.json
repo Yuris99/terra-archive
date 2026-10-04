@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "source-preserving-v1",
+  "targetCharacters": 900,
+  "maxCharacters": 1400,
+  "overlapCharacters": 0,
+  "inputPolicyId": "global-only-v1",
+  "branchHandling": "split-at-every-control-preserve-condition-no-route-inference"
+}

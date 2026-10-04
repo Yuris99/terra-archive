@@ -1,0 +1,4141 @@
+{
+  "generatedAtUtc": "2026-10-03T14:14:55.883Z",
+  "datasetId": "development-questions-v1",
+  "datasetSha256": "061fd097b9a315c4f6a3d94f173eefcd7f7d4d2db099d2da2de2f8fb18f953fb",
+  "sourceCommit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+  "indexManifestSha256": "3f1c0c44046f8872f7870a1c3580516c1684e490e9e7790fc1b58d02f409c168",
+  "semantic": {
+    "ready": true,
+    "chunks": 206048,
+    "model": "qwen3-embedding:0.6b",
+    "dimensions": 512,
+    "hybridRanking": "metadata-focused-rrf-v1"
+  },
+  "evidenceValidationPassed": true,
+  "limitations": [
+    "Small manually curated development set, not an unseen general-accuracy benchmark.",
+    "Four facts translated into four languages plus four Korean story facts: 20 questions, eight fact families.",
+    "All kinds compete in ranking; keyword queries are manually prepared and natural questions are paraphrases.",
+    "Exact duplicate quotes from the same operator are accepted; unrelated documents mentioning a fact are not."
+  ],
+  "runs": [
+    {
+      "mode": "literal-natural-question",
+      "cases": [
+        {
+          "id": "ko-leader",
+          "family": "amiya-leader",
+          "locale": "ko_KR",
+          "query": "아미야는 로도스 아일랜드 안에서 어떤 권한을 갖고 있어?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 210,
+          "evidence": {
+            "documentId": "ko_KR:profile:char_002_amiya:2:0",
+            "targetChunkId": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/handbook_info_table.json",
+              "sha256": "4f773a14df6064f36350e649b211ea6f74933be4275cff84324830d5c0352086",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "ko_KR:profile:char_002_amiya:7:0#chunk:0:e1c8af17c670"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-instrument",
+          "family": "amiya-instrument",
+          "locale": "ko_KR",
+          "query": "아미야가 비밀이라면서 다시 연습하기 시작했다고 말한 악기는 뭐야?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 195,
+          "evidence": {
+            "documentId": "ko_KR:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/charword_table.json",
+              "sha256": "baf2d0a301a1faa8e8a71b7e9cd1661579d529373fdb13a7758b480bf8cc2ef1",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-candy",
+          "family": "exusiai-candy",
+          "locale": "ko_KR",
+          "query": "엑시아의 걸작 기록에서 모형총의 캔디를 맛본 사람은 무슨 맛이라고 했어?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 176,
+          "evidence": {
+            "documentId": "ko_KR:module:uniequip_002_angel",
+            "targetChunkId": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/uniequip_table.json",
+              "sha256": "720077dcf22fc4ce23dc89cd721e750e72c2811d53f2b18f82a7aa764902fe8a",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-designer",
+          "family": "city-rider-designer",
+          "locale": "ko_KR",
+          "query": "시티 라이더 옷은 누가 직접 디자인했어?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 177,
+          "evidence": {
+            "documentId": "ko_KR:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/skin_table.json",
+              "sha256": "09d47764fa2e942f88c5a012e372cb5e992b572fcb341620871a1af4634d9316",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-nyamu",
+          "family": "nyamu-drumsticks",
+          "locale": "ko_KR",
+          "query": "동화의 서막에서 냐무가 책장 한구석에서 발견한 물건은 뭐야?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 194,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act45side/level_act45side_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act45side/level_act45side_08_beg.json",
+              "sha256": "6a0f17342d509daf6b6088f204380ac9a338663f967e5681d64e0ff006bfcfe7",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/12/attributes/content",
+              "/storyList/14/attributes/content",
+              "/storyList/16/attributes/content",
+              "/storyList/18/attributes/content",
+              "/storyList/20/attributes/content",
+              "/storyList/22/attributes/content",
+              "/storyList/24/attributes/content",
+              "/storyList/26/attributes/content",
+              "/storyList/28/attributes/content",
+              "/storyList/30/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/37/attributes/content",
+              "/storyList/40/attributes/content",
+              "/storyList/41/attributes/content",
+              "/storyList/42/attributes/content",
+              "/storyList/43/attributes/content",
+              "/storyList/44/attributes/content",
+              "/storyList/50/attributes/content",
+              "/storyList/53/attributes/content",
+              "/storyList/54/attributes/content",
+              "/storyList/55/attributes/content",
+              "/storyList/57/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/79/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-natalya",
+          "family": "natalya-refugee",
+          "locale": "ko_KR",
+          "query": "평소처럼에서 아미야는 나탈리야를 어느 도시에서 구했다고 말해?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 171,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act10d5/level_act10d5_st06",
+            "targetChunkId": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act10d5/level_act10d5_st06.json",
+              "sha256": "7839f16e34f8586ee8afcd95e8923bc16bd8d0e4e2c94764f6aaf4c4fc8643d4",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/31/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/33/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-audition",
+          "family": "czerny-audition",
+          "locale": "ko_KR",
+          "query": "트리치 트라치 폴카에서 에벤홀츠는 오디션을 누가 직접 심사한다고 말했어?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 170,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act18side/level_act18side_01_beg",
+            "targetChunkId": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act18side/level_act18side_01_beg.json",
+              "sha256": "1cf03c18d4e9af51e6aa7936972d3d5a33c5a61e470ad2bc2e1ca1da3ade6b53",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/61/attributes/content",
+              "/storyList/63/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/67/attributes/content",
+              "/storyList/69/attributes/content",
+              "/storyList/71/attributes/content",
+              "/storyList/73/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/81/attributes/content",
+              "/storyList/83/attributes/content",
+              "/storyList/85/attributes/content",
+              "/storyList/98/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/111/attributes/content",
+              "/storyList/122/attributes/content",
+              "/storyList/124/attributes/content",
+              "/storyList/126/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content",
+              "/storyList/137/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ko-engineering",
+          "family": "zumama-learning",
+          "locale": "ko_KR",
+          "query": "가비알의 주먹에서 유넥티스는 이남에게 책을 부탁하고 무엇을 공부하기 시작했어?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 193,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act12d0/level_act12d0_08_beg.json",
+              "sha256": "1f99aa44cfd2c93857ac8a3ed7060dbdb05725ed690c9b2a7f8174d390eaca40",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/85/attributes/content",
+              "/storyList/86/attributes/content",
+              "/storyList/87/attributes/content",
+              "/storyList/88/attributes/content",
+              "/storyList/89/attributes/content",
+              "/storyList/91/attributes/content",
+              "/storyList/92/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/102/attributes/content",
+              "/storyList/103/attributes/content",
+              "/storyList/105/attributes/content",
+              "/storyList/107/attributes/content",
+              "/storyList/108/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/112/attributes/content",
+              "/storyList/113/attributes/content",
+              "/storyList/118/attributes/content",
+              "/storyList/120/attributes/content",
+              "/storyList/125/attributes/content",
+              "/storyList/127/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "en-leader",
+          "family": "amiya-leader",
+          "locale": "en_US",
+          "query": "What authority does Amiya hold within Rhodes Island?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 181,
+          "evidence": {
+            "documentId": "en_US:profile:char_002_amiya:2:0",
+            "targetChunkId": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/handbook_info_table.json",
+              "sha256": "58835489f1882a8d09c19f6971e45c253d31d06a273e4902ceac57d71e36e637",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "en_US:profile:char_002_amiya:7:0#chunk:0:c054bf5a3a8e"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "en-instrument",
+          "family": "amiya-instrument",
+          "locale": "en_US",
+          "query": "Which instrument did Amiya tell the Doctor she resumed playing?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 130,
+          "evidence": {
+            "documentId": "en_US:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/charword_table.json",
+              "sha256": "f2e4fe42532a9e48fc5fa73e45e054a94e77fc0caf0020a9663295e64bc5910c",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "en-candy",
+          "family": "exusiai-candy",
+          "locale": "en_US",
+          "query": "In Exusiai's Surprise, what flavor were the candy bullets?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 183,
+          "evidence": {
+            "documentId": "en_US:module:uniequip_002_angel",
+            "targetChunkId": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/uniequip_table.json",
+              "sha256": "1687abd71512ea3647ed782a809191440ef409e5f6a1bc7e36e8c1f6c62ec8d4",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "en-designer",
+          "family": "city-rider-designer",
+          "locale": "en_US",
+          "query": "Who designed the City Rider outfit herself?",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 155,
+          "evidence": {
+            "documentId": "en_US:skin:char_103_angel@kfc#1",
+            "targetChunkId": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/skin_table.json",
+              "sha256": "86e390810cf79d253f75b3c0a2f127bc1973c6afcb073d9894c0912525316aef",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ja-leader",
+          "family": "amiya-leader",
+          "locale": "ja_JP",
+          "query": "アーミヤはロドス内部でどのような権限を持っている？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 134,
+          "evidence": {
+            "documentId": "ja_JP:profile:char_002_amiya:2:0",
+            "targetChunkId": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/handbook_info_table.json",
+              "sha256": "e2c36940e448d2679c7844389649b130268d5a2da9675cc65caf769702dd8735",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "ja_JP:profile:char_002_amiya:7:0#chunk:0:48df9ab89034"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ja-instrument",
+          "family": "amiya-instrument",
+          "locale": "ja_JP",
+          "query": "アーミヤがドクターに秘密にしてほしいと言った楽器の練習は何？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 117,
+          "evidence": {
+            "documentId": "ja_JP:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/charword_table.json",
+              "sha256": "57ab57e4c2f6b1b70957c9f62faa8e9d230baaab77b89c15d3d732302ac4fee6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ja-candy",
+          "family": "exusiai-candy",
+          "locale": "ja_JP",
+          "query": "エクシアの傑作で、キャンディブレットを味見した人は何味と言った？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 115,
+          "evidence": {
+            "documentId": "ja_JP:module:uniequip_002_angel",
+            "targetChunkId": "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/uniequip_table.json",
+              "sha256": "7c791697cc0d477eab5bc90c420d79e5c81ab4ee8ae6e7e3c290cf726cac6c2d",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "ja-designer",
+          "family": "city-rider-designer",
+          "locale": "ja_JP",
+          "query": "シティライダーの衣装を自分でデザインしたのは誰？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 117,
+          "evidence": {
+            "documentId": "ja_JP:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/skin_table.json",
+              "sha256": "ca9a69d83aa2b887e520e3e7bfbe09cabaa825e953435a7c7399e1f723ac3176",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "zh-leader",
+          "family": "amiya-leader",
+          "locale": "zh_CN",
+          "query": "阿米娅在罗德岛内部拥有什么权限？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 103,
+          "evidence": {
+            "documentId": "zh_CN:profile:char_002_amiya:2:0",
+            "targetChunkId": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/handbook_info_table.json",
+              "sha256": "36208d13f890aa11f5c5217a49b5e2aaed4f90b9350b19cd8a10f2c1c8b111c9",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "zh_CN:profile:char_002_amiya:7:0#chunk:0:4ab8fea4686d"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "zh-instrument",
+          "family": "amiya-instrument",
+          "locale": "zh_CN",
+          "query": "阿米娅悄悄告诉博士，她重新开始练习哪种乐器？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 84,
+          "evidence": {
+            "documentId": "zh_CN:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/charword_table.json",
+              "sha256": "c28866f834940884ef1e4e763a7f1c5d23873850764c378547466f35f8b536d6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "zh-candy",
+          "family": "exusiai-candy",
+          "locale": "zh_CN",
+          "query": "在能天使的杰作记录里，模型铳的糖果子弹是什么味道？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 114,
+          "evidence": {
+            "documentId": "zh_CN:module:uniequip_002_angel",
+            "targetChunkId": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/uniequip_table.json",
+              "sha256": "656864aec45d4fb34d83f89e5ee7a08971a124f565984639b0cfe1731fcd52ae",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d"
+            ]
+          },
+          "top5": []
+        },
+        {
+          "id": "zh-designer",
+          "family": "city-rider-designer",
+          "locale": "zh_CN",
+          "query": "城市骑手这套服装是谁亲自设计的？",
+          "rank": null,
+          "total": 0,
+          "elapsedMs": 110,
+          "evidence": {
+            "documentId": "zh_CN:skin:char_103_angel@kfc#1",
+            "targetChunkId": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/skin_table.json",
+              "sha256": "02db3874ca198377918c02b08da5529442ec282078e50af90d70d4e7d569fb7d",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c"
+            ]
+          },
+          "top5": []
+        }
+      ],
+      "summary": {
+        "questions": 20,
+        "hitAt5": 0,
+        "hitAt20": 0,
+        "meanReciprocalRankAt20": 0
+      },
+      "byLocale": {
+        "ko_KR": {
+          "questions": 8,
+          "hitAt5": 0,
+          "hitAt20": 0,
+          "meanReciprocalRankAt20": 0
+        },
+        "en_US": {
+          "questions": 4,
+          "hitAt5": 0,
+          "hitAt20": 0,
+          "meanReciprocalRankAt20": 0
+        },
+        "ja_JP": {
+          "questions": 4,
+          "hitAt5": 0,
+          "hitAt20": 0,
+          "meanReciprocalRankAt20": 0
+        },
+        "zh_CN": {
+          "questions": 4,
+          "hitAt5": 0,
+          "hitAt20": 0,
+          "meanReciprocalRankAt20": 0
+        }
+      }
+    },
+    {
+      "mode": "literal-manual-keywords",
+      "cases": [
+        {
+          "id": "ko-leader",
+          "family": "amiya-leader",
+          "locale": "ko_KR",
+          "query": "아미야 리더",
+          "rank": 2,
+          "total": 88,
+          "elapsedMs": 209,
+          "evidence": {
+            "documentId": "ko_KR:profile:char_002_amiya:2:0",
+            "targetChunkId": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/handbook_info_table.json",
+              "sha256": "4f773a14df6064f36350e649b211ea6f74933be4275cff84324830d5c0352086",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "ko_KR:profile:char_002_amiya:7:0#chunk:0:e1c8af17c670"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:module:uniequip_002_amiya3#chunk:0:c7e441b1ad3c",
+              "title": "그을림 자국의 치마",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "title": "프로필",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:profile:char_003_kalts:6:0#chunk:0:8b8a4c571512",
+              "title": "파일 자료 3",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:profile:char_017_huang:7:0#chunk:0:c40d2e04e305",
+              "title": "파일 자료 4",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:profile:char_1051_headb2:5:0#chunk:0:5f0610870cc2",
+              "title": "파일 자료 2",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ko-instrument",
+          "family": "amiya-instrument",
+          "locale": "ko_KR",
+          "query": "아미야 바이올린",
+          "rank": 6,
+          "total": 9,
+          "elapsedMs": 192,
+          "evidence": {
+            "documentId": "ko_KR:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/charword_table.json",
+              "sha256": "baf2d0a301a1faa8e8a71b7e9cd1661579d529373fdb13a7758b480bf8cc2ef1",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:module:uniequip_002_amiya2#chunk:0:aac94a26e7c0",
+              "title": "조율해야 할 분노",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:module:uniequip_002_amiya2#chunk:1:0bf0b41031ff",
+              "title": "조율해야 할 분노",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:skin:char_1037_amiya3@sale#13#chunk:0:5d740b852c3d",
+              "title": "우주에 울리는 독주",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act3d0/level_act3d0_st01#chunk:6:9c49ea27a325",
+              "title": "위 윌 락 유",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_main_08-16_end#chunk:3:7726e7663ed6",
+              "title": "두 눈, 해질녘에 떠진",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ko-candy",
+          "family": "exusiai-candy",
+          "locale": "ko_KR",
+          "query": "엑시아 라즈베리",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 175,
+          "evidence": {
+            "documentId": "ko_KR:module:uniequip_002_angel",
+            "targetChunkId": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/uniequip_table.json",
+              "sha256": "720077dcf22fc4ce23dc89cd721e750e72c2811d53f2b18f82a7aa764902fe8a",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+              "title": "엑시아의 걸작",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "ko-designer",
+          "family": "city-rider-designer",
+          "locale": "ko_KR",
+          "query": "시티 라이더",
+          "rank": 1,
+          "total": 2,
+          "elapsedMs": 186,
+          "evidence": {
+            "documentId": "ko_KR:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/skin_table.json",
+              "sha256": "09d47764fa2e942f88c5a012e372cb5e992b572fcb341620871a1af4634d9316",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+              "title": "시티 라이더",
+              "score": 10
+            },
+            {
+              "id": "ko_KR:story:obt/memory/story_chiave_1_1#chunk:9:38102e68e019",
+              "title": "대표작",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ko-nyamu",
+          "family": "nyamu-drumsticks",
+          "locale": "ko_KR",
+          "query": "냐무 드럼 스틱",
+          "rank": 3,
+          "total": 3,
+          "elapsedMs": 180,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act45side/level_act45side_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act45side/level_act45side_08_beg.json",
+              "sha256": "6a0f17342d509daf6b6088f204380ac9a338663f967e5681d64e0ff006bfcfe7",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/12/attributes/content",
+              "/storyList/14/attributes/content",
+              "/storyList/16/attributes/content",
+              "/storyList/18/attributes/content",
+              "/storyList/20/attributes/content",
+              "/storyList/22/attributes/content",
+              "/storyList/24/attributes/content",
+              "/storyList/26/attributes/content",
+              "/storyList/28/attributes/content",
+              "/storyList/30/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/37/attributes/content",
+              "/storyList/40/attributes/content",
+              "/storyList/41/attributes/content",
+              "/storyList/42/attributes/content",
+              "/storyList/43/attributes/content",
+              "/storyList/44/attributes/content",
+              "/storyList/50/attributes/content",
+              "/storyList/53/attributes/content",
+              "/storyList/54/attributes/content",
+              "/storyList/55/attributes/content",
+              "/storyList/57/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/79/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_02_beg#chunk:3:2d80a4b73bd9",
+              "title": "고요한 회랑의 양 끝",
+              "score": 12
+            },
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_02_end#chunk:2:eefcced084ba",
+              "title": "고요한 회랑의 양 끝",
+              "score": 12
+            },
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+              "title": "동화의 서막",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "ko-natalya",
+          "family": "natalya-refugee",
+          "locale": "ko_KR",
+          "query": "나탈리야 체르노보그",
+          "rank": 9,
+          "total": 23,
+          "elapsedMs": 174,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act10d5/level_act10d5_st06",
+            "targetChunkId": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act10d5/level_act10d5_st06.json",
+              "sha256": "7839f16e34f8586ee8afcd95e8923bc16bd8d0e4e2c94764f6aaf4c4fc8643d4",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/31/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/33/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:module:uniequip_002_poca#chunk:0:8927110ef240",
+              "title": "공성기계 훈련장치",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:profile:char_194_leto:6:0#chunk:0:1e41671f9023",
+              "title": "파일 자료 3",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:skin:char_197_poca@epoque#12#chunk:0:50e363a1f53f",
+              "title": "마스터피스",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st02#chunk:2:a89d7db7ffd5",
+              "title": "선택받다",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st02#chunk:3:bb10ec6d8cfa",
+              "title": "선택받다",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ko-audition",
+          "family": "czerny-audition",
+          "locale": "ko_KR",
+          "query": "체르니 오디션",
+          "rank": 1,
+          "total": 7,
+          "elapsedMs": 159,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act18side/level_act18side_01_beg",
+            "targetChunkId": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act18side/level_act18side_01_beg.json",
+              "sha256": "1cf03c18d4e9af51e6aa7936972d3d5a33c5a61e470ad2bc2e1ca1da3ade6b53",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/61/attributes/content",
+              "/storyList/63/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/67/attributes/content",
+              "/storyList/69/attributes/content",
+              "/storyList/71/attributes/content",
+              "/storyList/73/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/81/attributes/content",
+              "/storyList/83/attributes/content",
+              "/storyList/85/attributes/content",
+              "/storyList/98/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/111/attributes/content",
+              "/storyList/122/attributes/content",
+              "/storyList/124/attributes/content",
+              "/storyList/126/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content",
+              "/storyList/137/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+              "title": "트리치 트라치 폴카",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:2:08710ee823b3",
+              "title": "트리치 트라치 폴카",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:3:c57956c08b3a",
+              "title": "트리치 트라치 폴카",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:4:8f87aa93d512",
+              "title": "트리치 트라치 폴카",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_end#chunk:0:e152380e07f1",
+              "title": "트리치 트라치 폴카",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ko-engineering",
+          "family": "zumama-learning",
+          "locale": "ko_KR",
+          "query": "유넥티스 사르곤어",
+          "rank": 3,
+          "total": 5,
+          "elapsedMs": 175,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act12d0/level_act12d0_08_beg.json",
+              "sha256": "1f99aa44cfd2c93857ac8a3ed7060dbdb05725ed690c9b2a7f8174d390eaca40",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/85/attributes/content",
+              "/storyList/86/attributes/content",
+              "/storyList/87/attributes/content",
+              "/storyList/88/attributes/content",
+              "/storyList/89/attributes/content",
+              "/storyList/91/attributes/content",
+              "/storyList/92/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/102/attributes/content",
+              "/storyList/103/attributes/content",
+              "/storyList/105/attributes/content",
+              "/storyList/107/attributes/content",
+              "/storyList/108/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/112/attributes/content",
+              "/storyList/113/attributes/content",
+              "/storyList/118/attributes/content",
+              "/storyList/120/attributes/content",
+              "/storyList/125/attributes/content",
+              "/storyList/127/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_04_end#chunk:5:55788cb543bd",
+              "title": "기계 짐승의 울음소리",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_06_beg#chunk:1:2800bbaba56e",
+              "title": "해후",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+              "title": "가비알의 주먹",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_ex01_end#chunk:2:26e0b915b8dc",
+              "title": "성동격서",
+              "score": 8
+            },
+            {
+              "id": "ko_KR:story:activities/act20side/level_act20side_03_end#chunk:4:aa9952f3e543",
+              "title": "기담괴론",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "en-leader",
+          "family": "amiya-leader",
+          "locale": "en_US",
+          "query": "Amiya executive",
+          "rank": 1,
+          "total": 4,
+          "elapsedMs": 160,
+          "evidence": {
+            "documentId": "en_US:profile:char_002_amiya:2:0",
+            "targetChunkId": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/handbook_info_table.json",
+              "sha256": "58835489f1882a8d09c19f6971e45c253d31d06a273e4902ceac57d71e36e637",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "en_US:profile:char_002_amiya:7:0#chunk:0:c054bf5a3a8e"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "title": "Profile",
+              "score": 8
+            },
+            {
+              "id": "en_US:profile:npc_003_kalts:0:0#chunk:0:70d72dc9c199",
+              "title": "Intel File 1",
+              "score": 8
+            },
+            {
+              "id": "en_US:story:activities/act13side/level_act13side_04_beg#chunk:41:f4e81fe33376",
+              "title": "A Poem's Looks",
+              "score": 8
+            },
+            {
+              "id": "en_US:story:obt/main/level_st_06-03#chunk:15:f41cf07802ed",
+              "title": "Only You Know",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "en-instrument",
+          "family": "amiya-instrument",
+          "locale": "en_US",
+          "query": "Amiya violin",
+          "rank": 7,
+          "total": 10,
+          "elapsedMs": 151,
+          "evidence": {
+            "documentId": "en_US:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/charword_table.json",
+              "sha256": "f2e4fe42532a9e48fc5fa73e45e054a94e77fc0caf0020a9663295e64bc5910c",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:module:uniequip_002_amiya2#chunk:0:ea21abebaaef",
+              "title": "Anger to be Tuned",
+              "score": 8
+            },
+            {
+              "id": "en_US:module:uniequip_002_amiya2#chunk:1:05492712c1c7",
+              "title": "Anger to be Tuned",
+              "score": 8
+            },
+            {
+              "id": "en_US:module:uniequip_002_amiya2#chunk:2:cb29a19ad855",
+              "title": "Anger to be Tuned",
+              "score": 8
+            },
+            {
+              "id": "en_US:skin:char_1037_amiya3@sale#13#chunk:0:085e7e78c907",
+              "title": "Solo Around The World",
+              "score": 8
+            },
+            {
+              "id": "en_US:story:activities/act3d0/level_act3d0_st01#chunk:9:a88215ce3fb6",
+              "title": "Rock On",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "en-candy",
+          "family": "exusiai-candy",
+          "locale": "en_US",
+          "query": "Exusiai raspberry",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 172,
+          "evidence": {
+            "documentId": "en_US:module:uniequip_002_angel",
+            "targetChunkId": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/uniequip_table.json",
+              "sha256": "1687abd71512ea3647ed782a809191440ef409e5f6a1bc7e36e8c1f6c62ec8d4",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+              "title": "Exusiai's Surprise",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "en-designer",
+          "family": "city-rider-designer",
+          "locale": "en_US",
+          "query": "\"City Rider\"",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 163,
+          "evidence": {
+            "documentId": "en_US:skin:char_103_angel@kfc#1",
+            "targetChunkId": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/skin_table.json",
+              "sha256": "86e390810cf79d253f75b3c0a2f127bc1973c6afcb073d9894c0912525316aef",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+              "title": "City Rider",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "ja-leader",
+          "family": "amiya-leader",
+          "locale": "ja_JP",
+          "query": "アーミヤ 執行権",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 121,
+          "evidence": {
+            "documentId": "ja_JP:profile:char_002_amiya:2:0",
+            "targetChunkId": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/handbook_info_table.json",
+              "sha256": "e2c36940e448d2679c7844389649b130268d5a2da9675cc65caf769702dd8735",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "ja_JP:profile:char_002_amiya:7:0#chunk:0:48df9ab89034"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "title": "個人履歴",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ja-instrument",
+          "family": "amiya-instrument",
+          "locale": "ja_JP",
+          "query": "アーミヤ ヴァイオリン",
+          "rank": 4,
+          "total": 7,
+          "elapsedMs": 120,
+          "evidence": {
+            "documentId": "ja_JP:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/charword_table.json",
+              "sha256": "57ab57e4c2f6b1b70957c9f62faa8e9d230baaab77b89c15d3d732302ac4fee6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:module:uniequip_002_amiya2#chunk:0:2d5b22df8c87",
+              "title": "調律を待つ怒りの弦",
+              "score": 8
+            },
+            {
+              "id": "ja_JP:module:uniequip_002_amiya2#chunk:1:984ff79c02cc",
+              "title": "調律を待つ怒りの弦",
+              "score": 8
+            },
+            {
+              "id": "ja_JP:story:activities/act3d0/level_act3d0_st01#chunk:6:91d2c058ea67",
+              "title": "ROCK'N'ROLL",
+              "score": 8
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038",
+              "title": "信頼上昇後会話2",
+              "score": 8
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_002_amiya_CN_043#chunk:0:746b629c6328",
+              "title": "誕生日",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ja-candy",
+          "family": "exusiai-candy",
+          "locale": "ja_JP",
+          "query": "エクシア ベリー味",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 113,
+          "evidence": {
+            "documentId": "ja_JP:module:uniequip_002_angel",
+            "targetChunkId": "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/uniequip_table.json",
+              "sha256": "7c791697cc0d477eab5bc90c420d79e5c81ab4ee8ae6e7e3c290cf726cac6c2d",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3",
+              "title": "エクシアの傑作",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "ja-designer",
+          "family": "city-rider-designer",
+          "locale": "ja_JP",
+          "query": "シティライダー",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 106,
+          "evidence": {
+            "documentId": "ja_JP:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/skin_table.json",
+              "sha256": "ca9a69d83aa2b887e520e3e7bfbe09cabaa825e953435a7c7399e1f723ac3176",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25",
+              "title": "シティライダー",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "zh-leader",
+          "family": "amiya-leader",
+          "locale": "zh_CN",
+          "query": "阿米娅 执行权",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 92,
+          "evidence": {
+            "documentId": "zh_CN:profile:char_002_amiya:2:0",
+            "targetChunkId": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/handbook_info_table.json",
+              "sha256": "36208d13f890aa11f5c5217a49b5e2aaed4f90b9350b19cd8a10f2c1c8b111c9",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "zh_CN:profile:char_002_amiya:7:0#chunk:0:4ab8fea4686d"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "title": "客观履历",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "zh-instrument",
+          "family": "amiya-instrument",
+          "locale": "zh_CN",
+          "query": "阿米娅 小提琴",
+          "rank": 4,
+          "total": 7,
+          "elapsedMs": 86,
+          "evidence": {
+            "documentId": "zh_CN:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/charword_table.json",
+              "sha256": "c28866f834940884ef1e4e763a7f1c5d23873850764c378547466f35f8b536d6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:module:uniequip_002_amiya2#chunk:0:ad705b623d62",
+              "title": "待调弦的怒火",
+              "score": 8
+            },
+            {
+              "id": "zh_CN:story:activities/act3d0/level_act3d0_st01#chunk:5:b22a067fae8d",
+              "title": "摇滚起来",
+              "score": 8
+            },
+            {
+              "id": "zh_CN:story:activities/act3d0/level_act3d0_st01#chunk:6:0ffe2c4f4463",
+              "title": "摇滚起来",
+              "score": 8
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5",
+              "title": "信赖提升后交谈2",
+              "score": 8
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_043#chunk:0:af8b7a9afa4b",
+              "title": "生日",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "zh-candy",
+          "family": "exusiai-candy",
+          "locale": "zh_CN",
+          "query": "能天使 树莓",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 106,
+          "evidence": {
+            "documentId": "zh_CN:module:uniequip_002_angel",
+            "targetChunkId": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/uniequip_table.json",
+              "sha256": "656864aec45d4fb34d83f89e5ee7a08971a124f565984639b0cfe1731fcd52ae",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+              "title": "能天使的杰作",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "zh-designer",
+          "family": "city-rider-designer",
+          "locale": "zh_CN",
+          "query": "城市骑手",
+          "rank": 1,
+          "total": 1,
+          "elapsedMs": 102,
+          "evidence": {
+            "documentId": "zh_CN:skin:char_103_angel@kfc#1",
+            "targetChunkId": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/skin_table.json",
+              "sha256": "02db3874ca198377918c02b08da5529442ec282078e50af90d70d4e7d569fb7d",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+              "title": "城市骑手",
+              "score": 5
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "questions": 20,
+        "hitAt5": 17,
+        "hitAt20": 20,
+        "meanReciprocalRankAt20": 0.7043650793650793
+      },
+      "byLocale": {
+        "ko_KR": {
+          "questions": 8,
+          "hitAt5": 6,
+          "hitAt20": 8,
+          "meanReciprocalRankAt20": 0.5555555555555555
+        },
+        "en_US": {
+          "questions": 4,
+          "hitAt5": 3,
+          "hitAt20": 4,
+          "meanReciprocalRankAt20": 0.7857142857142857
+        },
+        "ja_JP": {
+          "questions": 4,
+          "hitAt5": 4,
+          "hitAt20": 4,
+          "meanReciprocalRankAt20": 0.8125
+        },
+        "zh_CN": {
+          "questions": 4,
+          "hitAt5": 4,
+          "hitAt20": 4,
+          "meanReciprocalRankAt20": 0.8125
+        }
+      }
+    },
+    {
+      "mode": "semantic-natural-question",
+      "cases": [
+        {
+          "id": "ko-leader",
+          "family": "amiya-leader",
+          "locale": "ko_KR",
+          "query": "아미야는 로도스 아일랜드 안에서 어떤 권한을 갖고 있어?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 297,
+          "evidence": {
+            "documentId": "ko_KR:profile:char_002_amiya:2:0",
+            "targetChunkId": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/handbook_info_table.json",
+              "sha256": "4f773a14df6064f36350e649b211ea6f74933be4275cff84324830d5c0352086",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "ko_KR:profile:char_002_amiya:7:0#chunk:0:e1c8af17c670"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "title": "프로필",
+              "score": 0.8413556850275785
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+              "title": "대화 1",
+              "score": 0.7433267405041679
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_st_08-03#chunk:6:818829912e03",
+              "title": "죽음, 부름에 바로 응답할",
+              "score": 0.7316683606385739
+            },
+            {
+              "id": "ko_KR:story:obt/memory/story_savage_1_1#chunk:8:b5e8933bd0bf",
+              "title": "고통의 계기",
+              "score": 0.7309133412445441
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+              "title": "대화 3",
+              "score": 0.7241317369955963
+            }
+          ]
+        },
+        {
+          "id": "ko-instrument",
+          "family": "amiya-instrument",
+          "locale": "ko_KR",
+          "query": "아미야가 비밀이라면서 다시 연습하기 시작했다고 말한 악기는 뭐야?",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 151,
+          "evidence": {
+            "documentId": "ko_KR:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/charword_table.json",
+              "sha256": "baf2d0a301a1faa8e8a71b7e9cd1661579d529373fdb13a7758b480bf8cc2ef1",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:obt/main/level_main_00-09_end#chunk:0:980aac2fc3ba",
+              "title": "니어",
+              "score": 0.7407063106882539
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_st_08-01#chunk:7:dcc48e59433f",
+              "title": "오늘, 핏빛으로 만연한",
+              "score": 0.7343037612542163
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_main_00-01_end#chunk:0:a8d6197cac6e",
+              "title": "붕괴",
+              "score": 0.730356779249
+            },
+            {
+              "id": "ko_KR:story:obt/guide/beg/0_welcome_to_guide#chunk:14:e687f863494f",
+              "title": "프롤로그 - 상",
+              "score": 0.7279568921858879
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_main_00-04_beg#chunk:2:6413d8e0b8ec",
+              "title": "혼전",
+              "score": 0.7263113139802124
+            }
+          ]
+        },
+        {
+          "id": "ko-candy",
+          "family": "exusiai-candy",
+          "locale": "ko_KR",
+          "query": "엑시아의 걸작 기록에서 모형총의 캔디를 맛본 사람은 무슨 맛이라고 했어?",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 126,
+          "evidence": {
+            "documentId": "ko_KR:module:uniequip_002_angel",
+            "targetChunkId": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/uniequip_table.json",
+              "sha256": "720077dcf22fc4ce23dc89cd721e750e72c2811d53f2b18f82a7aa764902fe8a",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:profile:char_4019_ncdeer:7:0#chunk:0:0d37dcb7bea7",
+              "title": "파일 자료 4",
+              "score": 0.6672156907219202
+            },
+            {
+              "id": "ko_KR:module:uniequip_002_texas2#chunk:0:d829ffd56068",
+              "title": "블루베리와 다크초콜릿",
+              "score": 0.666183577856169
+            },
+            {
+              "id": "ko_KR:module:uniequip_002_texas2#chunk:1:967daa7c4839",
+              "title": "블루베리와 다크초콜릿",
+              "score": 0.65756905065611
+            },
+            {
+              "id": "ko_KR:story:activities/act5d0/level_act5d0_06_beg#chunk:2:8fcfbe990021",
+              "title": "10:26P.M.",
+              "score": 0.6449011405651354
+            },
+            {
+              "id": "ko_KR:profile:char_294_ayer:8:0#chunk:0:1807fbee9962",
+              "title": "승진 기록",
+              "score": 0.6439125762873725
+            }
+          ]
+        },
+        {
+          "id": "ko-designer",
+          "family": "city-rider-designer",
+          "locale": "ko_KR",
+          "query": "시티 라이더 옷은 누가 직접 디자인했어?",
+          "rank": 2,
+          "total": 250,
+          "elapsedMs": 121,
+          "evidence": {
+            "documentId": "ko_KR:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/skin_table.json",
+              "sha256": "09d47764fa2e942f88c5a012e372cb5e992b572fcb341620871a1af4634d9316",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:skin:char_381_bubble@marthe#11#chunk:0:6a59b88ecb3f",
+              "title": "윈드 라이더",
+              "score": 0.5945184492826329
+            },
+            {
+              "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+              "title": "시티 라이더",
+              "score": 0.5933930240876144
+            },
+            {
+              "id": "ko_KR:story:activities/act10mini/level_act10mini_st02#chunk:5:af244d55ede8",
+              "title": "부평초와 같이",
+              "score": 0.5914808630629831
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_1027_greyy2_CN_043#chunk:0:7e4d18787889",
+              "title": "생일",
+              "score": 0.5706356030577824
+            },
+            {
+              "id": "ko_KR:skin:char_459_tachak@rainbow6#1#chunk:0:59b96a766479",
+              "title": "군주",
+              "score": 0.5700635253908026
+            }
+          ]
+        },
+        {
+          "id": "ko-nyamu",
+          "family": "nyamu-drumsticks",
+          "locale": "ko_KR",
+          "query": "동화의 서막에서 냐무가 책장 한구석에서 발견한 물건은 뭐야?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 129,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act45side/level_act45side_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act45side/level_act45side_08_beg.json",
+              "sha256": "6a0f17342d509daf6b6088f204380ac9a338663f967e5681d64e0ff006bfcfe7",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/12/attributes/content",
+              "/storyList/14/attributes/content",
+              "/storyList/16/attributes/content",
+              "/storyList/18/attributes/content",
+              "/storyList/20/attributes/content",
+              "/storyList/22/attributes/content",
+              "/storyList/24/attributes/content",
+              "/storyList/26/attributes/content",
+              "/storyList/28/attributes/content",
+              "/storyList/30/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/37/attributes/content",
+              "/storyList/40/attributes/content",
+              "/storyList/41/attributes/content",
+              "/storyList/42/attributes/content",
+              "/storyList/43/attributes/content",
+              "/storyList/44/attributes/content",
+              "/storyList/50/attributes/content",
+              "/storyList/53/attributes/content",
+              "/storyList/54/attributes/content",
+              "/storyList/55/attributes/content",
+              "/storyList/57/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/79/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+              "title": "동화의 서막",
+              "score": 0.6694124842792042
+            },
+            {
+              "id": "ko_KR:story:obt/memory/story_lolxh_1_1#chunk:3:858eb87fdc84",
+              "title": "밤놀이 배",
+              "score": 0.6197764530324419
+            },
+            {
+              "id": "ko_KR:module:uniequip_002_red#chunk:0:a3db1718c4a8",
+              "title": "미스테리 툴키트",
+              "score": 0.6174521397164032
+            },
+            {
+              "id": "ko_KR:story:obt/memory/story_narant_1_1#chunk:0:abcca5631377",
+              "title": "보물의 주인",
+              "score": 0.6112232641417995
+            },
+            {
+              "id": "ko_KR:module:uniequip_002_milu#chunk:1:9fa8ce23ac21",
+              "title": "야전 저격 세트",
+              "score": 0.5944791797368955
+            }
+          ]
+        },
+        {
+          "id": "ko-natalya",
+          "family": "natalya-refugee",
+          "locale": "ko_KR",
+          "query": "평소처럼에서 아미야는 나탈리야를 어느 도시에서 구했다고 말해?",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 98,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act10d5/level_act10d5_st06",
+            "targetChunkId": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act10d5/level_act10d5_st06.json",
+              "sha256": "7839f16e34f8586ee8afcd95e8923bc16bd8d0e4e2c94764f6aaf4c4fc8643d4",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/31/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/33/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st04#chunk:6:976331918c7b",
+              "title": "표리부동",
+              "score": 0.6961428516243297
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_main_14-19_end#chunk:19:984264153e0b",
+              "title": "수많은 미래",
+              "score": 0.6513712657895929
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:85:5099f7d74d5c",
+              "title": "평소처럼",
+              "score": 0.6506765926777689
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st04#chunk:5:a52715ba99cc",
+              "title": "표리부동",
+              "score": 0.6476273594190819
+            },
+            {
+              "id": "ko_KR:story:obt/main/level_main_14-20_end#chunk:13:d1e7138b4a97",
+              "title": "애수가 피어나는 때",
+              "score": 0.6466855322423987
+            }
+          ]
+        },
+        {
+          "id": "ko-audition",
+          "family": "czerny-audition",
+          "locale": "ko_KR",
+          "query": "트리치 트라치 폴카에서 에벤홀츠는 오디션을 누가 직접 심사한다고 말했어?",
+          "rank": 5,
+          "total": 250,
+          "elapsedMs": 106,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act18side/level_act18side_01_beg",
+            "targetChunkId": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act18side/level_act18side_01_beg.json",
+              "sha256": "1cf03c18d4e9af51e6aa7936972d3d5a33c5a61e470ad2bc2e1ca1da3ade6b53",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/61/attributes/content",
+              "/storyList/63/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/67/attributes/content",
+              "/storyList/69/attributes/content",
+              "/storyList/71/attributes/content",
+              "/storyList/73/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/81/attributes/content",
+              "/storyList/83/attributes/content",
+              "/storyList/85/attributes/content",
+              "/storyList/98/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/111/attributes/content",
+              "/storyList/122/attributes/content",
+              "/storyList/124/attributes/content",
+              "/storyList/126/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content",
+              "/storyList/137/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:2:08710ee823b3",
+              "title": "트리치 트라치 폴카",
+              "score": 0.7217370490277115
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:3:c57956c08b3a",
+              "title": "트리치 트라치 폴카",
+              "score": 0.7188810305284059
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:4:8f87aa93d512",
+              "title": "트리치 트라치 폴카",
+              "score": 0.7076710507999994
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_end#chunk:0:e152380e07f1",
+              "title": "트리치 트라치 폴카",
+              "score": 0.6975774802568341
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+              "title": "트리치 트라치 폴카",
+              "score": 0.6936859389123851
+            }
+          ]
+        },
+        {
+          "id": "ko-engineering",
+          "family": "zumama-learning",
+          "locale": "ko_KR",
+          "query": "가비알의 주먹에서 유넥티스는 이남에게 책을 부탁하고 무엇을 공부하기 시작했어?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 108,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act12d0/level_act12d0_08_beg.json",
+              "sha256": "1f99aa44cfd2c93857ac8a3ed7060dbdb05725ed690c9b2a7f8174d390eaca40",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/85/attributes/content",
+              "/storyList/86/attributes/content",
+              "/storyList/87/attributes/content",
+              "/storyList/88/attributes/content",
+              "/storyList/89/attributes/content",
+              "/storyList/91/attributes/content",
+              "/storyList/92/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/102/attributes/content",
+              "/storyList/103/attributes/content",
+              "/storyList/105/attributes/content",
+              "/storyList/107/attributes/content",
+              "/storyList/108/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/112/attributes/content",
+              "/storyList/113/attributes/content",
+              "/storyList/118/attributes/content",
+              "/storyList/120/attributes/content",
+              "/storyList/125/attributes/content",
+              "/storyList/127/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+              "title": "가비알의 주먹",
+              "score": 0.7998287481223262
+            },
+            {
+              "id": "ko_KR:story:activities/act20side/level_act20side_06_end#chunk:6:3afc0c5ec162",
+              "title": "투쟁-도피 반응",
+              "score": 0.76882255936132
+            },
+            {
+              "id": "ko_KR:story:activities/act20side/level_act20side_07_end#chunk:8:b3cd4d146dd7",
+              "title": "살아가는 법",
+              "score": 0.767716053946395
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_09_end#chunk:26:4df6b8a7404a",
+              "title": "이스케이프 더 정글",
+              "score": 0.7611612238516651
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:0:a591275669b6",
+              "title": "가비알의 주먹",
+              "score": 0.7604976811854004
+            }
+          ]
+        },
+        {
+          "id": "en-leader",
+          "family": "amiya-leader",
+          "locale": "en_US",
+          "query": "What authority does Amiya hold within Rhodes Island?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 300,
+          "evidence": {
+            "documentId": "en_US:profile:char_002_amiya:2:0",
+            "targetChunkId": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/handbook_info_table.json",
+              "sha256": "58835489f1882a8d09c19f6971e45c253d31d06a273e4902ceac57d71e36e637",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "en_US:profile:char_002_amiya:7:0#chunk:0:c054bf5a3a8e"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "title": "Profile",
+              "score": 0.8170013669371978
+            },
+            {
+              "id": "en_US:story:obt/memory/story_savage_1_1#chunk:18:9e3e81636a7d",
+              "title": "Painful Reversal",
+              "score": 0.7497493567109892
+            },
+            {
+              "id": "en_US:story:obt/main/level_main_15-05_end#chunk:10:4835dd098fbe",
+              "title": "Etched Bone-Deep",
+              "score": 0.7480868865030944
+            },
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_004#chunk:0:7f21c10ae069",
+              "title": "Talk 3",
+              "score": 0.7470701271592523
+            },
+            {
+              "id": "en_US:story:obt/main/level_main_04-07_end#chunk:2:c58bdf1f337a",
+              "title": "Mutual Benefits",
+              "score": 0.7366035920874054
+            }
+          ]
+        },
+        {
+          "id": "en-instrument",
+          "family": "amiya-instrument",
+          "locale": "en_US",
+          "query": "Which instrument did Amiya tell the Doctor she resumed playing?",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 122,
+          "evidence": {
+            "documentId": "en_US:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/charword_table.json",
+              "sha256": "f2e4fe42532a9e48fc5fa73e45e054a94e77fc0caf0020a9663295e64bc5910c",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_043#chunk:0:5259572dcc29",
+              "title": "Birthday",
+              "score": 0.6741555095238617
+            },
+            {
+              "id": "en_US:voice:charWords:char_1037_amiya3_CN_022#chunk:0:783b06889ec1",
+              "title": "Selecting Operator 2",
+              "score": 0.6593835378222155
+            },
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_022#chunk:0:b9a9991f0b49",
+              "title": "Selecting Operator 2",
+              "score": 0.6463173212605244
+            },
+            {
+              "id": "en_US:voice:charWords:char_1037_amiya3_CN_034#chunk:0:4d16316f497b",
+              "title": "Tap",
+              "score": 0.6458947013912583
+            },
+            {
+              "id": "en_US:story:activities/act33side/level_act33side_04_beg#chunk:2:ff4067f4e18f",
+              "title": "Long Voyage",
+              "score": 0.643072506160622
+            }
+          ]
+        },
+        {
+          "id": "en-candy",
+          "family": "exusiai-candy",
+          "locale": "en_US",
+          "query": "In Exusiai's Surprise, what flavor were the candy bullets?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 139,
+          "evidence": {
+            "documentId": "en_US:module:uniequip_002_angel",
+            "targetChunkId": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/uniequip_table.json",
+              "sha256": "1687abd71512ea3647ed782a809191440ef409e5f6a1bc7e36e8c1f6c62ec8d4",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+              "title": "Exusiai's Surprise",
+              "score": 0.5920814317516894
+            },
+            {
+              "id": "en_US:story:activities/act5d0/level_act5d0_01_end#chunk:6:888c743d92e2",
+              "title": "6:44P.M.",
+              "score": 0.5798834907346698
+            },
+            {
+              "id": "en_US:module:uniequip_002_texas2#chunk:2:a4209ec8ab0f",
+              "title": "Blueberry & Dark Chocolate",
+              "score": 0.5521967104349104
+            },
+            {
+              "id": "en_US:module:uniequip_002_texas#chunk:1:3067a28e3fd8",
+              "title": "Private Field Supply Package",
+              "score": 0.5488549376660145
+            },
+            {
+              "id": "en_US:voice:charWords:char_103_angel_CN_028#chunk:0:967d1397b1df",
+              "title": "In Battle 4",
+              "score": 0.5459694648023299
+            }
+          ]
+        },
+        {
+          "id": "en-designer",
+          "family": "city-rider-designer",
+          "locale": "en_US",
+          "query": "Who designed the City Rider outfit herself?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 129,
+          "evidence": {
+            "documentId": "en_US:skin:char_103_angel@kfc#1",
+            "targetChunkId": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/skin_table.json",
+              "sha256": "86e390810cf79d253f75b3c0a2f127bc1973c6afcb073d9894c0912525316aef",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+              "title": "City Rider",
+              "score": 0.6517967029026102
+            },
+            {
+              "id": "en_US:skin:char_174_slbell@snow#1#chunk:0:26eb38caacc1",
+              "title": "Caster's Frost",
+              "score": 0.5804745817178444
+            },
+            {
+              "id": "en_US:skin:char_1047_halo2#1#chunk:0:61753d0509c9",
+              "title": "char_1047_halo2#1",
+              "score": 0.5752969803623665
+            },
+            {
+              "id": "en_US:skin:char_1014_nearl2#2#chunk:0:53ebcd8256fb",
+              "title": "char_1014_nearl2#2",
+              "score": 0.5741226387067846
+            },
+            {
+              "id": "en_US:skin:char_333_sidero#2#chunk:0:8f9660d01605",
+              "title": "char_333_sidero#2",
+              "score": 0.5729404182802456
+            }
+          ]
+        },
+        {
+          "id": "ja-leader",
+          "family": "amiya-leader",
+          "locale": "ja_JP",
+          "query": "アーミヤはロドス内部でどのような権限を持っている？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 271,
+          "evidence": {
+            "documentId": "ja_JP:profile:char_002_amiya:2:0",
+            "targetChunkId": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/handbook_info_table.json",
+              "sha256": "e2c36940e448d2679c7844389649b130268d5a2da9675cc65caf769702dd8735",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "ja_JP:profile:char_002_amiya:7:0#chunk:0:48df9ab89034"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "title": "個人履歴",
+              "score": 0.8565248370832621
+            },
+            {
+              "id": "ja_JP:story:obt/main/level_st_08-03#chunk:6:2b0e405b408c",
+              "title": "傍らに潜む「死亡」",
+              "score": 0.7806520767802616
+            },
+            {
+              "id": "ja_JP:story:obt/guide/beg/0_welcome_to_guide#chunk:5:c249e3c6f607",
+              "title": "序章・上",
+              "score": 0.7746950299660994
+            },
+            {
+              "id": "ja_JP:story:obt/main/level_main_06-01_end#chunk:9:48b626b08a7a",
+              "title": "膠着状態",
+              "score": 0.7739833911451659
+            },
+            {
+              "id": "ja_JP:story:obt/main/level_main_06-01_end#chunk:15:cb5459152ce1",
+              "title": "膠着状態",
+              "score": 0.772567197584112
+            }
+          ]
+        },
+        {
+          "id": "ja-instrument",
+          "family": "amiya-instrument",
+          "locale": "ja_JP",
+          "query": "アーミヤがドクターに秘密にしてほしいと言った楽器の練習は何？",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 105,
+          "evidence": {
+            "documentId": "ja_JP:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/charword_table.json",
+              "sha256": "57ab57e4c2f6b1b70957c9f62faa8e9d230baaab77b89c15d3d732302ac4fee6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:module:uniequip_002_amiya2#chunk:0:2d5b22df8c87",
+              "title": "調律を待つ怒りの弦",
+              "score": 0.791092538225136
+            },
+            {
+              "id": "ja_JP:story:activities/act33side/level_act33side_04_beg#chunk:1:a0500030e2c4",
+              "title": "長き旅路",
+              "score": 0.7865098818817009
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_002_amiya_CN_043#chunk:0:746b629c6328",
+              "title": "誕生日",
+              "score": 0.7737508504968663
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_1001_amiya2_CN_044#chunk:0:3f2c75c6d470",
+              "title": "周年",
+              "score": 0.7685016054274686
+            },
+            {
+              "id": "ja_JP:story:obt/main/level_main_07-03_beg#chunk:24:5938d6e4eb61",
+              "title": "共闘の誓い-1",
+              "score": 0.7644786829653826
+            }
+          ]
+        },
+        {
+          "id": "ja-candy",
+          "family": "exusiai-candy",
+          "locale": "ja_JP",
+          "query": "エクシアの傑作で、キャンディブレットを味見した人は何味と言った？",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 103,
+          "evidence": {
+            "documentId": "ja_JP:module:uniequip_002_angel",
+            "targetChunkId": "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/uniequip_table.json",
+              "sha256": "7c791697cc0d477eab5bc90c420d79e5c81ab4ee8ae6e7e3c290cf726cac6c2d",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:story:activities/act13side/level_act13side_01_beg#chunk:0:637b1c18ffb6",
+              "title": "カレンデュラ",
+              "score": 0.7027050283447251
+            },
+            {
+              "id": "ja_JP:story:activities/act9mini/level_act9mini_st02#chunk:1:c5846b7621b0",
+              "title": "灰かぶり",
+              "score": 0.7004369582474592
+            },
+            {
+              "id": "ja_JP:story:activities/act42side/level_act42side_03_beg#chunk:0:c0b68a071cbf",
+              "title": "礼拝",
+              "score": 0.6937819200690463
+            },
+            {
+              "id": "ja_JP:story:activities/act42side/level_act42side_02_beg#chunk:6:8d34de5c3743",
+              "title": "祈り",
+              "score": 0.6860226079788349
+            },
+            {
+              "id": "ja_JP:story:activities/act5d0/level_act5d0_06_beg#chunk:3:e9459f3f166b",
+              "title": "10:26P.M.",
+              "score": 0.6780995036938153
+            }
+          ]
+        },
+        {
+          "id": "ja-designer",
+          "family": "city-rider-designer",
+          "locale": "ja_JP",
+          "query": "シティライダーの衣装を自分でデザインしたのは誰？",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 107,
+          "evidence": {
+            "documentId": "ja_JP:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/skin_table.json",
+              "sha256": "ca9a69d83aa2b887e520e3e7bfbe09cabaa825e953435a7c7399e1f723ac3176",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:story:activities/act13d5/level_act13d5_02_beg#chunk:4:bcf01dfbda3f",
+              "title": "ロアーガード",
+              "score": 0.656676963539146
+            },
+            {
+              "id": "ja_JP:story:activities/act13d5/level_act13d5_06_end#chunk:3:bf9eb7c781d1",
+              "title": "ブルーイヤー酒造",
+              "score": 0.6542000049816011
+            },
+            {
+              "id": "ja_JP:story:activities/act13d5/level_act13d5_03_beg#chunk:9:bbf1ac0d4890",
+              "title": "ローズ新聞",
+              "score": 0.6515551229984357
+            },
+            {
+              "id": "ja_JP:story:activities/act9mini/level_act9mini_st02#chunk:1:c5846b7621b0",
+              "title": "灰かぶり",
+              "score": 0.6503996986169286
+            },
+            {
+              "id": "ja_JP:story:obt/memory/story_erato_1_1#chunk:5:ee841df9e04a",
+              "title": "英雄たちの叙事詩",
+              "score": 0.6465879106227688
+            }
+          ]
+        },
+        {
+          "id": "zh-leader",
+          "family": "amiya-leader",
+          "locale": "zh_CN",
+          "query": "阿米娅在罗德岛内部拥有什么权限？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 233,
+          "evidence": {
+            "documentId": "zh_CN:profile:char_002_amiya:2:0",
+            "targetChunkId": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/handbook_info_table.json",
+              "sha256": "36208d13f890aa11f5c5217a49b5e2aaed4f90b9350b19cd8a10f2c1c8b111c9",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "zh_CN:profile:char_002_amiya:7:0#chunk:0:4ab8fea4686d"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "title": "客观履历",
+              "score": 0.8148365717756318
+            },
+            {
+              "id": "zh_CN:story:activities/act13side/level_act13side_07_beg#chunk:6:63fd4cdec49f",
+              "title": "梦的余韵",
+              "score": 0.7026038239611025
+            },
+            {
+              "id": "zh_CN:story:activities/act3d0/level_act3d0_st05#chunk:5:dcf26361f47d",
+              "title": "此生挚爱",
+              "score": 0.6988300328701695
+            },
+            {
+              "id": "zh_CN:story:obt/guide/beg/0_welcome_to_guide#chunk:4:09a5e457ae37",
+              "title": "序章·上",
+              "score": 0.6968361790058456
+            },
+            {
+              "id": "zh_CN:story:activities/act13side/level_act13side_st01#chunk:5:1061a30c1a75",
+              "title": "欣欣向荣",
+              "score": 0.6944182602287274
+            }
+          ]
+        },
+        {
+          "id": "zh-instrument",
+          "family": "amiya-instrument",
+          "locale": "zh_CN",
+          "query": "阿米娅悄悄告诉博士，她重新开始练习哪种乐器？",
+          "rank": 11,
+          "total": 250,
+          "elapsedMs": 92,
+          "evidence": {
+            "documentId": "zh_CN:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/charword_table.json",
+              "sha256": "c28866f834940884ef1e4e763a7f1c5d23873850764c378547466f35f8b536d6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_043#chunk:0:af8b7a9afa4b",
+              "title": "生日",
+              "score": 0.7426381491624856
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1001_amiya2_CN_044#chunk:0:e5b78fdc6951",
+              "title": "周年庆典",
+              "score": 0.6893650853404907
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_034#chunk:0:abb3bf99e6e9",
+              "title": "戳一下",
+              "score": 0.6808738026568875
+            },
+            {
+              "id": "zh_CN:module:uniequip_002_amiya2#chunk:0:ad705b623d62",
+              "title": "待调弦的怒火",
+              "score": 0.6749315331290228
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1037_amiya3_CN_034#chunk:0:247c427f4117",
+              "title": "戳一下",
+              "score": 0.6684555175008547
+            }
+          ]
+        },
+        {
+          "id": "zh-candy",
+          "family": "exusiai-candy",
+          "locale": "zh_CN",
+          "query": "在能天使的杰作记录里，模型铳的糖果子弹是什么味道？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 103,
+          "evidence": {
+            "documentId": "zh_CN:module:uniequip_002_angel",
+            "targetChunkId": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/uniequip_table.json",
+              "sha256": "656864aec45d4fb34d83f89e5ee7a08971a124f565984639b0cfe1731fcd52ae",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+              "title": "能天使的杰作",
+              "score": 0.570786899975737
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_103_angel_CN_003#chunk:0:9cbbffcabf8e",
+              "title": "交谈2",
+              "score": 0.5203760192475435
+            },
+            {
+              "id": "zh_CN:story:obt/memory/story_excu2_1_1#chunk:30:21213855bc8b",
+              "title": "蓝色",
+              "score": 0.5041878930508226
+            },
+            {
+              "id": "zh_CN:module:uniequip_002_bluep#chunk:0:3abf7340b359",
+              "title": "标准比色卡",
+              "score": 0.5001129271553905
+            },
+            {
+              "id": "zh_CN:story:obt/main/level_st_06-02#chunk:22:380d90dfeab1",
+              "title": "没有火,没有光",
+              "score": 0.4904747212826994
+            }
+          ]
+        },
+        {
+          "id": "zh-designer",
+          "family": "city-rider-designer",
+          "locale": "zh_CN",
+          "query": "城市骑手这套服装是谁亲自设计的？",
+          "rank": 5,
+          "total": 250,
+          "elapsedMs": 100,
+          "evidence": {
+            "documentId": "zh_CN:skin:char_103_angel@kfc#1",
+            "targetChunkId": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/skin_table.json",
+              "sha256": "02db3874ca198377918c02b08da5529442ec282078e50af90d70d4e7d569fb7d",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:skin:char_209_ardign#1#chunk:0:85a483cc0c99",
+              "title": "char_209_ardign#1",
+              "score": 0.6267401515077226
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_157_dagda_CN_003#chunk:0:9886e7e52597",
+              "title": "交谈2",
+              "score": 0.6164590861941072
+            },
+            {
+              "id": "zh_CN:skin:char_4000_jnight#1#chunk:0:092e5ccb77e7",
+              "title": "char_4000_jnight#1",
+              "score": 0.5988699270246496
+            },
+            {
+              "id": "zh_CN:skin:char_263_skadi#2#chunk:0:8a1b77b23d11",
+              "title": "char_263_skadi#2",
+              "score": 0.5979462971887443
+            },
+            {
+              "id": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+              "title": "城市骑手",
+              "score": 0.5954051188312756
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "questions": 20,
+        "hitAt5": 12,
+        "hitAt20": 13,
+        "meanReciprocalRankAt20": 0.4995454545454545
+      },
+      "byLocale": {
+        "ko_KR": {
+          "questions": 8,
+          "hitAt5": 5,
+          "hitAt20": 5,
+          "meanReciprocalRankAt20": 0.4625
+        },
+        "en_US": {
+          "questions": 4,
+          "hitAt5": 3,
+          "hitAt20": 3,
+          "meanReciprocalRankAt20": 0.75
+        },
+        "ja_JP": {
+          "questions": 4,
+          "hitAt5": 1,
+          "hitAt20": 1,
+          "meanReciprocalRankAt20": 0.25
+        },
+        "zh_CN": {
+          "questions": 4,
+          "hitAt5": 3,
+          "hitAt20": 4,
+          "meanReciprocalRankAt20": 0.5727272727272728
+        }
+      }
+    },
+    {
+      "mode": "hybrid-natural-question",
+      "cases": [
+        {
+          "id": "ko-leader",
+          "family": "amiya-leader",
+          "locale": "ko_KR",
+          "query": "아미야는 로도스 아일랜드 안에서 어떤 권한을 갖고 있어?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 702,
+          "evidence": {
+            "documentId": "ko_KR:profile:char_002_amiya:2:0",
+            "targetChunkId": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/handbook_info_table.json",
+              "sha256": "4f773a14df6064f36350e649b211ea6f74933be4275cff84324830d5c0352086",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "ko_KR:profile:char_002_amiya:7:0#chunk:0:e1c8af17c670"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+              "title": "프로필",
+              "score": 0.060674580742415676
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+              "title": "대화 1",
+              "score": 0.049989228908958835
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_002_amiya_CN_003#chunk:0:b07fae45421c",
+              "title": "대화 2",
+              "score": 0.048601384998443825
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+              "title": "대화 3",
+              "score": 0.04779946421737467
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_004#chunk:0:805ea3e5cd77",
+              "title": "대화 3",
+              "score": 0.03871547756041427
+            }
+          ]
+        },
+        {
+          "id": "ko-instrument",
+          "family": "amiya-instrument",
+          "locale": "ko_KR",
+          "query": "아미야가 비밀이라면서 다시 연습하기 시작했다고 말한 악기는 뭐야?",
+          "rank": 2,
+          "total": 250,
+          "elapsedMs": 695,
+          "evidence": {
+            "documentId": "ko_KR:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/charword_table.json",
+              "sha256": "baf2d0a301a1faa8e8a71b7e9cd1661579d529373fdb13a7758b480bf8cc2ef1",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:module:uniequip_002_amiya2#chunk:0:aac94a26e7c0",
+              "title": "조율해야 할 분노",
+              "score": 0.04943690189591829
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5",
+              "title": "신뢰도 상승 후 대화 2",
+              "score": 0.044744540058504444
+            },
+            {
+              "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_006#chunk:0:3c18eee36e23",
+              "title": "2차 정예화 후 대화",
+              "score": 0.04440425959413301
+            },
+            {
+              "id": "ko_KR:module:uniequip_001_amiya2#chunk:0:5cdf5084021c",
+              "title": "아미야의 배지 (가드)",
+              "score": 0.04412535993418346
+            },
+            {
+              "id": "ko_KR:module:uniequip_001_amiya3#chunk:0:e072186f4e8a",
+              "title": "아미야의 배지 (메딕)",
+              "score": 0.03923189603910136
+            }
+          ]
+        },
+        {
+          "id": "ko-candy",
+          "family": "exusiai-candy",
+          "locale": "ko_KR",
+          "query": "엑시아의 걸작 기록에서 모형총의 캔디를 맛본 사람은 무슨 맛이라고 했어?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 753,
+          "evidence": {
+            "documentId": "ko_KR:module:uniequip_002_angel",
+            "targetChunkId": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/uniequip_table.json",
+              "sha256": "720077dcf22fc4ce23dc89cd721e750e72c2811d53f2b18f82a7aa764902fe8a",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+              "title": "엑시아의 걸작",
+              "score": 0.061375449820071974
+            },
+            {
+              "id": "ko_KR:story:obt/memory/story_savage_2_1#chunk:14:068b1edd7f5a",
+              "title": "자신만의 '스타일'",
+              "score": 0.027119252873563218
+            },
+            {
+              "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+              "title": "시티 라이더",
+              "score": 0.025516795865633074
+            },
+            {
+              "id": "ko_KR:story:obt/memory/story_angel_2_1#chunk:5:14138bc896d8",
+              "title": "변화 속의 불변",
+              "score": 0.023799640237996404
+            },
+            {
+              "id": "ko_KR:story:activities/act42side/level_act42side_02_beg#chunk:6:b172a5f5c601",
+              "title": "기도",
+              "score": 0.0220682302771855
+            }
+          ]
+        },
+        {
+          "id": "ko-designer",
+          "family": "city-rider-designer",
+          "locale": "ko_KR",
+          "query": "시티 라이더 옷은 누가 직접 디자인했어?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 580,
+          "evidence": {
+            "documentId": "ko_KR:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/excel/skin_table.json",
+              "sha256": "09d47764fa2e942f88c5a012e372cb5e992b572fcb341620871a1af4634d9316",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+              "title": "시티 라이더",
+              "score": 0.06530936012691699
+            },
+            {
+              "id": "ko_KR:skin:char_381_bubble@marthe#11#chunk:0:6a59b88ecb3f",
+              "title": "윈드 라이더",
+              "score": 0.03047794966520434
+            },
+            {
+              "id": "ko_KR:skin:char_263_skadi@summer#3#chunk:0:89ed284b3047",
+              "title": "웨이브라이더 WR04",
+              "score": 0.02564935064935065
+            },
+            {
+              "id": "ko_KR:skin:char_4107_vrdant@unveiling#3#chunk:0:0b3ae34a0519",
+              "title": "로즈 라이더",
+              "score": 0.02054794520547945
+            },
+            {
+              "id": "ko_KR:story:activities/act17side/level_act17side_st08#chunk:7:3022cd80155d",
+              "title": "지휘실",
+              "score": 0.018671679197994985
+            }
+          ]
+        },
+        {
+          "id": "ko-nyamu",
+          "family": "nyamu-drumsticks",
+          "locale": "ko_KR",
+          "query": "동화의 서막에서 냐무가 책장 한구석에서 발견한 물건은 뭐야?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 625,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act45side/level_act45side_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act45side/level_act45side_08_beg.json",
+              "sha256": "6a0f17342d509daf6b6088f204380ac9a338663f967e5681d64e0ff006bfcfe7",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/12/attributes/content",
+              "/storyList/14/attributes/content",
+              "/storyList/16/attributes/content",
+              "/storyList/18/attributes/content",
+              "/storyList/20/attributes/content",
+              "/storyList/22/attributes/content",
+              "/storyList/24/attributes/content",
+              "/storyList/26/attributes/content",
+              "/storyList/28/attributes/content",
+              "/storyList/30/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/37/attributes/content",
+              "/storyList/40/attributes/content",
+              "/storyList/41/attributes/content",
+              "/storyList/42/attributes/content",
+              "/storyList/43/attributes/content",
+              "/storyList/44/attributes/content",
+              "/storyList/50/attributes/content",
+              "/storyList/53/attributes/content",
+              "/storyList/54/attributes/content",
+              "/storyList/55/attributes/content",
+              "/storyList/57/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/79/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+              "title": "동화의 서막",
+              "score": 0.06557377049180328
+            },
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:7:976a25664e4f",
+              "title": "동화의 서막",
+              "score": 0.05269318495124947
+            },
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_end#chunk:1:94ebd62cc786",
+              "title": "동화의 서막",
+              "score": 0.05091361115457501
+            },
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_end#chunk:8:d8a6dc3d1a33",
+              "title": "동화의 서막",
+              "score": 0.04681954681954682
+            },
+            {
+              "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:3:4de775c42e73",
+              "title": "동화의 서막",
+              "score": 0.045713506351804226
+            }
+          ]
+        },
+        {
+          "id": "ko-natalya",
+          "family": "natalya-refugee",
+          "locale": "ko_KR",
+          "query": "평소처럼에서 아미야는 나탈리야를 어느 도시에서 구했다고 말해?",
+          "rank": 5,
+          "total": 250,
+          "elapsedMs": 643,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act10d5/level_act10d5_st06",
+            "targetChunkId": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act10d5/level_act10d5_st06.json",
+              "sha256": "7839f16e34f8586ee8afcd95e8923bc16bd8d0e4e2c94764f6aaf4c4fc8643d4",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/31/attributes/content",
+              "/storyList/32/attributes/content",
+              "/storyList/33/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:85:5099f7d74d5c",
+              "title": "평소처럼",
+              "score": 0.062324929971988796
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:14:17e1aca7fa6f",
+              "title": "평소처럼",
+              "score": 0.05917120864410021
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:57:2acc16c3df7d",
+              "title": "평소처럼",
+              "score": 0.055950777212072554
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:56:16f14083a45d",
+              "title": "평소처럼",
+              "score": 0.0550487900078064
+            },
+            {
+              "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b",
+              "title": "평소처럼",
+              "score": 0.05315033225480987
+            }
+          ]
+        },
+        {
+          "id": "ko-audition",
+          "family": "czerny-audition",
+          "locale": "ko_KR",
+          "query": "트리치 트라치 폴카에서 에벤홀츠는 오디션을 누가 직접 심사한다고 말했어?",
+          "rank": 2,
+          "total": 250,
+          "elapsedMs": 556,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act18side/level_act18side_01_beg",
+            "targetChunkId": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act18side/level_act18side_01_beg.json",
+              "sha256": "1cf03c18d4e9af51e6aa7936972d3d5a33c5a61e470ad2bc2e1ca1da3ade6b53",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/61/attributes/content",
+              "/storyList/63/attributes/content",
+              "/storyList/65/attributes/content",
+              "/storyList/67/attributes/content",
+              "/storyList/69/attributes/content",
+              "/storyList/71/attributes/content",
+              "/storyList/73/attributes/content",
+              "/storyList/75/attributes/content",
+              "/storyList/77/attributes/content",
+              "/storyList/81/attributes/content",
+              "/storyList/83/attributes/content",
+              "/storyList/85/attributes/content",
+              "/storyList/98/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/111/attributes/content",
+              "/storyList/122/attributes/content",
+              "/storyList/124/attributes/content",
+              "/storyList/126/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content",
+              "/storyList/137/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:2:08710ee823b3",
+              "title": "트리치 트라치 폴카",
+              "score": 0.06505334374186833
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+              "title": "트리치 트라치 폴카",
+              "score": 0.06377171215880893
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:4:8f87aa93d512",
+              "title": "트리치 트라치 폴카",
+              "score": 0.0635164584959667
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_end#chunk:0:e152380e07f1",
+              "title": "트리치 트라치 폴카",
+              "score": 0.0625225468975469
+            },
+            {
+              "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:3:c57956c08b3a",
+              "title": "트리치 트라치 폴카",
+              "score": 0.06228287841191067
+            }
+          ]
+        },
+        {
+          "id": "ko-engineering",
+          "family": "zumama-learning",
+          "locale": "ko_KR",
+          "query": "가비알의 주먹에서 유넥티스는 이남에게 책을 부탁하고 무엇을 공부하기 시작했어?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 643,
+          "evidence": {
+            "documentId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg",
+            "targetChunkId": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ko_KR/gamedata/story/activities/act12d0/level_act12d0_08_beg.json",
+              "sha256": "1f99aa44cfd2c93857ac8a3ed7060dbdb05725ed690c9b2a7f8174d390eaca40",
+              "jsonPointer": "",
+              "format": "astr-parsed-json",
+              "originalStoryTxtCommit": null
+            },
+            "sourcePointers": [
+              "/storyList/85/attributes/content",
+              "/storyList/86/attributes/content",
+              "/storyList/87/attributes/content",
+              "/storyList/88/attributes/content",
+              "/storyList/89/attributes/content",
+              "/storyList/91/attributes/content",
+              "/storyList/92/attributes/content",
+              "/storyList/100/attributes/content",
+              "/storyList/102/attributes/content",
+              "/storyList/103/attributes/content",
+              "/storyList/105/attributes/content",
+              "/storyList/107/attributes/content",
+              "/storyList/108/attributes/content",
+              "/storyList/109/attributes/content",
+              "/storyList/110/attributes/content",
+              "/storyList/112/attributes/content",
+              "/storyList/113/attributes/content",
+              "/storyList/118/attributes/content",
+              "/storyList/120/attributes/content",
+              "/storyList/125/attributes/content",
+              "/storyList/127/attributes/content",
+              "/storyList/129/attributes/content",
+              "/storyList/131/attributes/content",
+              "/storyList/133/attributes/content",
+              "/storyList/135/attributes/content"
+            ],
+            "acceptableIds": [
+              "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+              "title": "가비알의 주먹",
+              "score": 0.06557377049180328
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:0:a591275669b6",
+              "title": "가비알의 주먹",
+              "score": 0.05969087267182875
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_end#chunk:0:66a75f1327aa",
+              "title": "가비알의 주먹",
+              "score": 0.056948798328108674
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:8:c3822a5aa324",
+              "title": "가비알의 주먹",
+              "score": 0.05634197433883216
+            },
+            {
+              "id": "ko_KR:story:activities/act12d0/level_act12d0_08_end#chunk:6:c315dfd6c651",
+              "title": "가비알의 주먹",
+              "score": 0.05600171886936593
+            }
+          ]
+        },
+        {
+          "id": "en-leader",
+          "family": "amiya-leader",
+          "locale": "en_US",
+          "query": "What authority does Amiya hold within Rhodes Island?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 765,
+          "evidence": {
+            "documentId": "en_US:profile:char_002_amiya:2:0",
+            "targetChunkId": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/handbook_info_table.json",
+              "sha256": "58835489f1882a8d09c19f6971e45c253d31d06a273e4902ceac57d71e36e637",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "en_US:profile:char_002_amiya:7:0#chunk:0:c054bf5a3a8e"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+              "title": "Profile",
+              "score": 0.05262860373092143
+            },
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_004#chunk:0:7f21c10ae069",
+              "title": "Talk 3",
+              "score": 0.05191909264768381
+            },
+            {
+              "id": "en_US:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b8cfde7b8a7a",
+              "title": "Talk 1",
+              "score": 0.050146953405017916
+            },
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_003#chunk:0:56c1aada8980",
+              "title": "Talk 2",
+              "score": 0.049702380952380956
+            },
+            {
+              "id": "en_US:voice:charWords:char_1001_amiya2_CN_001#chunk:0:28bdb9871a29",
+              "title": "Appointed as Assistant",
+              "score": 0.04417366946778711
+            }
+          ]
+        },
+        {
+          "id": "en-instrument",
+          "family": "amiya-instrument",
+          "locale": "en_US",
+          "query": "Which instrument did Amiya tell the Doctor she resumed playing?",
+          "rank": null,
+          "total": 250,
+          "elapsedMs": 729,
+          "evidence": {
+            "documentId": "en_US:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/charword_table.json",
+              "sha256": "f2e4fe42532a9e48fc5fa73e45e054a94e77fc0caf0020a9663295e64bc5910c",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "en_US:voice:charWords:char_002_amiya_CN_008#chunk:0:25d543a7b37a"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:module:uniequip_002_amiya2#chunk:1:05492712c1c7",
+              "title": "Anger to be Tuned",
+              "score": 0.05558776618902899
+            },
+            {
+              "id": "en_US:voice:charWords:char_1037_amiya3_CN_022#chunk:0:783b06889ec1",
+              "title": "Selecting Operator 2",
+              "score": 0.052190958650944835
+            },
+            {
+              "id": "en_US:skin:char_1037_amiya3@sale#13#chunk:1:b00689931c1d",
+              "title": "Solo Around The World",
+              "score": 0.05121806298276887
+            },
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_022#chunk:0:b9a9991f0b49",
+              "title": "Selecting Operator 2",
+              "score": 0.051167133520074695
+            },
+            {
+              "id": "en_US:voice:charWords:char_002_amiya_CN_043#chunk:0:5259572dcc29",
+              "title": "Birthday",
+              "score": 0.05055493330618063
+            }
+          ]
+        },
+        {
+          "id": "en-candy",
+          "family": "exusiai-candy",
+          "locale": "en_US",
+          "query": "In Exusiai's Surprise, what flavor were the candy bullets?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 744,
+          "evidence": {
+            "documentId": "en_US:module:uniequip_002_angel",
+            "targetChunkId": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/uniequip_table.json",
+              "sha256": "1687abd71512ea3647ed782a809191440ef409e5f6a1bc7e36e8c1f6c62ec8d4",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+              "title": "Exusiai's Surprise",
+              "score": 0.06557377049180328
+            },
+            {
+              "id": "en_US:module:uniequip_002_angel#chunk:0:c7b488ff8e2a",
+              "title": "Exusiai's Surprise",
+              "score": 0.047451812125026666
+            },
+            {
+              "id": "en_US:story:activities/act18side/level_act18side_04_end#chunk:11:07778ad5e567",
+              "title": "Surprise",
+              "score": 0.031746031746031744
+            },
+            {
+              "id": "en_US:story:activities/act18side/level_act18side_04_end#chunk:10:577b500b98eb",
+              "title": "Surprise",
+              "score": 0.03125
+            },
+            {
+              "id": "en_US:story:activities/act18side/level_act18side_04_beg#chunk:0:a73c9c1d59c2",
+              "title": "Surprise",
+              "score": 0.03076923076923077
+            }
+          ]
+        },
+        {
+          "id": "en-designer",
+          "family": "city-rider-designer",
+          "locale": "en_US",
+          "query": "Who designed the City Rider outfit herself?",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 747,
+          "evidence": {
+            "documentId": "en_US:skin:char_103_angel@kfc#1",
+            "targetChunkId": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "en_US/gamedata/excel/skin_table.json",
+              "sha256": "86e390810cf79d253f75b3c0a2f127bc1973c6afcb073d9894c0912525316aef",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c"
+            ]
+          },
+          "top5": [
+            {
+              "id": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+              "title": "City Rider",
+              "score": 0.06557377049180328
+            },
+            {
+              "id": "en_US:skin:char_381_bubble@marthe#11#chunk:0:3d5f4c016332",
+              "title": "The Wind Rider",
+              "score": 0.02928692699490662
+            },
+            {
+              "id": "en_US:skin:char_1047_halo2#1#chunk:0:61753d0509c9",
+              "title": "char_1047_halo2#1",
+              "score": 0.027777777777777776
+            },
+            {
+              "id": "en_US:skin:char_1041_angel2#1#chunk:0:8fd96032b4b8",
+              "title": "char_1041_angel2#1",
+              "score": 0.027637721755368813
+            },
+            {
+              "id": "en_US:skin:char_1014_nearl2#2#chunk:0:53ebcd8256fb",
+              "title": "char_1014_nearl2#2",
+              "score": 0.02582908163265306
+            }
+          ]
+        },
+        {
+          "id": "ja-leader",
+          "family": "amiya-leader",
+          "locale": "ja_JP",
+          "query": "アーミヤはロドス内部でどのような権限を持っている？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 721,
+          "evidence": {
+            "documentId": "ja_JP:profile:char_002_amiya:2:0",
+            "targetChunkId": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/handbook_info_table.json",
+              "sha256": "e2c36940e448d2679c7844389649b130268d5a2da9675cc65caf769702dd8735",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "ja_JP:profile:char_002_amiya:7:0#chunk:0:48df9ab89034"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:profile:char_002_amiya:2:0#chunk:0:353e9887d5de",
+              "title": "個人履歴",
+              "score": 0.05787598004276551
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_002_amiya_CN_004#chunk:0:6e956bdb646c",
+              "title": "会話3",
+              "score": 0.03982683982683983
+            },
+            {
+              "id": "ja_JP:module:uniequip_002_amiya3#chunk:0:1355eb1981c2",
+              "title": "焦げ跡のついたワンピース",
+              "score": 0.037991285030758715
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_1037_amiya3_CN_044#chunk:0:3aff5ca7f41e",
+              "title": "周年",
+              "score": 0.03749315818281335
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_1001_amiya2_CN_001#chunk:0:276fb3faa5e6",
+              "title": "秘書任命",
+              "score": 0.03661307844087401
+            }
+          ]
+        },
+        {
+          "id": "ja-instrument",
+          "family": "amiya-instrument",
+          "locale": "ja_JP",
+          "query": "アーミヤがドクターに秘密にしてほしいと言った楽器の練習は何？",
+          "rank": 3,
+          "total": 250,
+          "elapsedMs": 755,
+          "evidence": {
+            "documentId": "ja_JP:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/charword_table.json",
+              "sha256": "57ab57e4c2f6b1b70957c9f62faa8e9d230baaab77b89c15d3d732302ac4fee6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:voice:charWords:char_002_amiya_CN_043#chunk:0:746b629c6328",
+              "title": "誕生日",
+              "score": 0.05436939268461008
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_1001_amiya2_CN_044#chunk:0:3f2c75c6d470",
+              "title": "周年",
+              "score": 0.05409424464035263
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_002_amiya_CN_008#chunk:0:3d0a72e66038",
+              "title": "信頼上昇後会話2",
+              "score": 0.0518625499303902
+            },
+            {
+              "id": "ja_JP:module:uniequip_002_amiya2#chunk:0:2d5b22df8c87",
+              "title": "調律を待つ怒りの弦",
+              "score": 0.05168032786885246
+            },
+            {
+              "id": "ja_JP:voice:charWords:char_1037_amiya3_CN_043#chunk:0:51c2e6723dbf",
+              "title": "誕生日",
+              "score": 0.0509625875479534
+            }
+          ]
+        },
+        {
+          "id": "ja-candy",
+          "family": "exusiai-candy",
+          "locale": "ja_JP",
+          "query": "エクシアの傑作で、キャンディブレットを味見した人は何味と言った？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 716,
+          "evidence": {
+            "documentId": "ja_JP:module:uniequip_002_angel",
+            "targetChunkId": "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/uniequip_table.json",
+              "sha256": "7c791697cc0d477eab5bc90c420d79e5c81ab4ee8ae6e7e3c290cf726cac6c2d",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:module:uniequip_002_angel#chunk:0:8ef55415eed3",
+              "title": "エクシアの傑作",
+              "score": 0.05193514880549158
+            },
+            {
+              "id": "ja_JP:story:activities/act5d0/level_act5d0_06_beg#chunk:2:ca383640137e",
+              "title": "10:26P.M.",
+              "score": 0.030303030303030304
+            },
+            {
+              "id": "ja_JP:story:activities/act21side/level_act21side_03_beg#chunk:0:3585593b803f",
+              "title": "衆矢の的",
+              "score": 0.0191470054446461
+            },
+            {
+              "id": "ja_JP:story:activities/act5d0/level_act5d0_10_end#chunk:6:b05dbb4a185a",
+              "title": "1:11A.M.",
+              "score": 0.018719806763285024
+            },
+            {
+              "id": "ja_JP:story:activities/act27side/level_act27side_05_beg#chunk:5:c1d6b8366324",
+              "title": "虹を歌おう",
+              "score": 0.018518518518518517
+            }
+          ]
+        },
+        {
+          "id": "ja-designer",
+          "family": "city-rider-designer",
+          "locale": "ja_JP",
+          "query": "シティライダーの衣装を自分でデザインしたのは誰？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 633,
+          "evidence": {
+            "documentId": "ja_JP:skin:char_103_angel@kfc#1",
+            "targetChunkId": "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "ja_JP/gamedata/excel/skin_table.json",
+              "sha256": "ca9a69d83aa2b887e520e3e7bfbe09cabaa825e953435a7c7399e1f723ac3176",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25"
+            ]
+          },
+          "top5": [
+            {
+              "id": "ja_JP:skin:char_103_angel@kfc#1#chunk:0:5811bd5e4a25",
+              "title": "シティライダー",
+              "score": 0.051981448317031734
+            },
+            {
+              "id": "ja_JP:profile:char_1032_excu2:4:0#chunk:0:5b850c083f93",
+              "title": "第一資料",
+              "score": 0.02439384979302188
+            },
+            {
+              "id": "ja_JP:story:obt/memory/story_f12yin_1_1#chunk:3:eaab081dfce5",
+              "title": "予想外の悩み",
+              "score": 0.01869100062932662
+            },
+            {
+              "id": "ja_JP:story:activities/act13d5/level_act13d5_02_beg#chunk:4:bcf01dfbda3f",
+              "title": "ロアーガード",
+              "score": 0.01639344262295082
+            },
+            {
+              "id": "ja_JP:skin:char_2014_nian@nian#4#chunk:0:7e4d9d626eba",
+              "title": "楽逍遥",
+              "score": 0.016129032258064516
+            }
+          ]
+        },
+        {
+          "id": "zh-leader",
+          "family": "amiya-leader",
+          "locale": "zh_CN",
+          "query": "阿米娅在罗德岛内部拥有什么权限？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 488,
+          "evidence": {
+            "documentId": "zh_CN:profile:char_002_amiya:2:0",
+            "targetChunkId": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/handbook_info_table.json",
+              "sha256": "36208d13f890aa11f5c5217a49b5e2aaed4f90b9350b19cd8a10f2c1c8b111c9",
+              "jsonPointer": "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/handbookDict/char_002_amiya/storyTextAudio/2/stories/0/storyText"
+            ],
+            "acceptableIds": [
+              "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "zh_CN:profile:char_002_amiya:7:0#chunk:0:4ab8fea4686d"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:profile:char_002_amiya:2:0#chunk:0:bd9bd6cf9b59",
+              "title": "客观履历",
+              "score": 0.06557377049180328
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1037_amiya3_CN_044#chunk:0:cfd3cd374737",
+              "title": "周年庆典",
+              "score": 0.04484384662956092
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1001_amiya2_CN_001#chunk:0:824973048397",
+              "title": "任命助理",
+              "score": 0.044068525687781704
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1001_amiya2_CN_002#chunk:0:d1e16b34905b",
+              "title": "交谈1",
+              "score": 0.04341902953014064
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_003#chunk:0:feac9b2785ab",
+              "title": "交谈2",
+              "score": 0.04148251453005273
+            }
+          ]
+        },
+        {
+          "id": "zh-instrument",
+          "family": "amiya-instrument",
+          "locale": "zh_CN",
+          "query": "阿米娅悄悄告诉博士，她重新开始练习哪种乐器？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 475,
+          "evidence": {
+            "documentId": "zh_CN:voice:charWords:char_002_amiya_CN_008",
+            "targetChunkId": "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/charword_table.json",
+              "sha256": "c28866f834940884ef1e4e763a7f1c5d23873850764c378547466f35f8b536d6",
+              "jsonPointer": "/charWords/char_002_amiya_CN_008",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charWords/char_002_amiya_CN_008/voiceText"
+            ],
+            "acceptableIds": [
+              "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_008#chunk:0:76db13be57b5",
+              "title": "信赖提升后交谈2",
+              "score": 0.062223981411236085
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1037_amiya3_CN_043#chunk:0:3f5f09eb6348",
+              "title": "生日",
+              "score": 0.05310359927767312
+            },
+            {
+              "id": "zh_CN:module:uniequip_002_amiya2#chunk:0:ad705b623d62",
+              "title": "待调弦的怒火",
+              "score": 0.05118339454913233
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_043#chunk:0:af8b7a9afa4b",
+              "title": "生日",
+              "score": 0.05060482929335389
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_002_amiya_CN_034#chunk:0:abb3bf99e6e9",
+              "title": "戳一下",
+              "score": 0.04912363622041041
+            }
+          ]
+        },
+        {
+          "id": "zh-candy",
+          "family": "exusiai-candy",
+          "locale": "zh_CN",
+          "query": "在能天使的杰作记录里，模型铳的糖果子弹是什么味道？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 597,
+          "evidence": {
+            "documentId": "zh_CN:module:uniequip_002_angel",
+            "targetChunkId": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/uniequip_table.json",
+              "sha256": "656864aec45d4fb34d83f89e5ee7a08971a124f565984639b0cfe1731fcd52ae",
+              "jsonPointer": "/equipDict/uniequip_002_angel",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/equipDict/uniequip_002_angel/uniEquipDesc"
+            ],
+            "acceptableIds": [
+              "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:module:uniequip_002_angel#chunk:0:41d85079184d",
+              "title": "能天使的杰作",
+              "score": 0.06557377049180328
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_103_angel_CN_003#chunk:0:9cbbffcabf8e",
+              "title": "交谈2",
+              "score": 0.02964254577157803
+            },
+            {
+              "id": "zh_CN:voice:charWords:char_1041_angel2_CN_031#chunk:0:2aecf48d13cd",
+              "title": "非3星结束行动",
+              "score": 0.027651515151515153
+            },
+            {
+              "id": "zh_CN:profile:char_459_tachak:8:0#chunk:0:8f2262e2deb2",
+              "title": "晋升记录",
+              "score": 0.026856524873828405
+            },
+            {
+              "id": "zh_CN:profile:char_103_angel:5:0#chunk:0:fb092da093e9",
+              "title": "档案资料二",
+              "score": 0.026553280111072546
+            }
+          ]
+        },
+        {
+          "id": "zh-designer",
+          "family": "city-rider-designer",
+          "locale": "zh_CN",
+          "query": "城市骑手这套服装是谁亲自设计的？",
+          "rank": 1,
+          "total": 250,
+          "elapsedMs": 483,
+          "evidence": {
+            "documentId": "zh_CN:skin:char_103_angel@kfc#1",
+            "targetChunkId": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+            "source": {
+              "repository": "050644zf/ArknightsStoryJson",
+              "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+              "path": "zh_CN/gamedata/excel/skin_table.json",
+              "sha256": "02db3874ca198377918c02b08da5529442ec282078e50af90d70d4e7d569fb7d",
+              "jsonPointer": "/charSkins/char_103_angel@kfc#1",
+              "format": "game-data-table-json"
+            },
+            "sourcePointers": [
+              "/charSkins/char_103_angel@kfc#1/displaySkin/content",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/dialog",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/usage",
+              "/charSkins/char_103_angel@kfc#1/displaySkin/description"
+            ],
+            "acceptableIds": [
+              "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c"
+            ]
+          },
+          "top5": [
+            {
+              "id": "zh_CN:skin:char_103_angel@kfc#1#chunk:0:59d5ae66b98c",
+              "title": "城市骑手",
+              "score": 0.06456494325346784
+            },
+            {
+              "id": "zh_CN:skin:char_113_cqbw#1#chunk:0:ae3eba63c713",
+              "title": "char_113_cqbw#1",
+              "score": 0.027912386121341344
+            },
+            {
+              "id": "zh_CN:skin:char_1033_swire2#1#chunk:0:09703461d9a6",
+              "title": "char_1033_swire2#1",
+              "score": 0.02224563868399485
+            },
+            {
+              "id": "zh_CN:skin:char_1031_slent2#1#chunk:0:6db627a2d644",
+              "title": "char_1031_slent2#1",
+              "score": 0.019734224556377813
+            },
+            {
+              "id": "zh_CN:skin:char_1041_angel2#1#chunk:0:9a96e2925919",
+              "title": "char_1041_angel2#1",
+              "score": 0.019078947368421053
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "questions": 20,
+        "hitAt5": 19,
+        "hitAt20": 19,
+        "meanReciprocalRankAt20": 0.8266666666666665
+      },
+      "byLocale": {
+        "ko_KR": {
+          "questions": 8,
+          "hitAt5": 8,
+          "hitAt20": 8,
+          "meanReciprocalRankAt20": 0.775
+        },
+        "en_US": {
+          "questions": 4,
+          "hitAt5": 3,
+          "hitAt20": 3,
+          "meanReciprocalRankAt20": 0.75
+        },
+        "ja_JP": {
+          "questions": 4,
+          "hitAt5": 4,
+          "hitAt20": 4,
+          "meanReciprocalRankAt20": 0.8333333333333333
+        },
+        "zh_CN": {
+          "questions": 4,
+          "hitAt5": 4,
+          "hitAt20": 4,
+          "meanReciprocalRankAt20": 1
+        }
+      }
+    }
+  ]
+}

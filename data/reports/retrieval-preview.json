@@ -1,0 +1,740 @@
+{
+  "generatedAtUtc": "2026-10-03T13:55:19.972Z",
+  "provisional": true,
+  "productionIndexReady": false,
+  "cases": [
+    {
+      "id": "ko-leader",
+      "locale": "ko_KR",
+      "rank": 1,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+          "title": "프로필",
+          "score": 0.8413556850275785
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+          "title": "대화 1",
+          "score": 0.7433267405041679
+        },
+        {
+          "id": "ko_KR:story:obt/main/level_st_08-03#chunk:6:818829912e03",
+          "title": "죽음, 부름에 바로 응답할",
+          "score": 0.7316683606385739
+        },
+        {
+          "id": "ko_KR:story:obt/memory/story_savage_1_1#chunk:8:b5e8933bd0bf",
+          "title": "고통의 계기",
+          "score": 0.7309133412445441
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+          "title": "대화 3",
+          "score": 0.7241317369955963
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:profile:char_002_amiya:2:0#chunk:0:d613ce234dd3",
+          "title": "프로필",
+          "score": 0.060674580742415676
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b007440490ea",
+          "title": "대화 1",
+          "score": 0.049989228908958835
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_003#chunk:0:b07fae45421c",
+          "title": "대화 2",
+          "score": 0.048601384998443825
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_004#chunk:0:847d70fd0920",
+          "title": "대화 3",
+          "score": 0.04779946421737467
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_004#chunk:0:805ea3e5cd77",
+          "title": "대화 3",
+          "score": 0.03871547756041427
+        }
+      ]
+    },
+    {
+      "id": "ko-instrument",
+      "locale": "ko_KR",
+      "rank": null,
+      "hybridRank": 2,
+      "top5": [
+        {
+          "id": "ko_KR:story:obt/main/level_main_00-09_end#chunk:0:980aac2fc3ba",
+          "title": "니어",
+          "score": 0.7407063106882539
+        },
+        {
+          "id": "ko_KR:story:obt/main/level_st_08-01#chunk:7:dcc48e59433f",
+          "title": "오늘, 핏빛으로 만연한",
+          "score": 0.7343037612542163
+        },
+        {
+          "id": "ko_KR:story:obt/main/level_main_00-01_end#chunk:0:a8d6197cac6e",
+          "title": "붕괴",
+          "score": 0.730356779249
+        },
+        {
+          "id": "ko_KR:story:obt/guide/beg/0_welcome_to_guide#chunk:14:e687f863494f",
+          "title": "프롤로그 - 상",
+          "score": 0.7279568921858879
+        },
+        {
+          "id": "ko_KR:story:obt/main/level_main_00-04_beg#chunk:2:6413d8e0b8ec",
+          "title": "혼전",
+          "score": 0.7263113139802124
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:module:uniequip_002_amiya2#chunk:0:aac94a26e7c0",
+          "title": "조율해야 할 분노",
+          "score": 0.04943690189591829
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_002_amiya_CN_008#chunk:0:09fa1ce42cd5",
+          "title": "신뢰도 상승 후 대화 2",
+          "score": 0.044744540058504444
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1001_amiya2_CN_006#chunk:0:3c18eee36e23",
+          "title": "2차 정예화 후 대화",
+          "score": 0.04440425959413301
+        },
+        {
+          "id": "ko_KR:module:uniequip_001_amiya2#chunk:0:5cdf5084021c",
+          "title": "아미야의 배지 (가드)",
+          "score": 0.04412535993418346
+        },
+        {
+          "id": "ko_KR:module:uniequip_001_amiya3#chunk:0:e072186f4e8a",
+          "title": "아미야의 배지 (메딕)",
+          "score": 0.03923189603910136
+        }
+      ]
+    },
+    {
+      "id": "ko-candy",
+      "locale": "ko_KR",
+      "rank": null,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "ko_KR:profile:char_4019_ncdeer:7:0#chunk:0:0d37dcb7bea7",
+          "title": "파일 자료 4",
+          "score": 0.6672156907219202
+        },
+        {
+          "id": "ko_KR:module:uniequip_002_texas2#chunk:0:d829ffd56068",
+          "title": "블루베리와 다크초콜릿",
+          "score": 0.666183577856169
+        },
+        {
+          "id": "ko_KR:module:uniequip_002_texas2#chunk:1:967daa7c4839",
+          "title": "블루베리와 다크초콜릿",
+          "score": 0.65756905065611
+        },
+        {
+          "id": "ko_KR:story:activities/act5d0/level_act5d0_06_beg#chunk:2:8fcfbe990021",
+          "title": "10:26P.M.",
+          "score": 0.6449011405651354
+        },
+        {
+          "id": "ko_KR:profile:char_294_ayer:8:0#chunk:0:1807fbee9962",
+          "title": "승진 기록",
+          "score": 0.6439125762873725
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:module:uniequip_002_angel#chunk:0:b63ae1b630cf",
+          "title": "엑시아의 걸작",
+          "score": 0.061375449820071974
+        },
+        {
+          "id": "ko_KR:story:obt/memory/story_savage_2_1#chunk:14:068b1edd7f5a",
+          "title": "자신만의 '스타일'",
+          "score": 0.027119252873563218
+        },
+        {
+          "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+          "title": "시티 라이더",
+          "score": 0.025516795865633074
+        },
+        {
+          "id": "ko_KR:story:obt/memory/story_angel_2_1#chunk:5:14138bc896d8",
+          "title": "변화 속의 불변",
+          "score": 0.023799640237996404
+        },
+        {
+          "id": "ko_KR:story:activities/act42side/level_act42side_02_beg#chunk:6:b172a5f5c601",
+          "title": "기도",
+          "score": 0.0220682302771855
+        }
+      ]
+    },
+    {
+      "id": "ko-designer",
+      "locale": "ko_KR",
+      "rank": 2,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "ko_KR:skin:char_381_bubble@marthe#11#chunk:0:6a59b88ecb3f",
+          "title": "윈드 라이더",
+          "score": 0.5945184492826329
+        },
+        {
+          "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+          "title": "시티 라이더",
+          "score": 0.5933930240876144
+        },
+        {
+          "id": "ko_KR:story:activities/act10mini/level_act10mini_st02#chunk:5:af244d55ede8",
+          "title": "부평초와 같이",
+          "score": 0.5914808630629831
+        },
+        {
+          "id": "ko_KR:voice:charWords:char_1027_greyy2_CN_043#chunk:0:7e4d18787889",
+          "title": "생일",
+          "score": 0.5706356030577824
+        },
+        {
+          "id": "ko_KR:skin:char_459_tachak@rainbow6#1#chunk:0:59b96a766479",
+          "title": "군주",
+          "score": 0.5700635253908026
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:skin:char_103_angel@kfc#1#chunk:0:dd91e9bdf91e",
+          "title": "시티 라이더",
+          "score": 0.06530936012691699
+        },
+        {
+          "id": "ko_KR:skin:char_381_bubble@marthe#11#chunk:0:6a59b88ecb3f",
+          "title": "윈드 라이더",
+          "score": 0.03047794966520434
+        },
+        {
+          "id": "ko_KR:skin:char_263_skadi@summer#3#chunk:0:89ed284b3047",
+          "title": "웨이브라이더 WR04",
+          "score": 0.02564935064935065
+        },
+        {
+          "id": "ko_KR:skin:char_4107_vrdant@unveiling#3#chunk:0:0b3ae34a0519",
+          "title": "로즈 라이더",
+          "score": 0.02054794520547945
+        },
+        {
+          "id": "ko_KR:story:activities/act17side/level_act17side_st08#chunk:7:3022cd80155d",
+          "title": "지휘실",
+          "score": 0.018671679197994985
+        }
+      ]
+    },
+    {
+      "id": "ko-nyamu",
+      "locale": "ko_KR",
+      "rank": 1,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+          "title": "동화의 서막",
+          "score": 0.6694124842792042
+        },
+        {
+          "id": "ko_KR:story:obt/memory/story_lolxh_1_1#chunk:3:858eb87fdc84",
+          "title": "밤놀이 배",
+          "score": 0.6197764530324419
+        },
+        {
+          "id": "ko_KR:module:uniequip_002_red#chunk:0:a3db1718c4a8",
+          "title": "미스테리 툴키트",
+          "score": 0.6174521397164032
+        },
+        {
+          "id": "ko_KR:story:obt/memory/story_narant_1_1#chunk:0:abcca5631377",
+          "title": "보물의 주인",
+          "score": 0.6112232641417995
+        },
+        {
+          "id": "ko_KR:module:uniequip_002_milu#chunk:1:9fa8ce23ac21",
+          "title": "야전 저격 세트",
+          "score": 0.5944791797368955
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:0:73d155b890d2",
+          "title": "동화의 서막",
+          "score": 0.06557377049180328
+        },
+        {
+          "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:7:976a25664e4f",
+          "title": "동화의 서막",
+          "score": 0.05269318495124947
+        },
+        {
+          "id": "ko_KR:story:activities/act45side/level_act45side_08_end#chunk:1:94ebd62cc786",
+          "title": "동화의 서막",
+          "score": 0.05091361115457501
+        },
+        {
+          "id": "ko_KR:story:activities/act45side/level_act45side_08_end#chunk:8:d8a6dc3d1a33",
+          "title": "동화의 서막",
+          "score": 0.04681954681954682
+        },
+        {
+          "id": "ko_KR:story:activities/act45side/level_act45side_08_beg#chunk:3:4de775c42e73",
+          "title": "동화의 서막",
+          "score": 0.045713506351804226
+        }
+      ]
+    },
+    {
+      "id": "ko-natalya",
+      "locale": "ko_KR",
+      "rank": null,
+      "hybridRank": 5,
+      "top5": [
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st04#chunk:6:976331918c7b",
+          "title": "표리부동",
+          "score": 0.6961428516243297
+        },
+        {
+          "id": "ko_KR:story:obt/main/level_main_14-19_end#chunk:19:984264153e0b",
+          "title": "수많은 미래",
+          "score": 0.6513712657895929
+        },
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:85:5099f7d74d5c",
+          "title": "평소처럼",
+          "score": 0.6506765926777689
+        },
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st04#chunk:5:a52715ba99cc",
+          "title": "표리부동",
+          "score": 0.6476273594190819
+        },
+        {
+          "id": "ko_KR:story:obt/main/level_main_14-20_end#chunk:13:d1e7138b4a97",
+          "title": "애수가 피어나는 때",
+          "score": 0.6466855322423987
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:85:5099f7d74d5c",
+          "title": "평소처럼",
+          "score": 0.062324929971988796
+        },
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:14:17e1aca7fa6f",
+          "title": "평소처럼",
+          "score": 0.05917120864410021
+        },
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:57:2acc16c3df7d",
+          "title": "평소처럼",
+          "score": 0.055950777212072554
+        },
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:56:16f14083a45d",
+          "title": "평소처럼",
+          "score": 0.0550487900078064
+        },
+        {
+          "id": "ko_KR:story:activities/act10d5/level_act10d5_st06#chunk:8:47c89605937b",
+          "title": "평소처럼",
+          "score": 0.05315033225480987
+        }
+      ]
+    },
+    {
+      "id": "ko-audition",
+      "locale": "ko_KR",
+      "rank": 5,
+      "hybridRank": 2,
+      "top5": [
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:2:08710ee823b3",
+          "title": "트리치 트라치 폴카",
+          "score": 0.7217370490277115
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:3:c57956c08b3a",
+          "title": "트리치 트라치 폴카",
+          "score": 0.7188810305284059
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:4:8f87aa93d512",
+          "title": "트리치 트라치 폴카",
+          "score": 0.7076710507999994
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_end#chunk:0:e152380e07f1",
+          "title": "트리치 트라치 폴카",
+          "score": 0.6975774802568341
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+          "title": "트리치 트라치 폴카",
+          "score": 0.6936859389123851
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:2:08710ee823b3",
+          "title": "트리치 트라치 폴카",
+          "score": 0.06505334374186833
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:1:888780a15768",
+          "title": "트리치 트라치 폴카",
+          "score": 0.06377171215880893
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:4:8f87aa93d512",
+          "title": "트리치 트라치 폴카",
+          "score": 0.0635164584959667
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_end#chunk:0:e152380e07f1",
+          "title": "트리치 트라치 폴카",
+          "score": 0.0625225468975469
+        },
+        {
+          "id": "ko_KR:story:activities/act18side/level_act18side_01_beg#chunk:3:c57956c08b3a",
+          "title": "트리치 트라치 폴카",
+          "score": 0.06228287841191067
+        }
+      ]
+    },
+    {
+      "id": "ko-engineering",
+      "locale": "ko_KR",
+      "rank": 1,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+          "title": "가비알의 주먹",
+          "score": 0.7998287481223262
+        },
+        {
+          "id": "ko_KR:story:activities/act20side/level_act20side_06_end#chunk:6:3afc0c5ec162",
+          "title": "투쟁-도피 반응",
+          "score": 0.76882255936132
+        },
+        {
+          "id": "ko_KR:story:activities/act20side/level_act20side_07_end#chunk:8:b3cd4d146dd7",
+          "title": "살아가는 법",
+          "score": 0.767716053946395
+        },
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_09_end#chunk:26:4df6b8a7404a",
+          "title": "이스케이프 더 정글",
+          "score": 0.7611612238516651
+        },
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:0:a591275669b6",
+          "title": "가비알의 주먹",
+          "score": 0.7604976811854004
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:1:cd71a093a3d4",
+          "title": "가비알의 주먹",
+          "score": 0.06557377049180328
+        },
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:0:a591275669b6",
+          "title": "가비알의 주먹",
+          "score": 0.05969087267182875
+        },
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_end#chunk:0:66a75f1327aa",
+          "title": "가비알의 주먹",
+          "score": 0.056948798328108674
+        },
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_beg#chunk:8:c3822a5aa324",
+          "title": "가비알의 주먹",
+          "score": 0.05634197433883216
+        },
+        {
+          "id": "ko_KR:story:activities/act12d0/level_act12d0_08_end#chunk:6:c315dfd6c651",
+          "title": "가비알의 주먹",
+          "score": 0.05600171886936593
+        }
+      ]
+    },
+    {
+      "id": "en-leader",
+      "locale": "en_US",
+      "rank": 1,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+          "title": "Profile",
+          "score": 0.8132869658937611
+        },
+        {
+          "id": "en_US:story:obt/main/level_main_15-05_end#chunk:10:4835dd098fbe",
+          "title": "Etched Bone-Deep",
+          "score": 0.7487309951805715
+        },
+        {
+          "id": "en_US:story:obt/memory/story_savage_1_1#chunk:18:9e3e81636a7d",
+          "title": "Painful Reversal",
+          "score": 0.7485632252074177
+        },
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_004#chunk:0:7f21c10ae069",
+          "title": "Talk 3",
+          "score": 0.7459538705465207
+        },
+        {
+          "id": "en_US:story:obt/main/level_main_04-07_end#chunk:2:c58bdf1f337a",
+          "title": "Mutual Benefits",
+          "score": 0.7360053124075746
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "en_US:profile:char_002_amiya:2:0#chunk:0:86778b9edf71",
+          "title": "Profile",
+          "score": 0.05262860373092143
+        },
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_004#chunk:0:7f21c10ae069",
+          "title": "Talk 3",
+          "score": 0.05191909264768381
+        },
+        {
+          "id": "en_US:voice:charWords:char_1001_amiya2_CN_002#chunk:0:b8cfde7b8a7a",
+          "title": "Talk 1",
+          "score": 0.05034257155838255
+        },
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_003#chunk:0:56c1aada8980",
+          "title": "Talk 2",
+          "score": 0.049702380952380956
+        },
+        {
+          "id": "en_US:voice:charWords:char_1001_amiya2_CN_001#chunk:0:28bdb9871a29",
+          "title": "Appointed as Assistant",
+          "score": 0.043882407331864784
+        }
+      ]
+    },
+    {
+      "id": "en-instrument",
+      "locale": "en_US",
+      "rank": null,
+      "hybridRank": null,
+      "top5": [
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_043#chunk:0:5259572dcc29",
+          "title": "Birthday",
+          "score": 0.6754018520462749
+        },
+        {
+          "id": "en_US:voice:charWords:char_1037_amiya3_CN_022#chunk:0:783b06889ec1",
+          "title": "Selecting Operator 2",
+          "score": 0.6581732628693456
+        },
+        {
+          "id": "en_US:voice:charWords:char_1037_amiya3_CN_034#chunk:0:4d16316f497b",
+          "title": "Tap",
+          "score": 0.6452451847187735
+        },
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_022#chunk:0:b9a9991f0b49",
+          "title": "Selecting Operator 2",
+          "score": 0.6452082678135963
+        },
+        {
+          "id": "en_US:story:activities/act33side/level_act33side_04_beg#chunk:2:ff4067f4e18f",
+          "title": "Long Voyage",
+          "score": 0.6425802307758195
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "en_US:module:uniequip_002_amiya2#chunk:1:05492712c1c7",
+          "title": "Anger to be Tuned",
+          "score": 0.05588525243029033
+        },
+        {
+          "id": "en_US:voice:charWords:char_1037_amiya3_CN_022#chunk:0:783b06889ec1",
+          "title": "Selecting Operator 2",
+          "score": 0.052190958650944835
+        },
+        {
+          "id": "en_US:skin:char_1037_amiya3@sale#13#chunk:1:b00689931c1d",
+          "title": "Solo Around The World",
+          "score": 0.05134290692783753
+        },
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_022#chunk:0:b9a9991f0b49",
+          "title": "Selecting Operator 2",
+          "score": 0.05091911764705882
+        },
+        {
+          "id": "en_US:voice:charWords:char_002_amiya_CN_043#chunk:0:5259572dcc29",
+          "title": "Birthday",
+          "score": 0.05055493330618063
+        }
+      ]
+    },
+    {
+      "id": "en-candy",
+      "locale": "en_US",
+      "rank": 1,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+          "title": "Exusiai's Surprise",
+          "score": 0.5917521652116992
+        },
+        {
+          "id": "en_US:story:activities/act5d0/level_act5d0_01_end#chunk:6:888c743d92e2",
+          "title": "6:44P.M.",
+          "score": 0.5800837659433513
+        },
+        {
+          "id": "en_US:module:uniequip_002_texas2#chunk:2:a4209ec8ab0f",
+          "title": "Blueberry & Dark Chocolate",
+          "score": 0.5541150437790058
+        },
+        {
+          "id": "en_US:module:uniequip_002_texas#chunk:1:3067a28e3fd8",
+          "title": "Private Field Supply Package",
+          "score": 0.5499775615393075
+        },
+        {
+          "id": "en_US:story:obt/memory/story_moeshd_1_1#chunk:15:209d14bbb3e5",
+          "title": "The Business",
+          "score": 0.5462871893010388
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "en_US:module:uniequip_002_angel#chunk:1:f0c89cddfc59",
+          "title": "Exusiai's Surprise",
+          "score": 0.06557377049180328
+        },
+        {
+          "id": "en_US:module:uniequip_002_angel#chunk:0:c7b488ff8e2a",
+          "title": "Exusiai's Surprise",
+          "score": 0.047451812125026666
+        },
+        {
+          "id": "en_US:story:activities/act18side/level_act18side_04_end#chunk:11:07778ad5e567",
+          "title": "Surprise",
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "en_US:story:activities/act18side/level_act18side_04_end#chunk:10:577b500b98eb",
+          "title": "Surprise",
+          "score": 0.03125
+        },
+        {
+          "id": "en_US:story:activities/act18side/level_act18side_04_beg#chunk:0:a73c9c1d59c2",
+          "title": "Surprise",
+          "score": 0.03076923076923077
+        }
+      ]
+    },
+    {
+      "id": "en-designer",
+      "locale": "en_US",
+      "rank": 1,
+      "hybridRank": 1,
+      "top5": [
+        {
+          "id": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+          "title": "City Rider",
+          "score": 0.6504977843438022
+        },
+        {
+          "id": "en_US:skin:char_174_slbell@snow#1#chunk:0:26eb38caacc1",
+          "title": "Caster's Frost",
+          "score": 0.580632267574262
+        },
+        {
+          "id": "en_US:skin:char_1047_halo2#1#chunk:0:61753d0509c9",
+          "title": "char_1047_halo2#1",
+          "score": 0.5756310863295921
+        },
+        {
+          "id": "en_US:skin:char_1035_wisdel#2#chunk:0:3fd407584f82",
+          "title": "char_1035_wisdel#2",
+          "score": 0.5735472292547162
+        },
+        {
+          "id": "en_US:skin:char_1014_nearl2#2#chunk:0:53ebcd8256fb",
+          "title": "char_1014_nearl2#2",
+          "score": 0.5733818502865057
+        }
+      ],
+      "hybridTop5": [
+        {
+          "id": "en_US:skin:char_103_angel@kfc#1#chunk:0:a6395619440c",
+          "title": "City Rider",
+          "score": 0.06557377049180328
+        },
+        {
+          "id": "en_US:skin:char_381_bubble@marthe#11#chunk:0:3d5f4c016332",
+          "title": "The Wind Rider",
+          "score": 0.02928692699490662
+        },
+        {
+          "id": "en_US:skin:char_1047_halo2#1#chunk:0:61753d0509c9",
+          "title": "char_1047_halo2#1",
+          "score": 0.027777777777777776
+        },
+        {
+          "id": "en_US:skin:char_1041_angel2#1#chunk:0:8fd96032b4b8",
+          "title": "char_1041_angel2#1",
+          "score": 0.027500922849760058
+        },
+        {
+          "id": "en_US:skin:char_1014_nearl2#2#chunk:0:53ebcd8256fb",
+          "title": "char_1014_nearl2#2",
+          "score": 0.025588697017268444
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "questions": 12,
+    "hitAt5": 8,
+    "hitAt20": 8,
+    "meanReciprocalRankAt20": 0.5583333333333333
+  },
+  "hybridSummary": {
+    "questions": 12,
+    "hitAt5": 11,
+    "hitAt20": 11,
+    "meanReciprocalRankAt20": 0.7666666666666666
+  },
+  "limitation": "Only complete five-kind language sets are checked offline. Not a full-index validation or unseen accuracy benchmark."
+}

@@ -1,0 +1,79 @@
+{
+  "generatedAtUtc": "2026-10-02T14:52:21.807Z",
+  "model": "gemma4:12b",
+  "quoteValidationPassed": true,
+  "semanticValidationPassed": null,
+  "cases": [
+    {
+      "question": "이 자료에서 살카즈를 어떻게 설명하는지 근거를 들어 짧게 알려줘.",
+      "claims": [
+        {
+          "text": "살카즈는 광석병으로 인해 큰 고통을 겪고 있습니다.",
+          "citations": [
+            {
+              "source": 3,
+              "quote": "살카즈는 너무 고통받았어. 광석병은 현재 살카즈가 겪고 있는 커다란 고통 중 하나야."
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "ko_KR:profile:char_002_amiya:4:0#chunk:0:e1d082327256",
+        "ko_KR:profile:char_002_amiya:9:0#chunk:0:334a7253c2a9",
+        "ko_KR:profile:char_003_kalts:6:0#chunk:0:8b8a4c571512",
+        "ko_KR:profile:char_1011_lava2:0:0#chunk:0:57d5cc206945",
+        "ko_KR:profile:char_1011_lava2:5:0#chunk:0:9d4e0de225aa"
+      ],
+      "rejectedClaims": 0,
+      "durationMs": 6457,
+      "verification": {
+        "quotes": "exact-match",
+        "interpretations": "unverified"
+      },
+      "uncertainty": "살카즈가 겪는 고통이 광석병 외에 다른 요소로 인해 발생하는지에 대한 구체적인 정보는 없습니다."
+    },
+    {
+      "question": "켈시가 살카즈의 고통과 광석병에 대해 말한 내용만 알려줘. 종족 전체에 대한 다른 인물의 경험으로 일반화하지 마.",
+      "claims": [
+        {
+          "text": "켈시는 살카즈가 광석병으로 인해 큰 고통을 겪고 있다고 언급했습니다.",
+          "citations": [
+            {
+              "source": 3,
+              "quote": "살카즈는 너무 고통받았어. 광석병은 현재 살카즈가 겪고 있는 커다란 고통 중 하나야."
+            }
+          ]
+        },
+        {
+          "text": "켈시는 광석병과 그로 인해 발생한 무서운 편견을 치료해야 한다고 말했습니다.",
+          "citations": [
+            {
+              "source": 3,
+              "quote": "광석병과 그로 인해 생겨난 무서운 편견을 치료해야 해."
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "ko_KR:profile:char_002_amiya:4:0#chunk:0:e1d082327256",
+        "ko_KR:profile:char_002_amiya:9:0#chunk:0:334a7253c2a9",
+        "ko_KR:profile:char_003_kalts:6:0#chunk:0:8b8a4c571512",
+        "ko_KR:profile:char_1011_lava2:0:0#chunk:0:57d5cc206945",
+        "ko_KR:profile:char_1011_lava2:5:0#chunk:0:9d4e0de225aa"
+      ],
+      "rejectedClaims": 1,
+      "durationMs": 6043,
+      "verification": {
+        "quotes": "exact-match",
+        "interpretations": "unverified"
+      },
+      "uncertainty": "켈시가 광석병을 치료할 수 있다고 확신하는 이유나 구체적인 치료 방법은 자료에 포함되어 있지 않습니다."
+    }
+  ],
+  "limitations": [
+    "Two local-model smoke tests, not a semantic accuracy benchmark.",
+    "A previous test produced a semantically distorted explanation despite an exact source quote.",
+    "The UI defaults to source quotes and hides unverified AI interpretations in disclosure panels.",
+    "Retrieval uses literal keywords and five chunks; no embeddings or full-corpus reasoning."
+  ]
+}

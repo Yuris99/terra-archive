@@ -1,0 +1,70 @@
+﻿{
+    "schemaVersion":  1,
+    "source":  {
+                   "name":  "ArknightsAssets/ArknightsGamedata",
+                   "url":  "https://github.com/ArknightsAssets/ArknightsGamedata.git",
+                   "requestedRevision":  "master",
+                   "usedExistingCheckout":  true,
+                   "commit":  "758c9e70c34aa56cb8e04dd84b40440c5c859a67",
+                   "commitDate":  "2026-09-20T12:28:00Z",
+                   "retrievedAtUtc":  "2026-09-21T14:30:00.2527488Z",
+                   "region":  "kr"
+               },
+    "selection":  [
+                      "/kr/gamedata/story/",
+                      "/kr/gamedata/excel/character_table.json",
+                      "/kr/gamedata/excel/handbook_info_table.json",
+                      "/kr/gamedata/excel/charword_table.json",
+                      "/kr/gamedata/excel/story_table.json",
+                      "/kr/gamedata/excel/story_review_table.json",
+                      "/kr/gamedata/excel/uniequip_table.json",
+                      "/kr/gamedata/excel/skin_table.json",
+                      "/kr/gamedata/excel/activity_table.json"
+                  ],
+    "inventory":  {
+                      "storyFileCount":  5148,
+                      "storyBytes":  70508514,
+                      "excelFiles":  [
+                                         {
+                                             "name":  "activity_table.json",
+                                             "bytes":  18294781,
+                                             "sha256":  "ec630426856f2f05ffb158156603c69a60b62e9683c143f2f88ffac45812813d"
+                                         },
+                                         {
+                                             "name":  "character_table.json",
+                                             "bytes":  19836317,
+                                             "sha256":  "2a70913db86ca7d3ed537802450da7795b18ba057b233ca8a19fc366c04bed5e"
+                                         },
+                                         {
+                                             "name":  "charword_table.json",
+                                             "bytes":  13574299,
+                                             "sha256":  "baf2d0a301a1faa8e8a71b7e9cd1661579d529373fdb13a7758b480bf8cc2ef1"
+                                         },
+                                         {
+                                             "name":  "handbook_info_table.json",
+                                             "bytes":  7798552,
+                                             "sha256":  "4f773a14df6064f36350e649b211ea6f74933be4275cff84324830d5c0352086"
+                                         },
+                                         {
+                                             "name":  "skin_table.json",
+                                             "bytes":  4454092,
+                                             "sha256":  "3d96c9a7043fa40930d3b5812470b397d73f1df7a14b753e3e341b4848e25a94"
+                                         },
+                                         {
+                                             "name":  "story_review_table.json",
+                                             "bytes":  2267062,
+                                             "sha256":  "af302a16e00b3497e45c2db574e4b49c25076d0687ceb3de6b3a4a55f18ff8a7"
+                                         },
+                                         {
+                                             "name":  "story_table.json",
+                                             "bytes":  1749929,
+                                             "sha256":  "e40d7bb1143bccec7d543bfc7d2a6aa05b14a72193432b51d23ea07725ff7b94"
+                                         },
+                                         {
+                                             "name":  "uniequip_table.json",
+                                             "bytes":  4453298,
+                                             "sha256":  "720077dcf22fc4ce23dc89cd721e750e72c2811d53f2b18f82a7aa764902fe8a"
+                                         }
+                                     ]
+                  }
+}

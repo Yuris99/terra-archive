@@ -1,0 +1,14 @@
+# Sparse upstream checkout used for refreshing the deployable snapshot.
+# The build input copied to site/data is versioned separately.
+data/raw/arknights-gamedata/
+data/raw/arknights-story-json/
+data/normalized/
+data/indexes/
+data/retrieval/
+site/app/generated/archive-data.json
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

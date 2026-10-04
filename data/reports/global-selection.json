@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-02T07:21:12.271Z",
+  "sourceCommit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+  "policy": {
+    "schemaVersion": 1,
+    "id": "global-only-v1",
+    "baselineLocale": "en_US",
+    "requiredGlobalLocales": [
+      "en_US",
+      "ko_KR",
+      "ja_JP"
+    ],
+    "allowedLocales": [
+      "ko_KR",
+      "en_US",
+      "ja_JP",
+      "zh_CN"
+    ],
+    "globalReleaseCutoff": "2026-10-02T00:00:00+09:00",
+    "allowMissingGlobalCounterpart": false,
+    "blockFutureDatedContent": true,
+    "unknownContentRule": "exclude",
+    "exclusionScope": "globally-unreleased-content",
+    "releasedLocaleDifferences": "retain-and-mark",
+    "notes": "Exclude globally unreleased content, not locale-specific wording inside released content. Retain and annotate known locale differences. Missing global snapshot counterparts are held out conservatively as release-unverified, not certified unreleased. This selection is not live publication-status certification."
+  },
+  "policySha256": "fd54f2a2b20468c5db52e95e45ffd0721e886c48a6eb23593898aba99ad3725b",
+  "normalizedManifestSha256": "d673a850794f7d5aa0728786f91cc3bc865ecba6615f41bf68d4fcedebc578b6",
+  "validationPassed": true,
+  "inputDocuments": 105101,
+  "selectedDocuments": 103668,
+  "selectedSegments": 1669670,
+  "eligibleCanonicalDocuments": 25917,
+  "excludedCanonicalDocuments": 1433,
+  "excludedByKind": {
+    "story": 100,
+    "profile": 160,
+    "voice": 844,
+    "module": 39,
+    "skin": 290
+  },
+  "excludedByReason": {
+    "missing-global-counterpart": 1433
+  },
+  "annotations": {
+    "path": "annotations.json",
+    "entries": 1,
+    "bytes": 1413,
+    "sha256": "eaf402cea2f2a1c767c00f9e6fb120df07fcda1858e936a64d2a7a8e070c782b",
+    "registrySha256": "781e5de9b7be83d4723bbf11f97f74f555673aace94d5566527ecf5d998500ff"
+  },
+  "outputPath": "data/retrieval/global-v1",
+  "limitations": [
+    "Selection uses the fixed collected global snapshots, not live release-status certification.",
+    "Future first-publication dates present in the global story/module/skin metadata are blocked; absent dates use global counterpart presence as evidence.",
+    "Locale-specific wording in globally represented content is retained, not treated as unreleased content. Known differences are marked in annotations.json without changing the corpus.",
+    "Missing global counterparts are conservatively held out as release-unverified; their absence does not certify live unreleased status.",
+    "Shared keys are translation candidates, not proof of sentence-level equivalence. Annotations cover reviewed differences only.",
+    "Raw and full normalized archives are preserved separately and must not be used as retrieval inputs.",
+    "No chunking, search UI or RAG answering is implemented by this selector."
+  ],
+  "errors": [],
+  "audit": {
+    "auditedDocuments": 103668,
+    "auditedSegments": 1669670,
+    "eligibleCanonicalDocuments": 25917,
+    "auditedAnnotations": 1
+  }
+}

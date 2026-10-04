@@ -1,0 +1,32 @@
+{
+  "id": "development-questions-v1",
+  "sourceCommit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+  "limitations": [
+    "Small manually curated development set, not an unseen general-accuracy benchmark.",
+    "Four facts translated into four languages plus four Korean story facts: 20 questions, eight fact families.",
+    "All kinds compete in ranking; keyword queries are manually prepared and natural questions are paraphrases.",
+    "Exact duplicate quotes from the same operator are accepted; unrelated documents mentioning a fact are not."
+  ],
+  "questions": [
+    {"id":"ko-leader","family":"amiya-leader","locale":"ko_KR","question":"아미야는 로도스 아일랜드 안에서 어떤 권한을 갖고 있어?","keywords":"아미야 리더","canonicalId":"profile:char_002_amiya:2:0","quote":"로도스 아일랜드의 공식 리더이며, 내부에서 가장 강력한 집행권을 가지고 있다.","equivalentOperator":"char_002_amiya"},
+    {"id":"en-leader","family":"amiya-leader","locale":"en_US","question":"What authority does Amiya hold within Rhodes Island?","keywords":"Amiya executive","canonicalId":"profile:char_002_amiya:2:0","quote":"The public face of Rhodes Island and its top executive.","equivalentOperator":"char_002_amiya"},
+    {"id":"ja-leader","family":"amiya-leader","locale":"ja_JP","question":"アーミヤはロドス内部でどのような権限を持っている？","keywords":"アーミヤ 執行権","canonicalId":"profile:char_002_amiya:2:0","quote":"ロドスの公表リーダー。ロドス内での最高執行権を有する。","equivalentOperator":"char_002_amiya"},
+    {"id":"zh-leader","family":"amiya-leader","locale":"zh_CN","question":"阿米娅在罗德岛内部拥有什么权限？","keywords":"阿米娅 执行权","canonicalId":"profile:char_002_amiya:2:0","quote":"罗德岛的公开领袖，在内部拥有最高执行权。","equivalentOperator":"char_002_amiya"},
+    {"id":"ko-instrument","family":"amiya-instrument","locale":"ko_KR","question":"아미야가 비밀이라면서 다시 연습하기 시작했다고 말한 악기는 뭐야?","keywords":"아미야 바이올린","canonicalId":"voice:charWords:char_002_amiya_CN_008","quote":"저 다시 바이올린 연습을 시작했어요.","equivalentOperator":"char_002_amiya"},
+    {"id":"en-instrument","family":"amiya-instrument","locale":"en_US","question":"Which instrument did Amiya tell the Doctor she resumed playing?","keywords":"Amiya violin","canonicalId":"voice:charWords:char_002_amiya_CN_008","quote":"I picked up the violin again.","equivalentOperator":"char_002_amiya"},
+    {"id":"ja-instrument","family":"amiya-instrument","locale":"ja_JP","question":"アーミヤがドクターに秘密にしてほしいと言った楽器の練習は何？","keywords":"アーミヤ ヴァイオリン","canonicalId":"voice:charWords:char_002_amiya_CN_008","quote":"またヴァイオリンの練習をし始めたんです。","equivalentOperator":"char_002_amiya"},
+    {"id":"zh-instrument","family":"amiya-instrument","locale":"zh_CN","question":"阿米娅悄悄告诉博士，她重新开始练习哪种乐器？","keywords":"阿米娅 小提琴","canonicalId":"voice:charWords:char_002_amiya_CN_008","quote":"我重新开始练小提琴了。","equivalentOperator":"char_002_amiya"},
+    {"id":"ko-candy","family":"exusiai-candy","locale":"ko_KR","question":"엑시아의 걸작 기록에서 모형총의 캔디를 맛본 사람은 무슨 맛이라고 했어?","keywords":"엑시아 라즈베리","canonicalId":"module:uniequip_002_angel","quote":"음, 라즈베리 맛이군. 적당히 달고."},
+    {"id":"en-candy","family":"exusiai-candy","locale":"en_US","question":"In Exusiai's Surprise, what flavor were the candy bullets?","keywords":"Exusiai raspberry","canonicalId":"module:uniequip_002_angel","quote":"Ooh, raspberry. Perfect sweetness."},
+    {"id":"ja-candy","family":"exusiai-candy","locale":"ja_JP","question":"エクシアの傑作で、キャンディブレットを味見した人は何味と言った？","keywords":"エクシア ベリー味","canonicalId":"module:uniequip_002_angel","quote":"うん、ベリー味で甘さもちょうどいい具合ね。"},
+    {"id":"zh-candy","family":"exusiai-candy","locale":"zh_CN","question":"在能天使的杰作记录里，模型铳的糖果子弹是什么味道？","keywords":"能天使 树莓","canonicalId":"module:uniequip_002_angel","quote":"唔，树莓味的，甜味正好。"},
+    {"id":"ko-designer","family":"city-rider-designer","locale":"ko_KR","question":"시티 라이더 옷은 누가 직접 디자인했어?","keywords":"시티 라이더","canonicalId":"skin:char_103_angel@kfc#1","quote":"엑시아가 직접 디자인한 것으로"},
+    {"id":"en-designer","family":"city-rider-designer","locale":"en_US","question":"Who designed the City Rider outfit herself?","keywords":"\"City Rider\"","canonicalId":"skin:char_103_angel@kfc#1","quote":"Designed by Exusiai herself"},
+    {"id":"ja-designer","family":"city-rider-designer","locale":"ja_JP","question":"シティライダーの衣装を自分でデザインしたのは誰？","keywords":"シティライダー","canonicalId":"skin:char_103_angel@kfc#1","quote":"エクシア自身がデザインした"},
+    {"id":"zh-designer","family":"city-rider-designer","locale":"zh_CN","question":"城市骑手这套服装是谁亲自设计的？","keywords":"城市骑手","canonicalId":"skin:char_103_angel@kfc#1","quote":"由能天使本人设计的"},
+    {"id":"ko-nyamu","family":"nyamu-drumsticks","locale":"ko_KR","question":"동화의 서막에서 냐무가 책장 한구석에서 발견한 물건은 뭐야?","keywords":"냐무 드럼 스틱","canonicalId":"story:activities/act45side/level_act45side_08_beg","quote":"그것은, 책장 한구석에 놓여있던 드럼 스틱이었다."},
+    {"id":"ko-natalya","family":"natalya-refugee","locale":"ko_KR","question":"평소처럼에서 아미야는 나탈리야를 어느 도시에서 구했다고 말해?","keywords":"나탈리야 체르노보그","canonicalId":"story:activities/act10d5/level_act10d5_st06","quote":"나탈리야 씨는 저희가 체르노보그에서 구해낸 난민 중 하나에요."},
+    {"id":"ko-audition","family":"czerny-audition","locale":"ko_KR","question":"트리치 트라치 폴카에서 에벤홀츠는 오디션을 누가 직접 심사한다고 말했어?","keywords":"체르니 오디션","canonicalId":"story:activities/act18side/level_act18side_01_beg","quote":"오늘 오디션은 체르니가 직접 심사하니까, 절대 실수하면 안 돼."},
+    {"id":"ko-engineering","family":"zumama-learning","locale":"ko_KR","question":"가비알의 주먹에서 유넥티스는 이남에게 책을 부탁하고 무엇을 공부하기 시작했어?","keywords":"유넥티스 사르곤어","canonicalId":"story:activities/act12d0/level_act12d0_08_beg","quote":"나는 이남에게 기계에 관한 책을 찾아달라고 부탁해서 사르곤어와 기계 관련 지식을 공부하기 시작했어."}
+  ]
+}

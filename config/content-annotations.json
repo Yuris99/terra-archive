@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "locale-difference-act45side-ss8-cn-row622",
+      "kind": "locale-text-difference",
+      "action": "retain-and-mark",
+      "releaseStatusEvidence": false,
+      "documentId": "zh_CN:story:activities/act45side/level_act45side_08_beg",
+      "canonicalId": "story:activities/act45side/level_act45side_08_beg",
+      "locale": "zh_CN",
+      "label": "언어판 차이 · 중국어 단독 문장",
+      "reviewedAgainstLocales": ["ko_KR", "en_US", "ja_JP"],
+      "source": {
+        "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+        "path": "zh_CN/gamedata/story/activities/act45side/level_act45side_08_beg.json",
+        "sha256": "75c6b6ed4cf365ed42868b4ff18fe4e8943c364bda4ed96b7d98ca069782122a",
+        "jsonPointer": "/storyList/622/attributes/content"
+      },
+      "segmentTextSha256": "8cc59f88cb660ff9871b1530d7fe1d89068f2c77675393e8e553789cca934337",
+      "note": "「편안한 잠꼬대」 SS-8 작전 전 「동화의 서막」의 독백에서 글로벌 3개 언어에 대응 문장이 없는 차이를 확인했다. 차이의 원인은 미확인이다. 사용자는 출시된 콘텐츠의 언어판 차이는 보존하고 표시만 하도록 결정했다. 이 표시는 글로벌 미출시의 근거가 아니다."
+    }
+  ]
+}

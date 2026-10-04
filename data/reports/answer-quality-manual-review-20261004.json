@@ -1,0 +1,75 @@
+{
+  "reviewDate": "2026-10-04",
+  "reviewer": "Assistant manual review against supplied source context; not an independent lore expert or automated semantic validator.",
+  "selectedImplementationSha256": "efef02e0292a4bccc1b9b22b467c5c5ad065a4997cc9105b22ee70922e0ef8e1",
+  "selectedPromptSha256": "a30a7d52252011ae5c9b4807b972eed6408b1fbfc9fdb928a1bf99036e21cd15",
+  "configSha256": "294fbf1e4384992c5320a64220f40c430a0f7c53e77a32cfd265f1a75f895395",
+  "inputReports": [
+    {"phase":"baseline","path":"data/reports/answer-quality-baseline-20261004T062445552Z.json","sha256":"2f73d039ad500542026af182571ffd90b1d17dbac27927c81e298c5fccc93968"},
+    {"phase":"selected-revision","path":"data/reports/answer-quality-revised-20261004T062724999Z.json","sha256":"2aebc76bacd59c6a2a154fe8611b8c59251d3ba78b0d451cab38ca830a10fc38"},
+    {"phase":"held-out","path":"data/reports/answer-quality-held-out-20261004T063303553Z.json","sha256":"830d9b7c9ce4ef072fbb1c0b1a9da74b0b0343aba97a2143b084e388a5cdbb64"}
+  ],
+  "discardedRevision": {
+    "path": "data/reports/answer-quality-revised-20261004T063007010Z.json",
+    "reason": "Generic example and speaker-label hints still produced unsupported attribution. A previously hidden wrong claim acquired an exact quote and became accepted. More accepted quotes did not mean better explanations. The revision was not selected."
+  },
+  "selection": "First generic metadata-separated prompt retained as a partial improvement, not a complete speaker-attribution fix. Held-out outputs were not used to tune the selected prompt.",
+  "summary": {
+    "executed": 15,
+    "answerableQuestions": 13,
+    "expectedEvidenceInTop5": 13,
+    "expectedSourceCited": 11,
+    "acceptedExactCitations": 14,
+    "rejectedClaims": 2,
+    "unsupportedQuestionsModelAbstained": 2,
+    "developmentFullySupported": 7,
+    "developmentQuestions": 9,
+    "heldOutFullySupported": 4,
+    "heldOutQuestions": 6,
+    "fullySupportedWithinSuppliedContext": 11,
+    "needsImprovement": 4,
+    "qualityGatePassed": false,
+    "automaticSemanticValidationPassed": null,
+    "minElapsedMs": 1382,
+    "maxElapsedMs": 7410
+  },
+  "cases": [
+    {"id":"ko-leader","split":"development","verdict":"supported","note":"Official leader and executive authority are directly supported. The limit statement refers to absent detailed powers in the supplied contexts."},
+    {"id":"ko-instrument","split":"development","verdict":"supported","note":"The named Amiya voice line supports secret resumed violin practice. The extra same-instrument uncertainty is unnecessary but does not assert identity unsupported by evidence."},
+    {"id":"ko-nyamu","split":"development","verdict":"supported","note":"Surrounding narration supports Nyamu finding drumsticks in the bookshelf corner."},
+    {"id":"en-candy","split":"development","verdict":"supported","note":"Raspberry flavor is supported and the selected revision no longer adds Exusiai as the speaker. This fixes the original observed wording only, not every attribution question."},
+    {"id":"unsupported-personal-id","split":"development","verdict":"supported-abstention","note":"Raw model claims are empty and the uncertainty is limited to the supplied evidence. Not an empty answer produced by rejected citations."},
+    {"id":"en-candy-speaker","split":"development","verdict":"supported","note":"The text does not explicitly identify the raspberry speaker as Exusiai. The answer does not invent another name."},
+    {"id":"ko-candy-target","split":"development","verdict":"needs-attribution-and-quote-improvement","note":"The accepted claims are empty due to changed quote punctuation, but uncertainty still guesses that Exusiai addresses Lemuel. The source establishes an unnamed speaker addressing Lemuel, not Exusiai as speaker. Do not count this as model abstention or a safe complete answer."},
+    {"id":"ko-instrument-false-premise","split":"development","verdict":"supported","note":"The supplied voice line says resumed practice, so the question premise is corrected. The response limits the missing stopped-practice evidence to the supplied materials."},
+    {"id":"en-model-gun-negation","split":"development","verdict":"needs-quote-improvement","note":"The raw claim has a multi-line quote with punctuation and repeated exclamation marks not present in source; the entire claim is correctly rejected. The remaining uncertainty alone is not a successfully cited answer. The gun's actual mechanism or explosive cause is not established."},
+    {"id":"ko-exusiai-birthplace","split":"held-out","verdict":"needs-answer-consistency-improvement","note":"The claim and exact quote correctly identify Laterano, but uncertainty says information is insufficient without naming any missing scope. The unqualified limit statement contradicts the answered question."},
+    {"id":"en-shining-infection","split":"held-out","verdict":"supported","note":"The non-infected medical finding and no-signs analysis are supported by sources 1 and 4. Terminology localization is awkward, not an infection-status reversal."},
+    {"id":"zh-nightingale-infection","split":"held-out","verdict":"supported","note":"The Chinese basic and clinical records support infection. The generated Korean name 야응 is not a validated official localization; source language labels should be retained or canonically mapped in a later task."},
+    {"id":"ja-silverash-future","split":"held-out","verdict":"needs-answer-consistency-improvement","note":"The claim correctly describes a conditional future confrontation, but uncertainty says past-report versus future is not explicit. このままいけば, いずれは訪れるだろう and その日が来るまで establish the future/conditional sense of this line. It is not an already-completed confrontation report."},
+    {"id":"ko-shining-generalization","split":"held-out","verdict":"supported","note":"Medical and basic records support Shining being non-infected despite being Sarkaz. No reverse universal claim is made; source 1 also says the particular cause is unknown."},
+    {"id":"en-shining-unsupported-account","split":"held-out","verdict":"supported-abstention","note":"Raw model claims are empty and the uncertainty is limited to missing account information in provided evidence."}
+  ],
+  "presentationChange": "AI uncertainty is now folded and labeled meaning-unverified like AI interpretations. When no accepted citations remain, a deterministic message distinguishes model abstention/citation rejection from proof of absence in the entire archive. This changes presentation, not model outputs or the held-out prompt.",
+  "uiVerification": {
+    "browser": "Chrome",
+    "url": "http://127.0.0.1:3010/search",
+    "question": "In Exusiai's Surprise, what flavor were the candy bullets?",
+    "quoteVisible": "'Ooh, raspberry. Perfect sweetness.'",
+    "revealedInterpretation": "사탕 탄환은 라즈베리 맛이었습니다.",
+    "interpretationInitiallyClosed": true,
+    "uncertaintyInitiallyClosed": true,
+    "bothDetailsCanBeOpenedAndClosed": true,
+    "screenshot": "data/reports/answer-quality-screen-20261004.jpg",
+    "serverPid": 55580,
+    "emptyCitationPresentationBrowserTested": false
+  },
+  "limitations": [
+    "The small suite has correlated facts and does not establish general correctness.",
+    "Only selected global-v1 content was searched, with the fixed global cutoff and held content unchanged.",
+    "Exact quote validation cannot detect a wrong explanation connected to a valid quote.",
+    "Uncertainty text is generated prose and is not automatically citation- or meaning-validated.",
+    "Folding unverified explanations reduces default exposure but does not make them correct.",
+    "No automatic semantic verifier, translation-name dictionary or release monitor was added."
+  ]
+}

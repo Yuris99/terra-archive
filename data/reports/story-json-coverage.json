@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-02T02:39:08.298Z",
+  "source": {
+    "name": "050644zf/ArknightsStoryJson",
+    "url": "https://github.com/050644zf/ArknightsStoryJson.git",
+    "requestedRevision": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+    "usedExistingCheckout": false,
+    "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+    "commitDate": "2026-09-29T08:06:38Z",
+    "retrievedAtUtc": "2026-10-02T02:33:57.7398364Z",
+    "storyFormat": "astr-parsed-json",
+    "storyConverter": "https://github.com/050644zf/ASTR-Script",
+    "originalStoryTxtCommit": null,
+    "localPath": "data/raw/arknights-story-json"
+  },
+  "koreanBaselineCommit": "758c9e70c34aa56cb8e04dd84b40440c5c859a67",
+  "validationPassed": true,
+  "totalStoryFiles": 7768,
+  "totalPayloadBytes": 861009130,
+  "sharedStoryPathsAcrossCollectedLanguages": 1917,
+  "languages": [
+    {
+      "locale": "zh_CN",
+      "language": "zh",
+      "region": "cn",
+      "storyFiles": 2017,
+      "parsedStories": 2017,
+      "storiesWithText": 2016,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "storyRows": 1083047,
+      "storyBytes": 133024633,
+      "storyCorpusSha256": "b419a7cbd891a368e52023cdd458baf8e04325b92d56069a45a2a0c5da362fdc",
+      "verifiedSupportFiles": 13,
+      "supportBytes": 82028706,
+      "tables": {
+        "characters": 1374,
+        "operatorHandbooks": 439,
+        "voiceLines": 18237,
+        "modules": 905,
+        "skins": 2383
+      },
+      "sourceIndexCoverage": {
+        "indexed": 2009,
+        "available": 2009,
+        "missing": []
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverageByType": {
+        "ACTIVITY": {
+          "indexed": 1008,
+          "available": 1008
+        },
+        "MINI_ACTIVITY": {
+          "indexed": 125,
+          "available": 125
+        },
+        "MAINLINE": {
+          "indexed": 405,
+          "available": 405
+        },
+        "NONE": {
+          "indexed": 371,
+          "available": 371
+        }
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    },
+    {
+      "locale": "ja_JP",
+      "language": "ja",
+      "region": "jp",
+      "storyFiles": 1917,
+      "parsedStories": 1917,
+      "storiesWithText": 1916,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "storyRows": 1018383,
+      "storyBytes": 140874009,
+      "storyCorpusSha256": "ef97db29a39e836ccfb4cea4ec25a59719ca4e5c618684af30e31608aba85a79",
+      "verifiedSupportFiles": 13,
+      "supportBytes": 82853594,
+      "tables": {
+        "characters": 1146,
+        "operatorHandbooks": 420,
+        "voiceLines": 17413,
+        "modules": 866,
+        "skins": 2093
+      },
+      "sourceIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverageByType": {
+        "ACTIVITY": {
+          "indexed": 1008,
+          "available": 1008
+        },
+        "MINI_ACTIVITY": {
+          "indexed": 125,
+          "available": 125
+        },
+        "MAINLINE": {
+          "indexed": 405,
+          "available": 405
+        },
+        "NONE": {
+          "indexed": 371,
+          "available": 371
+        }
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    },
+    {
+      "locale": "en_US",
+      "language": "en",
+      "region": "en",
+      "storyFiles": 1917,
+      "parsedStories": 1917,
+      "storiesWithText": 1916,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "storyRows": 1018383,
+      "storyBytes": 127513296,
+      "storyCorpusSha256": "4e2f136549e7d5b762047bd2d223db4d70dd2ddfefa708831123c506a5ef0c40",
+      "verifiedSupportFiles": 13,
+      "supportBytes": 78406230,
+      "tables": {
+        "characters": 1146,
+        "operatorHandbooks": 420,
+        "voiceLines": 17413,
+        "modules": 866,
+        "skins": 2093
+      },
+      "sourceIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverageByType": {
+        "ACTIVITY": {
+          "indexed": 1008,
+          "available": 1008
+        },
+        "MINI_ACTIVITY": {
+          "indexed": 125,
+          "available": 125
+        },
+        "MAINLINE": {
+          "indexed": 405,
+          "available": 405
+        },
+        "NONE": {
+          "indexed": 371,
+          "available": 371
+        }
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    },
+    {
+      "locale": "ko_KR",
+      "language": "ko",
+      "region": "kr",
+      "storyFiles": 1917,
+      "parsedStories": 1917,
+      "storiesWithText": 1916,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "storyRows": 1018383,
+      "storyBytes": 134506326,
+      "storyCorpusSha256": "aecea4376397d04fe87d07f0acc28283f2aab7d4494b2559723cddccf8c022e9",
+      "verifiedSupportFiles": 13,
+      "supportBytes": 81802336,
+      "tables": {
+        "characters": 1146,
+        "operatorHandbooks": 420,
+        "voiceLines": 17413,
+        "modules": 866,
+        "skins": 2093
+      },
+      "sourceIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909,
+        "missing": []
+      },
+      "koreanIndexCoverageByType": {
+        "ACTIVITY": {
+          "indexed": 1008,
+          "available": 1008
+        },
+        "MINI_ACTIVITY": {
+          "indexed": 125,
+          "available": 125
+        },
+        "MAINLINE": {
+          "indexed": 405,
+          "available": 405
+        },
+        "NONE": {
+          "indexed": 371,
+          "available": 371
+        }
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "limitations": [
+    "File coverage and JSON structure are verified, not sentence-level translation alignment or original TXT fidelity.",
+    "ASTR parsed stories do not guarantee inclusion of all tutorials, battle popups or other game text.",
+    "Shared paths are alignment candidates; identical scene or line segmentation across languages is not verified.",
+    "Chinese-server-only releases require separate spoiler filtering before retrieval."
+  ]
+}

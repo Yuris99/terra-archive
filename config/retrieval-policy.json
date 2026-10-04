@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "global-only-v1",
+  "baselineLocale": "en_US",
+  "requiredGlobalLocales": ["en_US", "ko_KR", "ja_JP"],
+  "allowedLocales": ["ko_KR", "en_US", "ja_JP", "zh_CN"],
+  "globalReleaseCutoff": "2026-10-02T00:00:00+09:00",
+  "allowMissingGlobalCounterpart": false,
+  "blockFutureDatedContent": true,
+  "unknownContentRule": "exclude",
+  "exclusionScope": "globally-unreleased-content",
+  "releasedLocaleDifferences": "retain-and-mark",
+  "notes": "Exclude globally unreleased content, not locale-specific wording inside released content. Retain and annotate known locale differences. Missing global snapshot counterparts are held out conservatively as release-unverified, not certified unreleased. This selection is not live publication-status certification."
+}

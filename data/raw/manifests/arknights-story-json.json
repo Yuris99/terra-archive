@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "050644zf/ArknightsStoryJson",
+    "url": "https://github.com/050644zf/ArknightsStoryJson.git",
+    "requestedRevision": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+    "usedExistingCheckout": false,
+    "commit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+    "commitDate": "2026-09-29T08:06:38Z",
+    "retrievedAtUtc": "2026-10-02T02:33:57.7398364Z",
+    "storyFormat": "astr-parsed-json",
+    "storyConverter": "https://github.com/050644zf/ASTR-Script",
+    "originalStoryTxtCommit": null,
+    "localPath": "data/raw/arknights-story-json"
+  },
+  "selection": [
+    "/zh_CN/gamedata/story/",
+    "/zh_CN/gamedata/excel/character_table.json",
+    "/zh_CN/gamedata/excel/handbook_info_table.json",
+    "/zh_CN/gamedata/excel/charword_table.json",
+    "/zh_CN/gamedata/excel/story_table.json",
+    "/zh_CN/gamedata/excel/story_review_table.json",
+    "/zh_CN/gamedata/excel/uniequip_table.json",
+    "/zh_CN/gamedata/excel/skin_table.json",
+    "/zh_CN/gamedata/excel/activity_table.json",
+    "/zh_CN/chardict.json",
+    "/zh_CN/charinfo.json",
+    "/zh_CN/storyinfo.json",
+    "/zh_CN/wordcount.json",
+    "/zh_CN/extrastory.json",
+    "/ja_JP/gamedata/story/",
+    "/ja_JP/gamedata/excel/character_table.json",
+    "/ja_JP/gamedata/excel/handbook_info_table.json",
+    "/ja_JP/gamedata/excel/charword_table.json",
+    "/ja_JP/gamedata/excel/story_table.json",
+    "/ja_JP/gamedata/excel/story_review_table.json",
+    "/ja_JP/gamedata/excel/uniequip_table.json",
+    "/ja_JP/gamedata/excel/skin_table.json",
+    "/ja_JP/gamedata/excel/activity_table.json",
+    "/ja_JP/chardict.json",
+    "/ja_JP/charinfo.json",
+    "/ja_JP/storyinfo.json",
+    "/ja_JP/wordcount.json",
+    "/ja_JP/extrastory.json",
+    "/en_US/gamedata/story/",
+    "/en_US/gamedata/excel/character_table.json",
+    "/en_US/gamedata/excel/handbook_info_table.json",
+    "/en_US/gamedata/excel/charword_table.json",
+    "/en_US/gamedata/excel/story_table.json",
+    "/en_US/gamedata/excel/story_review_table.json",
+    "/en_US/gamedata/excel/uniequip_table.json",
+    "/en_US/gamedata/excel/skin_table.json",
+    "/en_US/gamedata/excel/activity_table.json",
+    "/en_US/chardict.json",
+    "/en_US/charinfo.json",
+    "/en_US/storyinfo.json",
+    "/en_US/wordcount.json",
+    "/en_US/extrastory.json",
+    "/ko_KR/gamedata/story/",
+    "/ko_KR/gamedata/excel/character_table.json",
+    "/ko_KR/gamedata/excel/handbook_info_table.json",
+    "/ko_KR/gamedata/excel/charword_table.json",
+    "/ko_KR/gamedata/excel/story_table.json",
+    "/ko_KR/gamedata/excel/story_review_table.json",
+    "/ko_KR/gamedata/excel/uniequip_table.json",
+    "/ko_KR/gamedata/excel/skin_table.json",
+    "/ko_KR/gamedata/excel/activity_table.json",
+    "/ko_KR/chardict.json",
+    "/ko_KR/charinfo.json",
+    "/ko_KR/storyinfo.json",
+    "/ko_KR/wordcount.json",
+    "/ko_KR/extrastory.json"
+  ],
+  "inventory": [
+    {
+      "locale": "zh_CN",
+      "language": "zh",
+      "region": "cn",
+      "storyFileCount": 2017,
+      "storyBytes": 133024633,
+      "supportFiles": [
+        {
+          "path": "zh_CN/gamedata/excel/character_table.json",
+          "bytes": 21624421,
+          "sha256": "2537e7fd00e38d079f1378ffd5caba012be12af5739db25e5a7642d5d11a7c8b"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/handbook_info_table.json",
+          "bytes": 6764415,
+          "sha256": "36208d13f890aa11f5c5217a49b5e2aaed4f90b9350b19cd8a10f2c1c8b111c9"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/charword_table.json",
+          "bytes": 13414805,
+          "sha256": "c28866f834940884ef1e4e763a7f1c5d23873850764c378547466f35f8b536d6"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/story_table.json",
+          "bytes": 1853312,
+          "sha256": "5545411f60223c23b3c271d6c74ca36dd48d613402b81ec2063c073127bfd5ce"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/story_review_table.json",
+          "bytes": 2372658,
+          "sha256": "447543f0a1f8c7d91704171e9acb11250095b0dad6dc8d43baf9885f1fe35c13"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/uniequip_table.json",
+          "bytes": 4090991,
+          "sha256": "656864aec45d4fb34d83f89e5ee7a08971a124f565984639b0cfe1731fcd52ae"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/skin_table.json",
+          "bytes": 4833070,
+          "sha256": "02db3874ca198377918c02b08da5529442ec282078e50af90d70d4e7d569fb7d"
+        },
+        {
+          "path": "zh_CN/gamedata/excel/activity_table.json",
+          "bytes": 19665245,
+          "sha256": "82ac6cc5d28e16d49dd77ad1cf603fdad291f8f615244687347a262f65de946b"
+        },
+        {
+          "path": "zh_CN/chardict.json",
+          "bytes": 20609,
+          "sha256": "6e2700a3ebee707e238b0ffb7524ddb60cfa84190b3e7a19d60003cde0416cd3"
+        },
+        {
+          "path": "zh_CN/charinfo.json",
+          "bytes": 6866441,
+          "sha256": "f0b7e0ecc47ba62b99319cd2077e1178452f74bb15a315ece0b57e02a5337d18"
+        },
+        {
+          "path": "zh_CN/storyinfo.json",
+          "bytes": 420325,
+          "sha256": "7e99b9f679834e09763f2e316ed087a68bf806b85d4316a28886bc21186f1be8"
+        },
+        {
+          "path": "zh_CN/wordcount.json",
+          "bytes": 102133,
+          "sha256": "5634589bea70951b51f588b29a1ef9b1be6f35d40d2130b393b1da00a0e69740"
+        },
+        {
+          "path": "zh_CN/extrastory.json",
+          "bytes": 281,
+          "sha256": "45ebbcea996018cf9d81090c103f9fed9a39354156c2b90a502b8a6292180734"
+        }
+      ]
+    },
+    {
+      "locale": "ja_JP",
+      "language": "ja",
+      "region": "jp",
+      "storyFileCount": 1917,
+      "storyBytes": 140874009,
+      "supportFiles": [
+        {
+          "path": "ja_JP/gamedata/excel/character_table.json",
+          "bytes": 19860710,
+          "sha256": "0030303281d2974d4efaa8f79f62ad536125fe9afa592cbf3eb7440f02c35aed"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/handbook_info_table.json",
+          "bytes": 7951012,
+          "sha256": "e2c36940e448d2679c7844389649b130268d5a2da9675cc65caf769702dd8735"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/charword_table.json",
+          "bytes": 13707393,
+          "sha256": "57ab57e4c2f6b1b70957c9f62faa8e9d230baaab77b89c15d3d732302ac4fee6"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/story_table.json",
+          "bytes": 1749929,
+          "sha256": "e40d7bb1143bccec7d543bfc7d2a6aa05b14a72193432b51d23ea07725ff7b94"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/story_review_table.json",
+          "bytes": 2262711,
+          "sha256": "4b224aca19cb0d1346c5b581b156c7017952559c4d553972f6fd8ed9489260d2"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/uniequip_table.json",
+          "bytes": 4639142,
+          "sha256": "7c791697cc0d477eab5bc90c420d79e5c81ab4ee8ae6e7e3c290cf726cac6c2d"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/skin_table.json",
+          "bytes": 4458917,
+          "sha256": "ca9a69d83aa2b887e520e3e7bfbe09cabaa825e953435a7c7399e1f723ac3176"
+        },
+        {
+          "path": "ja_JP/gamedata/excel/activity_table.json",
+          "bytes": 18816805,
+          "sha256": "ffa5a55f2da5d266a5c1e631f2ffd86a8c99d863d891036266a63d8a78bebf25"
+        },
+        {
+          "path": "ja_JP/chardict.json",
+          "bytes": 22586,
+          "sha256": "e1579baa823b8e5fbb6621a439ea4978ecad951671d45f3bdf923b4e2e12c1ec"
+        },
+        {
+          "path": "ja_JP/charinfo.json",
+          "bytes": 8706360,
+          "sha256": "715a72dac1a6c65f747216fb865899da9e424fc924589d2e08226a9fd7d90b23"
+        },
+        {
+          "path": "ja_JP/storyinfo.json",
+          "bytes": 580479,
+          "sha256": "78558a3f6f052d7d1a4c78c26f804fd0b2942ad470ff86cfa8a637483e9f7ca4"
+        },
+        {
+          "path": "ja_JP/wordcount.json",
+          "bytes": 97266,
+          "sha256": "f1a27761dc3c5baaf07c6ed4e8417d42bafc90ec292cfc1af64657f38ac11fad"
+        },
+        {
+          "path": "ja_JP/extrastory.json",
+          "bytes": 284,
+          "sha256": "80fac2afde1e90bda086ee61df146891c8ad0df32c094da790dd9a9682549c76"
+        }
+      ]
+    },
+    {
+      "locale": "en_US",
+      "language": "en",
+      "region": "en",
+      "storyFileCount": 1917,
+      "storyBytes": 127513296,
+      "supportFiles": [
+        {
+          "path": "en_US/gamedata/excel/character_table.json",
+          "bytes": 19784975,
+          "sha256": "09c10291146cd22a81b7d1cb4193b0b54b6ba68d95b661b8d07dd2ad6755690a"
+        },
+        {
+          "path": "en_US/gamedata/excel/handbook_info_table.json",
+          "bytes": 6803263,
+          "sha256": "58835489f1882a8d09c19f6971e45c253d31d06a273e4902ceac57d71e36e637"
+        },
+        {
+          "path": "en_US/gamedata/excel/charword_table.json",
+          "bytes": 13054350,
+          "sha256": "f2e4fe42532a9e48fc5fa73e45e054a94e77fc0caf0020a9663295e64bc5910c"
+        },
+        {
+          "path": "en_US/gamedata/excel/story_table.json",
+          "bytes": 1749929,
+          "sha256": "e40d7bb1143bccec7d543bfc7d2a6aa05b14a72193432b51d23ea07725ff7b94"
+        },
+        {
+          "path": "en_US/gamedata/excel/story_review_table.json",
+          "bytes": 2272824,
+          "sha256": "9ef756cf984a239b494105d789a7007405bceff8242e456f11b9be7fab3fe17e"
+        },
+        {
+          "path": "en_US/gamedata/excel/uniequip_table.json",
+          "bytes": 4188662,
+          "sha256": "1687abd71512ea3647ed782a809191440ef409e5f6a1bc7e36e8c1f6c62ec8d4"
+        },
+        {
+          "path": "en_US/gamedata/excel/skin_table.json",
+          "bytes": 4371411,
+          "sha256": "86e390810cf79d253f75b3c0a2f127bc1973c6afcb073d9894c0912525316aef"
+        },
+        {
+          "path": "en_US/gamedata/excel/activity_table.json",
+          "bytes": 18461732,
+          "sha256": "dc68a608c01801dabc26e02e1b315307419b79f6d9be666dc64937ff0a696072"
+        },
+        {
+          "path": "en_US/chardict.json",
+          "bytes": 20028,
+          "sha256": "7fe09417df6d4bfa7b74a20f0b17d29773c96af52997953fd5168030fedc093d"
+        },
+        {
+          "path": "en_US/charinfo.json",
+          "bytes": 7143524,
+          "sha256": "6b2927111ff58a2a4d890c38337ab8cfd418fef03ab8bb352a82710f31daf61c"
+        },
+        {
+          "path": "en_US/storyinfo.json",
+          "bytes": 458388,
+          "sha256": "bc31b14eafd1d331cfaeb4f89d2c142b1eda7ac98e134224633bf2e6c0ac25a9"
+        },
+        {
+          "path": "en_US/wordcount.json",
+          "bytes": 96863,
+          "sha256": "9ebd75f27c050bb1ff783ee23cf18156befb5398585f8f1911cf131ef9290576"
+        },
+        {
+          "path": "en_US/extrastory.json",
+          "bytes": 281,
+          "sha256": "ac33b6f4fdfee50b24f111777093b1caa9858591a915ab9bc1056c3e4b703e3e"
+        }
+      ]
+    },
+    {
+      "locale": "ko_KR",
+      "language": "ko",
+      "region": "kr",
+      "storyFileCount": 1917,
+      "storyBytes": 134506326,
+      "supportFiles": [
+        {
+          "path": "ko_KR/gamedata/excel/character_table.json",
+          "bytes": 19836317,
+          "sha256": "2a70913db86ca7d3ed537802450da7795b18ba057b233ca8a19fc366c04bed5e"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/handbook_info_table.json",
+          "bytes": 7798552,
+          "sha256": "4f773a14df6064f36350e649b211ea6f74933be4275cff84324830d5c0352086"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/charword_table.json",
+          "bytes": 13574299,
+          "sha256": "baf2d0a301a1faa8e8a71b7e9cd1661579d529373fdb13a7758b480bf8cc2ef1"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/story_table.json",
+          "bytes": 1749929,
+          "sha256": "e40d7bb1143bccec7d543bfc7d2a6aa05b14a72193432b51d23ea07725ff7b94"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/story_review_table.json",
+          "bytes": 2267062,
+          "sha256": "af302a16e00b3497e45c2db574e4b49c25076d0687ceb3de6b3a4a55f18ff8a7"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/uniequip_table.json",
+          "bytes": 4453298,
+          "sha256": "720077dcf22fc4ce23dc89cd721e750e72c2811d53f2b18f82a7aa764902fe8a"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/skin_table.json",
+          "bytes": 4464887,
+          "sha256": "09d47764fa2e942f88c5a012e372cb5e992b572fcb341620871a1af4634d9316"
+        },
+        {
+          "path": "ko_KR/gamedata/excel/activity_table.json",
+          "bytes": 18607133,
+          "sha256": "3b78c4d196eb0731f7806edcf2df3d40c586ce80c941cecc04188fb7a78022e9"
+        },
+        {
+          "path": "ko_KR/chardict.json",
+          "bytes": 21511,
+          "sha256": "9ec67119af991abc1918f631725dcd88d80f226297abe027e1a4d12c38e9218c"
+        },
+        {
+          "path": "ko_KR/charinfo.json",
+          "bytes": 8393387,
+          "sha256": "2f52b8b55776b2f71c120d6bbcfee561854de7441b49c2c8ace756508b227b6e"
+        },
+        {
+          "path": "ko_KR/storyinfo.json",
+          "bytes": 538367,
+          "sha256": "4de69f069b3313f84c6fe7e68d320ceb8e111dfde6ea19be080f77dc33e01c8e"
+        },
+        {
+          "path": "ko_KR/wordcount.json",
+          "bytes": 97309,
+          "sha256": "99b61b4feb295779861a929fe7001130b6b276d7eb76f19d6d0068ca019479ab"
+        },
+        {
+          "path": "ko_KR/extrastory.json",
+          "bytes": 285,
+          "sha256": "057b5fa2ad9ac6becfc37e0daa4e3d3b6aed165c5414a167c55eb62730a030da"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-02T05:41:39.757Z",
+  "sourceCommit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+  "validationPassed": true,
+  "verifiedSourceFiles": 7820,
+  "auditedDocuments": 105101,
+  "auditedSourceTextFields": 1694340,
+  "auditedSegments": 1694340,
+  "sharedStoriesAcrossAllLocales": 1917,
+  "chineseOnlyStoriesInCollectedSnapshot": 100,
+  "locales": [
+    {
+      "locale": "zh_CN",
+      "counts": {
+        "story": 2017,
+        "profile": 3745,
+        "voice": 18300,
+        "module": 905,
+        "skin": 2383
+      },
+      "extraVoices": 63,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "sourceIndexCoverage": {
+        "indexed": 2009,
+        "available": 2009
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    },
+    {
+      "locale": "ja_JP",
+      "counts": {
+        "story": 1917,
+        "profile": 3585,
+        "voice": 17456,
+        "module": 866,
+        "skin": 2093
+      },
+      "extraVoices": 43,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "sourceIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    },
+    {
+      "locale": "en_US",
+      "counts": {
+        "story": 1917,
+        "profile": 3585,
+        "voice": 17456,
+        "module": 866,
+        "skin": 2093
+      },
+      "extraVoices": 43,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "sourceIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    },
+    {
+      "locale": "ko_KR",
+      "counts": {
+        "story": 1917,
+        "profile": 3585,
+        "voice": 17456,
+        "module": 866,
+        "skin": 2093
+      },
+      "extraVoices": 43,
+      "textlessScenes": [
+        {
+          "path": "obt/main/level_main_14-20_beg.json",
+          "kind": "video-only"
+        }
+      ],
+      "sourceIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "koreanIndexCoverage": {
+        "indexed": 1909,
+        "available": 1909
+      },
+      "recoveredKoreanGaps": [
+        {
+          "groupId": "act24side",
+          "indexed": 19,
+          "available": 19
+        },
+        {
+          "groupId": "act13mini",
+          "indexed": 6,
+          "available": 6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Validation covers selected ASTR JSON and table fields, not every text ever present in the game.",
+    "Readable text normalization is tested but original TXT fidelity and sentence-level translation alignment are not certified.",
+    "No retrieval chunks, search index, spoiler filter or RAG answer generation is created in this phase."
+  ]
+}

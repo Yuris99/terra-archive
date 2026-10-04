@@ -1,0 +1,11 @@
+{
+  "id": "qwen3-local-512-v1",
+  "model": "qwen3-embedding:0.6b",
+  "modelDigest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+  "dimensions": 512,
+  "contextTokens": 4096,
+  "batchSize": 32,
+  "queryInstruction": "Given a question about Arknights, retrieve passages that directly answer the question.",
+  "documentFormat": "title-group-operator-code-body-v1",
+  "automaticDownload": false
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-02T05:41:18.547Z",
+  "sourceCommit": "afa898dccac71a9b9f2be9258e7bd92931197ed9",
+  "status": "validated",
+  "totalDocuments": 105101,
+  "totalSegments": 1694340,
+  "outputBytes": 516212516,
+  "canonicalDocuments": 27350,
+  "sharedStoriesAcrossAllLocales": 1917,
+  "chineseOnlyStoriesInCollectedSnapshot": 100,
+  "locales": [
+    {
+      "locale": "zh_CN",
+      "counts": {
+        "story": 2017,
+        "profile": 3745,
+        "voice": 18300,
+        "module": 905,
+        "skin": 2383
+      }
+    },
+    {
+      "locale": "ja_JP",
+      "counts": {
+        "story": 1917,
+        "profile": 3585,
+        "voice": 17456,
+        "module": 866,
+        "skin": 2093
+      }
+    },
+    {
+      "locale": "en_US",
+      "counts": {
+        "story": 1917,
+        "profile": 3585,
+        "voice": 17456,
+        "module": 866,
+        "skin": 2093
+      }
+    },
+    {
+      "locale": "ko_KR",
+      "counts": {
+        "story": 1917,
+        "profile": 3585,
+        "voice": 17456,
+        "module": 866,
+        "skin": 2093
+      }
+    }
+  ],
+  "warnings": [],
+  "validationReport": "data/reports/normalized-validation.json",
+  "validatedAtUtc": "2026-10-02T05:41:39.757Z"
+}

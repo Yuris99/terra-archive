@@ -1,0 +1,74 @@
+{
+  "generatedAtUtc": "2026-10-04T06:39:22.492Z",
+  "validationPassed": true,
+  "cases": [
+    {
+      "name": "validated corpus and local models available",
+      "status": 200
+    },
+    {
+      "name": "Korean literal story search",
+      "status": 200
+    },
+    {
+      "name": "original document with four language variants",
+      "status": 200
+    },
+    {
+      "name": "invalid locale rejected",
+      "status": 400
+    },
+    {
+      "name": "invalid pagination rejected",
+      "status": 400
+    },
+    {
+      "name": "unknown retrieval mode rejected",
+      "status": 400
+    },
+    {
+      "name": "external-origin search requests blocked",
+      "status": 403
+    },
+    {
+      "name": "cross-site browser GET without Origin blocked",
+      "status": 403
+    },
+    {
+      "name": "path traversal rejected",
+      "status": 400
+    },
+    {
+      "name": "held chapter 17 inaccessible",
+      "status": 404
+    },
+    {
+      "name": "external-origin model requests blocked",
+      "status": 403
+    },
+    {
+      "name": "oversized requests blocked",
+      "status": 413
+    },
+    {
+      "name": "no evidence means no model invocation",
+      "status": 200
+    },
+    {
+      "name": "natural-language hybrid retrieval",
+      "status": 200
+    },
+    {
+      "name": "pure semantic mode remains available",
+      "status": 200
+    },
+    {
+      "name": "last hybrid page is accessible",
+      "status": 200
+    },
+    {
+      "name": "semantic pagination bounded",
+      "status": 400
+    }
+  ]
+}

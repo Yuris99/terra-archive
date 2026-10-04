@@ -1,0 +1,60 @@
+{
+  "reviewDateKst": "2026-10-04",
+  "reviewer": "assistant source-context review",
+  "sourceReport": "semantic-rag-evaluation.json",
+  "sourceReportGeneratedAtUtc": "2026-10-04T01:58:30.200Z",
+  "sourceReportSha256": "8583986d2d63805699a12a6d933814042991124fe68dfd34f02cf44f160ba75c",
+  "executionCompleted": "5/5",
+  "positiveExpectedSourcesCited": "4/4",
+  "acceptedExactCitations": 4,
+  "corePositiveAnswersCorrect": "4/4",
+  "fullySupportedPositiveExplanations": "3/4",
+  "unsupportedQuestionModelAbstained": true,
+  "verdict": "needs-attribution-improvement",
+  "automatedSemanticValidationPassed": null,
+  "cases": [
+    {
+      "id": "ko-leader",
+      "verdict": "supported-in-provided-context",
+      "note": "Official leader and highest executive authority are directly stated in the cited profile. The caveat limits the answer to the supplied evidence."
+    },
+    {
+      "id": "ko-instrument",
+      "verdict": "supported-in-provided-context",
+      "note": "The cited Amiya voice line directly states that she resumed violin practice and calls it a secret."
+    },
+    {
+      "id": "ko-nyamu",
+      "verdict": "supported-in-provided-context",
+      "note": "The surrounding narration and Nyamu dialogue in the cited chunk support finding drumsticks in the bookshelf corner."
+    },
+    {
+      "id": "en-candy",
+      "verdict": "correct-flavor-with-unsupported-attribution",
+      "claim": "Exusiai가 언급한 캔디 탄환은 라즈베리 맛입니다.",
+      "issue": "Raspberry is correct, but the extra attribution Exusiai가 언급한 is not established by the supplied dialogue. The speaker addresses Lemuel and says You may go, Ms. Lemuel. Module ownership and groupName do not identify a speaker.",
+      "reviewSuggestedWording": "해당 기록에서 캔디 탄환을 맛본 사람은 라즈베리 맛이며 적당히 달다고 말합니다.",
+      "suggestionAppliedToProduct": false
+    },
+    {
+      "id": "unsupported-personal-id",
+      "verdict": "appropriate-abstention-in-provided-context",
+      "note": "Both raw and validated claims are empty. The model says the supplied material contains no such identifier; this was not merely fabricated claims hidden by quote rejection."
+    }
+  ],
+  "browserSmoke": {
+    "url": "http://127.0.0.1:3010/search",
+    "browser": "Chrome",
+    "case": "ko-instrument",
+    "quoteVisible": true,
+    "interpretationFoldedAndMarkedUnverified": true,
+    "screenshot": "ai-screen-20261004.jpg"
+  },
+  "limitations": [
+    "Small previously used development questions, not independent or general answer accuracy.",
+    "Review is based on supplied source contexts, not an exhaustive lore audit.",
+    "No automatic semantic entailment verifier is implemented.",
+    "Unseen, multi-scene, branch-sensitive and broad unsupported questions remain untested in this run.",
+    "Runtime changes and prompt changes were not applied to the product."
+  ]
+}

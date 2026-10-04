@@ -1,0 +1,32 @@
+{
+  "generatedAtUtc": "2026-10-03T14:30:13.423Z",
+  "model": "gemma4:12b",
+  "retrieval": {
+    "ready": true,
+    "chunks": 206048,
+    "model": "qwen3-embedding:0.6b",
+    "dimensions": 512,
+    "hybridRanking": "metadata-focused-rrf-v1"
+  },
+  "quoteValidationPassed": null,
+  "semanticValidationPassed": null,
+  "requestedCases": 5,
+  "completedCases": 0,
+  "executionPassed": false,
+  "executionError": "로컬 AI 모델 준비·답변 생성이 3분 제한을 넘었습니다. 본문 검색은 별도로 사용할 수 있습니다. 잠시 후 다시 시도하세요.",
+  "inferenceOptions": {
+    "num_ctx": 8192,
+    "num_batch": 256
+  },
+  "cases": [
+    {
+      "id": "ko-leader",
+      "error": "로컬 AI 모델 준비·답변 생성이 3분 제한을 넘었습니다. 본문 검색은 별도로 사용할 수 있습니다. 잠시 후 다시 시도하세요."
+    }
+  ],
+  "limitations": [
+    "Four targeted positive questions and one unsupported question, not general semantic accuracy.",
+    "Nearest semantic candidates exist even when an answer is unsupported; no calibrated similarity abstention threshold.",
+    "Exact quote validation does not prove that AI interpretations are entailed by the quotes."
+  ]
+}

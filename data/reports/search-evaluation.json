@@ -1,0 +1,52 @@
+{
+  "generatedAtUtc": "2026-10-02T15:08:23.937Z",
+  "validationPassed": true,
+  "cases": [
+    {
+      "locale": "ko_KR",
+      "query": "살카즈",
+      "total": 1858,
+      "elapsedMs": 809
+    },
+    {
+      "locale": "en_US",
+      "query": "Sarkaz",
+      "total": 2505,
+      "elapsedMs": 772
+    },
+    {
+      "locale": "ja_JP",
+      "query": "サルカズ",
+      "total": 1849,
+      "elapsedMs": 833
+    },
+    {
+      "locale": "zh_CN",
+      "query": "萨卡兹",
+      "total": 1539,
+      "elapsedMs": 747
+    },
+    {
+      "locale": "ko_KR",
+      "query": "불을 쫓는 낙엽",
+      "total": 161
+    },
+    {
+      "locale": "ko_KR",
+      "query": "오랜만",
+      "total": 542
+    }
+  ],
+  "tested": {
+    "heldCanonicalRecords": 1433,
+    "videoOnlyLocales": 4,
+    "propagatedAnnotations": 1,
+    "supplementalKoreanGroups": 2,
+    "invalidPathsRejected": true,
+    "invalidQueriesRejected": true
+  },
+  "limitations": [
+    "These are literal-search smoke checks, not a semantic retrieval benchmark or full question-answer evaluation.",
+    "Source conditions are preserved; complete game branch routes are not interpreted."
+  ]
+}
