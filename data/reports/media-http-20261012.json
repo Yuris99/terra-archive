@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-12T09:04:30.070Z",
+  "base": "http://127.0.0.1:3010",
+  "passed": true,
+  "checks": [
+    "catalog matches local allowlist",
+    "operator illustration and Korean voice mapping",
+    "image and voice stream original bytes with Range and HEAD",
+    "invalid range rejected",
+    "story explicitly referenced CG and background",
+    "unknown, held-out, prototype, and traversal requests rejected",
+    "Korean image subset and PNG stream"
+  ],
+  "summary": {
+    "operators": 415,
+    "illustrations": 1273,
+    "voiceFiles": 64228,
+    "stories": 1909,
+    "storyImages": 2385,
+    "unmatchedStoryReferences": 1372,
+    "koreanImages": 43,
+    "allowedFiles": 67929
+  }
+}

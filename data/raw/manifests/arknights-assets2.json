@@ -1,0 +1,123 @@
+{
+    "source":  "https://github.com/ArknightsAssets/ArknightsAssets2",
+    "retrievedAt":  "2026-10-12",
+    "note":  "Original asset files from upstream branches. Raw assets are excluded from this project Git repository; Git history for the downloaded source checkouts was removed after verification to reclaim space.",
+    "images":  {
+                   "en":  {
+                              "branch":  "en",
+                              "commit":  "a35da5eef942e49263177a79b8983652f7ee507d",
+                              "path":  "data/raw/arknights-assets2/en/assets/dyn/{arts,avg}",
+                              "files":  45401,
+                              "bytes":  19851612300,
+                              "arts":  {
+                                           "files":  30634,
+                                           "bytes":  8204326353
+                                       },
+                              "avg":  {
+                                          "files":  14767,
+                                          "bytes":  11647285947
+                                      }
+                          },
+                   "cn":  {
+                              "branch":  "cn",
+                              "commit":  "44b3d7b3fad6f50ca505bc41414a2fea8eaa0c48",
+                              "path":  "data/raw/arknights-assets2/cn/assets/dyn/{arts,avg}",
+                              "files":  51373,
+                              "bytes":  23032261694,
+                              "arts":  {
+                                           "files":  34677,
+                                           "bytes":  9210279674
+                                       },
+                              "avg":  {
+                                          "files":  16696,
+                                          "bytes":  13821982020
+                                      }
+                          }
+               },
+    "audio":  {
+                  "branch":  "voice",
+                  "commit":  "33a5327f9c01512f0c14a9407de303920db16125",
+                  "path":  "data/raw/arknights-assets2/voice/assets/dyn/audio",
+                  "files":  76098,
+                  "bytes":  6673061248,
+                  "includes":  "All audio categories on the voice branch, including operator voices, music, ambience, dialog, battle, enemy and other sound effects.",
+                  "sound_beta_2":  {
+                                       "ambience":  {
+                                                        "files":  149,
+                                                        "bytes":  3721367
+                                                    },
+                                       "avg":  {
+                                                   "files":  1319,
+                                                   "bytes":  64151897
+                                               },
+                                       "battle":  {
+                                                      "files":  163,
+                                                      "bytes":  4894337
+                                                  },
+                                       "beta1leaveover":  {
+                                                              "files":  12,
+                                                              "bytes":  389045
+                                                          },
+                                       "construction":  {
+                                                            "files":  43,
+                                                            "bytes":  2012944
+                                                        },
+                                       "customse":  {
+                                                        "files":  550,
+                                                        "bytes":  15199940
+                                                    },
+                                       "dialog":  {
+                                                      "files":  4,
+                                                      "bytes":  991991
+                                                  },
+                                       "enemy":  {
+                                                     "files":  3198,
+                                                     "bytes":  52159621
+                                                 },
+                                       "general":  {
+                                                       "files":  298,
+                                                       "bytes":  12641690
+                                                   },
+                                       "info":  {
+                                                    "files":  4,
+                                                    "bytes":  38209
+                                                },
+                                       "music":  {
+                                                     "files":  1025,
+                                                     "bytes":  1391913967
+                                                 },
+                                       "player":  {
+                                                      "files":  2872,
+                                                      "bytes":  47741475
+                                                  },
+                                       "voice":  {
+                                                     "files":  17172,
+                                                     "bytes":  1460926929
+                                                 },
+                                       "voice_cn":  {
+                                                        "files":  16368,
+                                                        "bytes":  1081837817
+                                                    },
+                                       "voice_custom":  {
+                                                            "files":  2280,
+                                                            "bytes":  167881877
+                                                        },
+                                       "voice_en":  {
+                                                        "files":  15301,
+                                                        "bytes":  1094940910
+                                                    },
+                                       "voice_kr":  {
+                                                        "files":  15297,
+                                                        "bytes":  1270436089
+                                                    },
+                                       "vox":  {
+                                                   "files":  43,
+                                                   "bytes":  1181143
+                                               }
+                                   }
+              },
+    "totals":  {
+                   "files":  172872,
+                   "bytes":  49556935242
+               }
+}

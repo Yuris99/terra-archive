@@ -2,6 +2,8 @@
 # The build input copied to site/data is versioned separately.
 data/raw/arknights-gamedata/
 data/raw/arknights-story-json/
+data/raw/arknights-assets2/
+.cache/
 data/normalized/
 data/indexes/
 data/retrieval/

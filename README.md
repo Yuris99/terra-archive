@@ -28,6 +28,8 @@
 
 원본은 `data/raw/arknights-gamedata`에 내려받으며 Git에 포함하지 않습니다. 출처 커밋과 수집 결과만 `data/raw/manifests`에 기록합니다.
 
+이미지·음성 보관본은 로컬 `/media` 화면에 연결했습니다. EN/CN 중복 정리로 약 16.4GB를 확보했고, 한국어 배너·표지는 약 62.6MB만 추가했습니다. 공개 범위·연결 수량·실행 방법은 [미디어 안내](docs/media.md)에 있습니다.
+
 다국어 자료는 [`050644zf/ArknightsStoryJson`](https://github.com/050644zf/ArknightsStoryJson)에서 별도로 수집합니다.
 
 - 필수 언어: 중국어 간체(`zh_CN`), 일본어(`ja_JP`), 영어(`en_US`)

@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-12T08:42:01.792Z",
+  "mode": "applied",
+  "method": "sha256-verified-ntfs-hard-links",
+  "files": 96774,
+  "logicalBytes": 42883873994,
+  "comparedFiles": 75722,
+  "duplicates": 37568,
+  "linked": 37568,
+  "reclaimableBytes": 16412313297,
+  "reclaimedBytes": 16412313297,
+  "pathsPreserved": true,
+  "detailedIndex": "data/raw/arknights-assets2/.storage-index.json",
+  "note": "Identical original files share disk storage. Their paths and contents are retained. Treat raw assets as immutable; editing a hard-linked file affects every linked path."
+}

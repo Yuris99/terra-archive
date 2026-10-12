@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { MediaPanel } from "@/components/media-panel";
 
 type Mark = { id: string; label: string; note: string };
 type Chunk = { id: string; ordinal?: number; text: string; annotations: Mark[]; warnings: string[];
@@ -119,7 +120,7 @@ export default function SearchExplorer() {
       <div className="mx-auto flex max-w-[1440px] flex-wrap items-center justify-between gap-4 px-5 py-6">
         <div><p className="font-mono text-xs tracking-widest text-cyan-200">TERRA ARCHIVE / LOCAL RESEARCH</p>
           <h1 className="mt-2 text-2xl font-semibold">세계관 본문 검색</h1></div>
-        <Link href="/" className="archive-chip text-sm text-slate-300">기존 한국어 수집 현황 보기</Link>
+        <nav className="flex flex-wrap gap-3"><Link href="/media" className="archive-chip text-sm text-cyan-200">이미지 · 음성</Link><Link href="/" className="archive-chip text-sm text-slate-300">기존 한국어 수집 현황 보기</Link></nav>
       </div>
     </header>
     <div className="mx-auto max-w-[1440px] space-y-6 px-5 pt-7">
@@ -164,6 +165,7 @@ export default function SearchExplorer() {
             {opening && <p role="status" className="text-sm text-cyan-200">문서를 여는 중…</p>}
             {!view && <p className="text-sm text-slate-400">검색 결과의 제목을 누르면 원문 순서대로 읽을 수 있습니다. 언어별 문장 수는 다를 수 있으며, 문장 단위 번역 대응은 보장하지 않습니다.</p>}
             {view && <><h3 className="text-xl">{view.document.title}</h3>
+              <details className="border-y border-white/10 py-3"><summary className="cursor-pointer text-sm text-cyan-200">연결된 이미지 · 음성 보기</summary><div className="mt-4"><MediaPanel key={view.document.id} documentId={view.document.id} /></div></details>
               <div className="flex flex-wrap gap-2">{view.variants.map((variant) => <button key={variant.locale} className={`${controlClass} text-sm ${variant.locale === view.document.locale ? "border-cyan-300 text-cyan-200" : ""}`} disabled={opening} onClick={() => void openDocument(variant.documentId)}>{locales.find((entry) => entry.id === variant.locale)?.name}</button>)}</div>
               <details className="break-all text-xs text-slate-400"><summary className="cursor-pointer">출처와 자료 버전</summary>
                 <p className="mt-2">파일: {view.document.source.path}</p><p>버전: {view.document.source.commit}</p><p>원문 지문: {view.document.source.sha256}</p></details>

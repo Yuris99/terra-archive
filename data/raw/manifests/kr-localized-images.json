@@ -1,0 +1,2580 @@
+{
+  "retrievedAt": "2026-10-12T08:48:37.305603+00:00",
+  "source": "https://ark-kr-static-online-1300509597.yo-star.com/assetbundle/official/Android",
+  "resourceVersion": "26-09-28-08-03-35_2dcf61",
+  "clientVersion": "36.7.22",
+  "scope": [
+    "spritepack/ui_home_act_banner_",
+    "arts/ui/stage/[uc]homeentry",
+    "spritepack/ui_zone_home_theme_"
+  ],
+  "downloadBudget": 67108864,
+  "outputBudget": 536870912,
+  "unityPyVersion": "1.25.4",
+  "metadataSha256": "501bbf2a1257975c97cf54291fefa16e30ca9ce58fb8b3e848874473a84bd3d0",
+  "complete": true,
+  "packs": [
+    {
+      "name": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "md5": "8e43527fdb84e943896d10a5976dd75c",
+      "downloadBytes": 2944694,
+      "md5Verified": true,
+      "images": 32
+    },
+    {
+      "name": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "md5": "2cb5dee71af379dd0f58fbc9ef222291",
+      "downloadBytes": 7286675,
+      "md5Verified": true,
+      "images": 84
+    },
+    {
+      "name": "spritepack/ui_home_act_banner_zone_0.ab",
+      "md5": "9c42b00aa12c03da97da60746df2ac48",
+      "downloadBytes": 1175960,
+      "md5Verified": true,
+      "images": 19
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act20mini.ab",
+      "md5": "186c975ba8318b6624ea78bec1823079",
+      "downloadBytes": 467511,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act2autochess.ab",
+      "md5": "d3eb08678060d678913a6fab0a878c10",
+      "downloadBytes": 476176,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act2break.ab",
+      "md5": "3681e982c3e050aabccf265b21252a48",
+      "downloadBytes": 246272,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act3enemyduel.ab",
+      "md5": "fcc9735072daf7fea6f25d1552db04f5",
+      "downloadBytes": 42002,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act40sre.ab",
+      "md5": "3da19869cbfd4b7851ef7ded858cbc55",
+      "downloadBytes": 487670,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act41sre.ab",
+      "md5": "a695475e5897dc6f930ac47a8c56040a",
+      "downloadBytes": 471826,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act48side.ab",
+      "md5": "96871976da806572365f8d78e8790414",
+      "downloadBytes": 477535,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act49side.ab",
+      "md5": "4bfc99e15c83bb5bb3b8b185ea2b3df8",
+      "downloadBytes": 607982,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_act51side.ab",
+      "md5": "fe347dbfc5f97e8930b5a4f0a6ed2f3b",
+      "downloadBytes": 558431,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_main_10.ab",
+      "md5": "f9c28498662dfbdbaef010d24f8f9e8a",
+      "downloadBytes": 456849,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_main_11.ab",
+      "md5": "276a14dea9afcfdd0fc80be07854d754",
+      "downloadBytes": 395183,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_main_12.ab",
+      "md5": "b9e2d1d5875c787a81e26d0ef80cd7fb",
+      "downloadBytes": 357159,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_main_13.ab",
+      "md5": "b3e1aacb0c17154c47d9d36a979b7043",
+      "downloadBytes": 415008,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_main_9.ab",
+      "md5": "3062be30a43b2a848a9827476eea05bd",
+      "downloadBytes": 462564,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_1_entry_display_1.ab",
+      "md5": "bd27627d65d0de97dadc7e4a4d839737",
+      "downloadBytes": 532052,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_1_entry_display_2.ab",
+      "md5": "22e17cee6808d63302c6f5f3c567e9ac",
+      "downloadBytes": 510339,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_1_entry_display_3.ab",
+      "md5": "5fbdcc5c5fca669a1091e7e7c2e62b29",
+      "downloadBytes": 539988,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_1_entry_display_4.ab",
+      "md5": "d44749df6abf23ae08dd2b4bbf08568b",
+      "downloadBytes": 538553,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_2_entry_display_1.ab",
+      "md5": "87d89e85c9634464962fff91e67c724d",
+      "downloadBytes": 502653,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_2_entry_display_2.ab",
+      "md5": "0d72f5c4919bfff4fa811e4f85b4c4fb",
+      "downloadBytes": 460186,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_2_entry_display_3.ab",
+      "md5": "16e9c4866bbd6783f5874df5f7180019",
+      "downloadBytes": 507966,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_2_entry_display_4.ab",
+      "md5": "6803596dd5100332f31d55f238c97209",
+      "downloadBytes": 491774,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_3_entry_display_1.ab",
+      "md5": "55800b43b0350bf534f749b6d86a957f",
+      "downloadBytes": 450789,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_3_entry_display_2.ab",
+      "md5": "be61c27c136f7f0773bbb24eb1065fdf",
+      "downloadBytes": 506833,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_3_entry_display_3.ab",
+      "md5": "da5c2a519bdaae247c884cc6d8f005ec",
+      "downloadBytes": 523118,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_4_entry_display_1.ab",
+      "md5": "8636ee1772cae9f631edd8f889c9517c",
+      "downloadBytes": 471081,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_4_entry_display_2.ab",
+      "md5": "30dad7e286d15a79eac60820b07f70a4",
+      "downloadBytes": 455818,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_4_entry_display_3.ab",
+      "md5": "4a0bd6282f527cd1924ab5a32d0ae7ce",
+      "downloadBytes": 430371,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_4_entry_display_4.ab",
+      "md5": "ff1e6ccfa048fbc9832e26849a597dfa",
+      "downloadBytes": 455337,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_5_entry_display_1.ab",
+      "md5": "277dfce508d319667270eaa6060c0d32",
+      "downloadBytes": 535376,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_5_entry_display_2.ab",
+      "md5": "a6d612a16de481ee0c97aea9c221f37b",
+      "downloadBytes": 532102,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_5_entry_display_3.ab",
+      "md5": "273496c48c301c9d8c0eded56dac4670",
+      "downloadBytes": 533062,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_rogue_5_entry_display_4.ab",
+      "md5": "d7a2fbbbd4c5a797cca9f2491e989bbf",
+      "downloadBytes": 549562,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_sandbox_1_entry_display_1.ab",
+      "md5": "f3cb0ae0c5ee30532413cc16cf624899",
+      "downloadBytes": 382231,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_sandbox_1_entry_display_2.ab",
+      "md5": "7362b81ded78ddb827c0361c69f96dd8",
+      "downloadBytes": 444686,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "spritepack/ui_zone_home_theme_sandbox_1_entry_display_3.ab",
+      "md5": "26f83c741eeac5a43881021accd93a58",
+      "downloadBytes": 401499,
+      "md5Verified": true,
+      "images": 1
+    },
+    {
+      "name": "arts/ui/stage/[uc]homeentry.ab",
+      "md5": "95e01a9a503abb30510bf5af3fd0aab2",
+      "downloadBytes": 682834,
+      "md5Verified": true,
+      "images": 26
+    },
+    {
+      "name": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "md5": "4579a39f7e21a35ff0635691e986e082",
+      "downloadBytes": 2743102,
+      "md5Verified": true,
+      "images": 30
+    }
+  ],
+  "images": [
+    {
+      "name": "picNorm_18_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_18_0_2_-6841708515932287485.png",
+      "sha256": "7b507c23f69ae84262c5bc0067350564c154bda02327d38c5f749d6b4a4df142",
+      "bytes": 196957,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_30_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_30_0_4_-6285614574327067560.png",
+      "sha256": "9af8bef0dc28617959409f922e2a802c27b05511e1286f608aba29213a5c4b72",
+      "bytes": 185432,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_27_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_27_0_5_-5926698152280416145.png",
+      "sha256": "18da18f5d4a4a9c1af3ef207a66ae5240102e40f8574cac44be1093128c96ab9",
+      "bytes": 189913,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picSingle_71_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picSingle_71_0_5_-5577805996682502020.png",
+      "sha256": "05d714794799729d5a1a01924dc93a178a9d5ad02ef075aa48eec118c750333f",
+      "bytes": 189366,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picReturn_71_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picReturn_71_0_1_-5327189726493301864.png",
+      "sha256": "ec824d8dc15f32573d891faf56fa56ff45e41606370708af9668302dd2d30a97",
+      "bytes": 190911,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNORM_27_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNORM_27_0_2_-4649373929289052082.png",
+      "sha256": "c3eafd99e6884e8e53a9091ceb33b941774119dcc9453ca729f1af82996c7da9",
+      "bytes": 210329,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNORM_58_0_8",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNORM_58_0_8_-4342368682018978713.png",
+      "sha256": "0aeaa916be01d690edf4ef28aca96f563b4d66517eb100c1a6d6c201d0451d7b",
+      "bytes": 206668,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picLimited_27_0_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picLimited_27_0_3_-3705058899114659113.png",
+      "sha256": "4c94ae2e9fcfdb530dcf034b4b8384e0fcfc0f0f65282180872fc9d5c97285f6",
+      "bytes": 178512,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picBoot_0_1_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picBoot_0_1_3_-2906708001270961855.png",
+      "sha256": "b2f19d5903d5b9528f521dfaf9028df0900fc1ac241da97b110b4c81cb55a647",
+      "bytes": 176776,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNORM_58_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNORM_58_0_5_-2811984352255796246.png",
+      "sha256": "12bdb795524e4479f8b3d242b65e33c5c462c1c232dac8b069380859a758481e",
+      "bytes": 202518,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picSingle_72_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picSingle_72_0_1_-2443904791286348556.png",
+      "sha256": "220bfe0a901f03767b66c7f6cc64e7d824e1187f04b9986f5460c0d34456a1a7",
+      "bytes": 190313,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_71_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picDouble_71_0_4_-2305716128023760073.png",
+      "sha256": "83a9c863ce546ca0d1d0c64233f8b3535ed183712aa0ab0abc8be57b899dd8e8",
+      "bytes": 181690,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_17_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_17_0_5_-2303947819673345256.png",
+      "sha256": "7734d657ab2e71657ccd2b003ea0335bed106efedb501325fed9e0c68a1ad4e5",
+      "bytes": 207754,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_26_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_26_0_4_-628012508859851168.png",
+      "sha256": "00ed84e719eedb27bd9a47da3a4f8873adafddbb1b9b1eb3e152e2ee6be9f170",
+      "bytes": 185427,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_27_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_27_0_4_-518981394040482421.png",
+      "sha256": "f2fb6f19ca34b872e37f49c7fc5145580caddd50fca5c66732ea8353742e8d6d",
+      "bytes": 177124,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_11_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_11_0_5_278865658996976427.png",
+      "sha256": "9bd17d1e55563cf7ccec5569883f8ed5ff2febfe738b04b289f5b49c378d6fb1",
+      "bytes": 179496,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_11_0_6",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_11_0_6_1120029703341298952.png",
+      "sha256": "e9602872921c62a44e44828651b843b3d77d80ff6ca186854a213ae9491d1f48",
+      "bytes": 244597,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNORM_27_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNORM_27_0_1_1276856072801775869.png",
+      "sha256": "0a0a46a8c104afea232fdff728206ce5450742a6b0e5aa89825313656145f422",
+      "bytes": 172479,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNORM_58_0_7",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNORM_58_0_7_1687696512273806246.png",
+      "sha256": "91434e8eeb58bafdc6a26948205b8ab65f1bc526d5faec96e84a4ab137a0fbcf",
+      "bytes": 183395,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_13_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_13_0_4_2016309208437687463.png",
+      "sha256": "d3ce244e3ca0c5375fadc5173de64705f43371cb286b3a68db393fb7def0f168",
+      "bytes": 176442,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picBoot_0_1_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picBoot_0_1_1_3893719946444962735.png",
+      "sha256": "cec02831f48d5c5e9ec03ca7f773445f1bcc1bcabab0b75c36813f615d476153",
+      "bytes": 184925,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNORM_26_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNORM_26_0_5_4149686403794037706.png",
+      "sha256": "049c839e036deea470b2fb14f3e16a301a37ded257010a41f8ecd783b11ab01c",
+      "bytes": 198260,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_72_0_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picDouble_72_0_3_4375453506483771129.png",
+      "sha256": "e35ab019a1952dd135da594ebaf5c59c0478ac0cbf683d592b26587290428a63",
+      "bytes": 183584,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_30_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_30_0_2_4494640078934083721.png",
+      "sha256": "dec39b2df861b8eb23ad26a4e1873b1d32a3fe626d269d133e56be34554aa969",
+      "bytes": 189005,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_23_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_23_0_2_4782453131971213775.png",
+      "sha256": "53194a11889ff4892aa194cb53c150005e63c6e8a40010bb864e4b498b6a512f",
+      "bytes": 185618,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_22_0_6",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_22_0_6_5513641759525286329.png",
+      "sha256": "268890e427f1bfa350921eabc7d154ff5980a075d44f77123a2bd0cca7d89d85",
+      "bytes": 200613,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_23_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_23_0_4_5975027349352505390.png",
+      "sha256": "a0134b406c5ef7aac601bb592902fa3337662832cb194bee7652789531842d2d",
+      "bytes": 197523,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picBoot_0_1_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picBoot_0_1_2_6031206465208805000.png",
+      "sha256": "d50e2b88c4e0bee5ca890bf58c00f6d412dac19c816cca67495546e69932bb6b",
+      "bytes": 168584,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_11_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_11_0_2_7887990107429391165.png",
+      "sha256": "5dc7333ea50514082f7df18cebceca599ff2dda11206eafd881676dad3ee4000",
+      "bytes": 205076,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picClassic_Attain_57_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picClassic_Attain_57_0_2_9002782795776738378.png",
+      "sha256": "d0b2b85e6b3a69ee5f79ba0ae5800bdd4deabe999c526aa1414c8e3c5a1cc02a",
+      "bytes": 180036,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_72_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picDouble_72_0_2_9070384141576819075.png",
+      "sha256": "186e44bab49c0d7d10111e7dbd1495f859bc5902fa1492572589a5b0fe32821b",
+      "bytes": 173759,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_10_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_10_0_5_9197206611935756104.png",
+      "sha256": "6db6e34f66ce6a6fffea6b6402062b23d94d1b065ce6912a5bb5a19945667ecb",
+      "bytes": 189956,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_405",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_405_-9220349488344552211.png",
+      "sha256": "004321ca5e4ca714af656e41b45cdffbba92174ae09379355e0c46d25184765a",
+      "bytes": 181614,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_leizi2_game#8",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_leizi2_game#8_-9078462665692949361.png",
+      "sha256": "6c84e11f049e9e081068ae1e1b42bbbe52ee6998d0c618cd0b48cd5d36327e17",
+      "bytes": 197500,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_surtr_ambienceSynesthesia#6",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_surtr_ambienceSynesthesia#6_-8946607184557026300.png",
+      "sha256": "ff7bd428e213eec7399caa18756f8acf67f4c06e1efa005f8313e622765b0fa3",
+      "bytes": 150655,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Condition_3",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Condition_3_-8930659667588128209.png",
+      "sha256": "4666cfd331afdcaccee8f076699fab8a03d96064e7be1a6f3b0af26076e3b3a2",
+      "bytes": 132623,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Condition_4",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Condition_4_-8795937779357820502.png",
+      "sha256": "36ba66d3ac59384830bab4544314718fe3ecb1def4c272d61b44a2be67eb09db",
+      "bytes": 130704,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_ursusRoom_2026",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_ursusRoom_2026_-8510427825260572954.png",
+      "sha256": "708b9d916548bc58885bcee41224028356f484d6d827d0eda6332fd9e0628607",
+      "bytes": 131433,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_386",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_386_-7778611318075147668.png",
+      "sha256": "5c0ea005243199a5989693d9f34e6aa3f73dd7de53afe93d926a77ce95df8a06",
+      "bytes": 154141,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Condition_1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Condition_1_-7772149805119577075.png",
+      "sha256": "1df18862b6aa0c994fb132be17d3ce974eca650300eb0a019951e51c2609840f",
+      "bytes": 135068,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_blaze2_winter#5",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_blaze2_winter#5_-7762770044230290941.png",
+      "sha256": "be30264bc8709e462338c4edb77b5751329ad9a817554e536922269462bd435a",
+      "bytes": 189426,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_419",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_419_-7534291606950519173.png",
+      "sha256": "6c3b0e5b4496ef428408f021997b78f43ee0dbc9d1e22d53ba268b79fa23498f",
+      "bytes": 172513,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_radian_game#8",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_radian_game#8_-7364353052630570042.png",
+      "sha256": "da87b51af0ecfa9f37dc48c3235a92347e31c3d3608f038bf348c9ebd3791d29",
+      "bytes": 138031,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_bstalk_unveiling#4",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_bstalk_unveiling#4_-6954184274811863708.png",
+      "sha256": "410790fc004d8f2814d632dfe016debcc7d6b08a7346ff6efc8b93d7be910301",
+      "bytes": 170010,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_280",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_280_-6902858901722781619.png",
+      "sha256": "a1f9b5f62824a89199692dfd95df418794d02703ce23ce05fe7dee2601b84398",
+      "bytes": 156401,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_402",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_402_-6858682364892223383.png",
+      "sha256": "9070d590847050a1014d2c36cea552b95e0eb1872115baad698893b39d779141",
+      "bytes": 162710,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_389",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_389_-6583134962331285786.png",
+      "sha256": "5724c2fc09d8b776535f8e1a1073d0cf9c49bc885b32da70044c1617e603cfb2",
+      "bytes": 146129,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_xingzh_epoque#51",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_xingzh_epoque#51_-6538754038392565085.png",
+      "sha256": "b945c01fd3564df787f476ddf57396b2fbdc63a6039c7ed28f665da21362e540",
+      "bytes": 155904,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_414",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_414_-6484044435814343874.png",
+      "sha256": "5c4520a59c1f62fbfb9719e585ee840b53fdf5a2dfab8ec75f8f509c015f0ab7",
+      "bytes": 129464,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_demkni_ambienceSynesthesia#7",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_demkni_ambienceSynesthesia#7_-5486840363668082074.png",
+      "sha256": "9613781bd96c5050cc9fe2934ad9e5ea3bb99a57b02fd4f3e7a43f6f77950189",
+      "bytes": 177276,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_molKitchen_2023_r1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_molKitchen_2023_r1_-5065227578407389803.png",
+      "sha256": "919d821041a99b59d8246f35d011fb61c27c50eb21d963e8859ef2aa2cd859ca",
+      "bytes": 131289,
+      "width": 433,
+      "height": 202,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_YuKitchen_2026",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_YuKitchen_2026_-4837175240925342470.png",
+      "sha256": "3ab801e09c983d544006889067a1f16a364ee4b8e99085705bcbb9ed062e0761",
+      "bytes": 155954,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_394",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_394_-4824841960982499469.png",
+      "sha256": "c64cd0ce0c7a9af25c381e94007c5f7c345adf134e1d97628fa1b69963dd3dee",
+      "bytes": 133518,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_404",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_404_-4731015435855271124.png",
+      "sha256": "5e282ca518a74ceed0b399432705e2a98efedc6bdd9c7194be252abd485e05fd",
+      "bytes": 158338,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_252",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_252_-4665346929788491622.png",
+      "sha256": "f349e40748f71f0da3fb8bd9475773dbee7085deeb2c42c961ad6810cac4e7a0",
+      "bytes": 155393,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_brigid_epoque#53",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_brigid_epoque#53_-4637102178585163026.png",
+      "sha256": "16c1d62388d78bc74311a487d45ec6b2850f7da7ace06b1ab31b8f346e502c57",
+      "bytes": 145217,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_dusk_nian#12",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_dusk_nian#12_-4466943852126939494.png",
+      "sha256": "534551d0acffb0bfd9009f7c0f2e7dee836c4ea2ed461ab839d50b555feee76b",
+      "bytes": 141202,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_poca_rilakkuma#1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_poca_rilakkuma#1_-4252705043776700568.png",
+      "sha256": "fdf2deb2903e95d9135a91525ac58ac9527d5c3d896d8e36a408120813160466",
+      "bytes": 170749,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_397",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_397_-3962520668275374173.png",
+      "sha256": "df710dae5929d356c9c81f3a7f4e746817e8ec6313b8eee6be56fb3b7ad5d027",
+      "bytes": 126557,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_nymph_ambienceSynesthesia#6",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_nymph_ambienceSynesthesia#6_-3933504033981156912.png",
+      "sha256": "3cd77751e3a604c56fe70583d95c86e31094b9b5b913c03788c0618a9e1cb162",
+      "bytes": 186888,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_407",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_407_-3861924979511401559.png",
+      "sha256": "f301ddeda92099942fc5aecd1bc22b9b94d65b147bdb7132fa7dd782c862781a",
+      "bytes": 158009,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_398",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_398_-2383813245249049981.png",
+      "sha256": "58bdfb7b7c7d0b929145e34ef581cbc8f89fb809659abeea1fc0393d2e9af7f8",
+      "bytes": 165025,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Condition_5",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Condition_5_-2225739883901618227.png",
+      "sha256": "04d53d16b0021eb00c023db543579da19ca8201c5f944c36385178435357885f",
+      "bytes": 146900,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_417",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_417_-2082996269004591905.png",
+      "sha256": "7f32ec6e40759dde4f249c402454e07dff0ff00e3e6f60217d99cced3c2e1e35",
+      "bytes": 156937,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_281",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_281_-2041561708783872019.png",
+      "sha256": "7d2dc18ff6ac187bc707bf26578c770d1c21566dcfc9f6e8007f01fcacc74e41",
+      "bytes": 172687,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_420",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_420_-1886870938850321764.png",
+      "sha256": "09ede004a55f44ef5f79fb5586e01ebc121ed42560686577b3ef077b1f0698ad",
+      "bytes": 141447,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_387",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_387_-1824594068038497145.png",
+      "sha256": "242f5be732dce73c8047d5675ff7dd81c8d929e7afdde356083b58d3678083a1",
+      "bytes": 156520,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_pizzeria_2026",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_pizzeria_2026_-1812522408805814177.png",
+      "sha256": "2d1bbb01cbab53f293c25d8f664c3819e3ae65202517240ff1ee2867666ab2ae",
+      "bytes": 147422,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_R6_2024",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_R6_2024_-1352010525752403919.png",
+      "sha256": "c4d2d9f2a68b7eefb0bf098c985735dad745bbac6d8dd95040a82041daba9abd",
+      "bytes": 120642,
+      "width": 433,
+      "height": 202,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_207",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_207_-1340483037461325605.png",
+      "sha256": "e2a6516c5253e57fcc3c96986ab085699e93c024475a083d36164ea83661a29e",
+      "bytes": 171898,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_396",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_396_-1240650986124470737.png",
+      "sha256": "28c0b94dd25cc71a0ca64d0af790c6a183d203b257146fca7d95c682b24f2387",
+      "bytes": 120534,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_106",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_106_-1158986413118736773.png",
+      "sha256": "b548dea53337ba5e8dfaf3c3eb59232289511356c2638ac1aad0db1193f272ff",
+      "bytes": 166911,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_381",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_396_-1240650986124470737.png",
+      "sha256": "28c0b94dd25cc71a0ca64d0af790c6a183d203b257146fca7d95c682b24f2387",
+      "bytes": 120534,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_376",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_376_-751654919250876639.png",
+      "sha256": "d6a7de94a32c063131f6b8ab683fa5b55e7e2a902ea34fb8d2144535e6df4e6a",
+      "bytes": 134696,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Condition_2",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Condition_2_-514475522003962230.png",
+      "sha256": "dca3e225bc0da7bfdc42ad758df7a3d19b77388b8db6bf9af955fed888f7758a",
+      "bytes": 151983,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_lemuen_ambienceSynesthesia#7",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_lemuen_ambienceSynesthesia#7_-470617566918999807.png",
+      "sha256": "62d3256b0dacf2dd369a34451b8f1ff4e30ab3564a8b989a2a8fb5cba0a00fef",
+      "bytes": 160539,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_surfer_nian#12",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_surfer_nian#12_-213287659677552631.png",
+      "sha256": "b6adbd47dfa5fd19e83b9f66684948772690e2eaae2d25f652312d80a28b53da",
+      "bytes": 151310,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_cultureroom_2023_r1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_cultureroom_2023_r1_24835473552776856.png",
+      "sha256": "5e67e62cce149723ab41e80f10e86bf16219b72dc9b5e144214ffe5d83628d38",
+      "bytes": 113455,
+      "width": 433,
+      "height": 202,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_breeze_unveiling#4",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_breeze_unveiling#4_198266731188092148.png",
+      "sha256": "4296e800cfba7387a435c544f688cc489b956cc728bfd35db462415fc7ab1b4b",
+      "bytes": 161941,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_408",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_408_473968633373822688.png",
+      "sha256": "085adb69ac5d745a528bc4ac38cd4e7716a654864625a38aceb3ea8b50031df4",
+      "bytes": 160480,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_401",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_401_721994225672387787.png",
+      "sha256": "ab13898bfcd2b14fc709273bb7d0841ef00184cba06a711d0113fbad989a9a44",
+      "bytes": 161646,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_ling_nian#12",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_ling_nian#12_877382791501897901.png",
+      "sha256": "460a479a421b005caaed01dcb37def6b317ed4204170a29be820e851b88c28e7",
+      "bytes": 157064,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_412",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_404_-4731015435855271124.png",
+      "sha256": "5e282ca518a74ceed0b399432705e2a98efedc6bdd9c7194be252abd485e05fd",
+      "bytes": 158338,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_ifrit_rilakkuma#1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_ifrit_rilakkuma#1_1056358563174353644.png",
+      "sha256": "af39f7c9bc43ffb218595efe47cf32f1330f56fbca547103029bcc5312d5d6d4",
+      "bytes": 174994,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_383",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_252_-4665346929788491622.png",
+      "sha256": "f349e40748f71f0da3fb8bd9475773dbee7085deeb2c42c961ad6810cac4e7a0",
+      "bytes": 155393,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_278",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_278_1582489360041836844.png",
+      "sha256": "537ee96c79173eae8f4bfc16a614cbfacad09c2a5164bd4a6ec0151a5040edff",
+      "bytes": 161736,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_248_r1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_248_r1_2308800576048067963.png",
+      "sha256": "77930129f64202bf0d4bb77380cc45bfeaa91aed679c0e8d1cd07dc3337673f8",
+      "bytes": 108629,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_teaHouse_2023",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_teaHouse_2023_2370482152386831903.png",
+      "sha256": "4bf8a8eda297fa1f4bc5371fa76ae9d45418b60e81d5c1097e224f97d294481d",
+      "bytes": 172966,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_393",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_393_2417117896318515500.png",
+      "sha256": "9693fe42e0da590909f1f43cb372a27405f70651cf198fd7ea108106bbb35576",
+      "bytes": 134210,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_400",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_400_2741121725432860342.png",
+      "sha256": "e22938f7f2f9ecf2f2ac6a1f5e2922743b93f748e24c46cde3ee4ecd31b6c571",
+      "bytes": 168862,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "Shop_mCard_1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/Shop_mCard_1_3309126885680896682.png",
+      "sha256": "d63ae7aa17b59d8d892dfecc5719a2939aff9c89f69b74cd299b7be29d4da7e4",
+      "bytes": 134553,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_necras_ambienceSynesthesia#7",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_necras_ambienceSynesthesia#7_3441884140967114276.png",
+      "sha256": "f32a1d91b65cbadb11cc1d01d56f117908d5d9c0fab98a19c758c9ac713c835f",
+      "bytes": 171320,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_247_r1",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_247_r1_3459161458577618506.png",
+      "sha256": "f4086f34b5b4cebbe6b0cded7d8d7eaa9f0b56d33196f10baa2a44e4f23a0cc6",
+      "bytes": 116948,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_390",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_407_-3861924979511401559.png",
+      "sha256": "f301ddeda92099942fc5aecd1bc22b9b94d65b147bdb7132fa7dd782c862781a",
+      "bytes": 158009,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_279",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_279_3840087504610445151.png",
+      "sha256": "34a7276db4a9def5b48c6d0949a6d4827acbc253e7f1e96b04ef0de12d28c332",
+      "bytes": 156568,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_403",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_404_-4731015435855271124.png",
+      "sha256": "5e282ca518a74ceed0b399432705e2a98efedc6bdd9c7194be252abd485e05fd",
+      "bytes": 158338,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_NpOne_7",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_NpOne_7_4027189588431626842.png",
+      "sha256": "ee09d8230dd68687efa58c58294f459e9fd0d1e0c209e822cc88737a910a26ea",
+      "bytes": 196029,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_etlchi_winter#5",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_etlchi_winter#5_4198969416835257658.png",
+      "sha256": "e2d6dd1528543df77083ebe48a4cd3a88f9d63552657acaf8ff0fcce5404caf5",
+      "bytes": 145510,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_392",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_392_4527184618132514497.png",
+      "sha256": "1b2ba1e9da967d691a98d69b1e20e5de10bc5cde9e77832485d0d5a63f3a84bd",
+      "bytes": 148102,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_391",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_408_473968633373822688.png",
+      "sha256": "085adb69ac5d745a528bc4ac38cd4e7716a654864625a38aceb3ea8b50031df4",
+      "bytes": 160480,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_277",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_277_5024269684852085272.png",
+      "sha256": "095255abc6777622245d894579ff0ad7b559d228149224d06f8897e4cb0a660a",
+      "bytes": 157953,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_399",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_399_5431132495003536052.png",
+      "sha256": "93ba623c23cae4c67e9aea78e0065bad1a710da1951b11d7887665a1503cca5d",
+      "bytes": 147327,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Condition_6",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Condition_6_5434809279581718694.png",
+      "sha256": "ae02dbb2179c00b76cb3e3ed35b1e864ad8cc7b3c108f17b16ea68016074d275",
+      "bytes": 146788,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_philae_nian#12",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_philae_nian#12_5562610237066975904.png",
+      "sha256": "41f57ffc72f2cc91a4aa895c4bcee112872ed30665f8346c4463e3d0c616cf52",
+      "bytes": 157602,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_receptionRoom_2026",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_receptionRoom_2026_5719521350413039711.png",
+      "sha256": "d7bfdabb596c4ba60868c3fcb8d1d3c691547cfca8998f7308fe85f2513d26b9",
+      "bytes": 139330,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_388",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_388_6199155365148602383.png",
+      "sha256": "2552473d43248250de4add2eb544cf010704c4590fd116fff6fdf662b91869fd",
+      "bytes": 155031,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop2",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop2_6332703538759365911.png",
+      "sha256": "c723f911992295970ccc85f42e45f4f924950d372b8a81befa9cc51137bc6ba0",
+      "bytes": 139349,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_415",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_415_6376901001494337869.png",
+      "sha256": "a9ca177f9f54b10f0d04a91a7ca061955ebed42db0dee7bfc937197463fd99dc",
+      "bytes": 124010,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_papyrs_game#8",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_papyrs_game#8_6756091849378998516.png",
+      "sha256": "4fd416e8586c5401a440b027a8da0c700839b56c18f1e4f2c8737564a8e6938a",
+      "bytes": 178884,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_406",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_386_-7778611318075147668.png",
+      "sha256": "5c0ea005243199a5989693d9f34e6aa3f73dd7de53afe93d926a77ce95df8a06",
+      "bytes": 154141,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_413",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_413_6977310797298472079.png",
+      "sha256": "e46b729b8309feb90978e2c0ad63e18748473a6099d47fc33437ac1c43e09e99",
+      "bytes": 155159,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_206",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_206_7072744504493262359.png",
+      "sha256": "65716a5abf05d41a4ebc739f8f6ebc841817237eea9b98f81357a3dbcca8ae5f",
+      "bytes": 147415,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_395",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_395_7356891125247075864.png",
+      "sha256": "59a05618e3a2d9376eb47dc3861862beed7b3e625c5eddf76501ef898831dd63",
+      "bytes": 148852,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_418",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_418_7461585081958846490.png",
+      "sha256": "d88bfd7fe7ab5c5772a0dd1d00e8e2558dcc285e815081946960945fb3a8490b",
+      "bytes": 168162,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_Once_382",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_Once_382_8678120981453900413.png",
+      "sha256": "0cf6fc53a322ca98a060ddc8c5af003bfcc3a810f0859f6405cbb04b6d5af252",
+      "bytes": 153264,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "shop_yu_nian#12",
+      "pack": "spritepack/ui_home_act_banner_shop_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_shop_h2_0/shop_yu_nian#12_9021674044248821928.png",
+      "sha256": "979469ce8e3980b405eaafb15537fc1e16cb5166dec31868223e9802984c53d0",
+      "bytes": 183216,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_2",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_2_-8194951096070294165.png",
+      "sha256": "30e42a0095ba905d7834c53b612db3a822afedb37dc5a2a94243160c4ab4bd04",
+      "bytes": 141756,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_4",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_4_-7601620374536683622.png",
+      "sha256": "1092b88ee4a7b283d06928a042850934ebb8a72e261bd76cab7ece2c4e4fe495",
+      "bytes": 129239,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_14",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_14_-5526992890259320133.png",
+      "sha256": "f01ef7b84c7632f9c6bc1d067aefbd463a32cbc847bd3ddc91bf844def19956f",
+      "bytes": 151784,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_11",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_11_-5472052062598721151.png",
+      "sha256": "0a6f2ab9767b1d422278cf7203fdad44ebd44cfd0e97c6e078276297ac97f2c0",
+      "bytes": 146291,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_12",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_12_-3539033159155489838.png",
+      "sha256": "9fa247c4d10ccb3a6e12165e98b6019636acf6407351381f45535c7f8540b4c4",
+      "bytes": 141378,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_5",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_5_-3163528483257961802.png",
+      "sha256": "e98ffdc785c460bae0450840ea2b12aaaf6e7c136b00a8be712d2e32182a59af",
+      "bytes": 165115,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_10",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_10_-2065318784521834214.png",
+      "sha256": "1d6101d866bc5cf17fcbd7ba30802c67b5c94b81b2870c6e831a073b21e0efe7",
+      "bytes": 133907,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_7",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_7_-639244171650350731.png",
+      "sha256": "4f6329e839fe1c43ac65a2c2133f67ada03b1cf8f4eae58abf9593f74cade2ad",
+      "bytes": 131344,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "permanent_main_1_zone1",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/permanent_main_1_zone1_-270083372369379819.png",
+      "sha256": "54349620a99dffcc2e14c019726195036808e9f5ec12e6dcc0acc19219433be3",
+      "bytes": 99582,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "permanent_main_2_zone1",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/permanent_main_2_zone1_214592174097064603.png",
+      "sha256": "a2ad1a208cc0703e3202d4be02b210842f87eb0a5fed3f43b64beacb03e2ffa3",
+      "bytes": 117704,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_1",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_1_1226051827332204816.png",
+      "sha256": "6a8a2713dcad8461de2e34b42eb32cc92b4656a13d3567609fad53bb42b5bb21",
+      "bytes": 126436,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "act2mainss_zone1",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/permanent_main_1_zone1_-270083372369379819.png",
+      "sha256": "54349620a99dffcc2e14c019726195036808e9f5ec12e6dcc0acc19219433be3",
+      "bytes": 99582,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "act3mainss_zone1",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/permanent_main_2_zone1_214592174097064603.png",
+      "sha256": "a2ad1a208cc0703e3202d4be02b210842f87eb0a5fed3f43b64beacb03e2ffa3",
+      "bytes": 117704,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_6",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_6_3167883798371792522.png",
+      "sha256": "42b005630304ff14b97ccd47885dcb1ad7ee4c789e63b6120b3d2a1b18e995d8",
+      "bytes": 137618,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_8",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_8_4930632572985298114.png",
+      "sha256": "e840151b8cfaffb82b9afecf0e08b237785515abe5c4c7dc0b94f40bc712823d",
+      "bytes": 143673,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_9",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_9_5510545038068443166.png",
+      "sha256": "e14e1e7f84695f024e8f32b696caf743dc91d99b12e887ab14dbd97b7a74b59e",
+      "bytes": 149539,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_3",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_3_5973370899449363975.png",
+      "sha256": "784f79a649d6dfce6d93b9d828c780e03f86125855d12b581935db32eb5904ad",
+      "bytes": 157680,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_13",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_13_8330117072286011931.png",
+      "sha256": "9ac14cb4a893794bf1c3ab951d5977a14b3102e4e66ea189c6533981dad9b901",
+      "bytes": 119160,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_0",
+      "pack": "spritepack/ui_home_act_banner_zone_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_zone_0/main_0_8539738117805960536.png",
+      "sha256": "1fdfb8975f6188f68021a860a6ad7bba909e34d1ccbf0d35782c6aaf879b8878",
+      "bytes": 118045,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "act20mini",
+      "pack": "spritepack/ui_zone_home_theme_act20mini.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act20mini/act20mini_-8869604288528960875.png",
+      "sha256": "eab037e8aa8b3ec9119dcd26ffb10abd5a13bdef7e1a6e41349d919052703b49",
+      "bytes": 1014137,
+      "width": 996,
+      "height": 856,
+      "type": "Sprite"
+    },
+    {
+      "name": "act2autochess",
+      "pack": "spritepack/ui_zone_home_theme_act2autochess.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act2autochess/act2autochess_1119091582984462871.png",
+      "sha256": "90444ee00ab11b33491569ccc94511a4d0a468c667ca18ba7f8b6900059c5450",
+      "bytes": 926012,
+      "width": 1002,
+      "height": 875,
+      "type": "Sprite"
+    },
+    {
+      "name": "act2break",
+      "pack": "spritepack/ui_zone_home_theme_act2break.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act2break/act2break_6186059391577620077.png",
+      "sha256": "5c62e676d4f0462097ca2b97933e7ffa53cf38abc37cecf0dd386a0de2dc6ad9",
+      "bytes": 409548,
+      "width": 867,
+      "height": 927,
+      "type": "Sprite"
+    },
+    {
+      "name": "act3enemyduel",
+      "pack": "spritepack/ui_zone_home_theme_act3enemyduel.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act3enemyduel/act3enemyduel_613707584189802132.png",
+      "sha256": "df132661d6575168839d375da01b6e731f3f74f97e94fd9eca6182d3e327c503",
+      "bytes": 58021,
+      "width": 714,
+      "height": 613,
+      "type": "Sprite"
+    },
+    {
+      "name": "act40sre",
+      "pack": "spritepack/ui_zone_home_theme_act40sre.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act40sre/act40sre_-3152041030730715337.png",
+      "sha256": "58f2a59d463267e1a00833cee9013168d7c59aaa54bb61d122aa7addd30d2fe1",
+      "bytes": 1163791,
+      "width": 925,
+      "height": 1024,
+      "type": "Sprite"
+    },
+    {
+      "name": "act41sre",
+      "pack": "spritepack/ui_zone_home_theme_act41sre.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act41sre/act41sre_-8299464281041885757.png",
+      "sha256": "f271baeef4d4d77d6055c144560a08244b284224186dec2659ed1cc74ee0da7e",
+      "bytes": 1191383,
+      "width": 1012,
+      "height": 954,
+      "type": "Sprite"
+    },
+    {
+      "name": "act48side",
+      "pack": "spritepack/ui_zone_home_theme_act48side.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act48side/act48side_-8364702014542354134.png",
+      "sha256": "c2925a1e7bf3dc20a33a868c49e7150e919187bfaf452db3b075dbdbe537b28e",
+      "bytes": 1166504,
+      "width": 976,
+      "height": 948,
+      "type": "Sprite"
+    },
+    {
+      "name": "act49side",
+      "pack": "spritepack/ui_zone_home_theme_act49side.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act49side/act49side_5336676337431648613.png",
+      "sha256": "84dab0f892bc17b79bf20064aa644395b914e3d98d60e4bc47298aa2cb40b87a",
+      "bytes": 1578429,
+      "width": 1024,
+      "height": 1024,
+      "type": "Sprite"
+    },
+    {
+      "name": "act51side",
+      "pack": "spritepack/ui_zone_home_theme_act51side.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_act51side/act51side_-7673742112013944323.png",
+      "sha256": "3367b36c86832adcd5557cdce82a56407a918b539281e421b5dce783b68aed0f",
+      "bytes": 1167992,
+      "width": 1024,
+      "height": 977,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_10",
+      "pack": "spritepack/ui_zone_home_theme_main_10.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_main_10/main_10_1074338379613942597.png",
+      "sha256": "27f3aef78c273b420432a8769f50149bd4ca9b9500dc804f6256adcb153cfb07",
+      "bytes": 827984,
+      "width": 905,
+      "height": 784,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_11",
+      "pack": "spritepack/ui_zone_home_theme_main_11.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_main_11/main_11_-214269961209701677.png",
+      "sha256": "7216d5fe951ebd38aa4c85b7916c8e6859bc6d57c318978ae726fec7ee9290a0",
+      "bytes": 783684,
+      "width": 715,
+      "height": 754,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_12",
+      "pack": "spritepack/ui_zone_home_theme_main_12.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_main_12/main_12_5101240786620882293.png",
+      "sha256": "d73bcd2f074a8417d46960bf55502776c771435b65a925254930d93b69590c6d",
+      "bytes": 749249,
+      "width": 715,
+      "height": 681,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_13",
+      "pack": "spritepack/ui_zone_home_theme_main_13.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_main_13/main_13_-8362025249311965169.png",
+      "sha256": "f89c7315d42dbcbbb2614a2f3b5eb1167bc45fdc099d3588e6423b7c73bda721",
+      "bytes": 658903,
+      "width": 754,
+      "height": 710,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_9",
+      "pack": "spritepack/ui_zone_home_theme_main_9.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_main_9/main_9_7550965655471404101.png",
+      "sha256": "f8a5e2c3f825bd3f965aeca7cf5637beb13f949a85e0bc2e05a4b740b4b1487e",
+      "bytes": 927240,
+      "width": 913,
+      "height": 761,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_1_entry_display_1",
+      "pack": "spritepack/ui_zone_home_theme_rogue_1_entry_display_1.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_1_entry_display_1/rogue_1_entry_display_1_-2950900037639667798.png",
+      "sha256": "6f7504bbc2dc85a7725de5186f6c8a5d1154945283236f0dbef37b26dac51150",
+      "bytes": 934069,
+      "width": 996,
+      "height": 836,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_1_entry_display_2",
+      "pack": "spritepack/ui_zone_home_theme_rogue_1_entry_display_2.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_1_entry_display_2/rogue_1_entry_display_2_-6222676998345559406.png",
+      "sha256": "a504a222e0d374154129fe8e4143a8e2e53d7c5e4579f71e2411fef74631dd45",
+      "bytes": 1047711,
+      "width": 996,
+      "height": 870,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_1_entry_display_3",
+      "pack": "spritepack/ui_zone_home_theme_rogue_1_entry_display_3.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_1_entry_display_3/rogue_1_entry_display_3_-154836504111181249.png",
+      "sha256": "16220c57ee3ea772e3f22e1d24fe4abec7558eb0d36a01df13fe75d608b4a33f",
+      "bytes": 1094502,
+      "width": 996,
+      "height": 870,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_1_entry_display_4",
+      "pack": "spritepack/ui_zone_home_theme_rogue_1_entry_display_4.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_1_entry_display_4/rogue_1_entry_display_4_-3647197290922867045.png",
+      "sha256": "0967b910efb9e1f9a3100c50acab8e06b37a0f20be2475257420b8ef535549a5",
+      "bytes": 1066112,
+      "width": 1024,
+      "height": 949,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_2_entry_display_1",
+      "pack": "spritepack/ui_zone_home_theme_rogue_2_entry_display_1.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_2_entry_display_1/rogue_2_entry_display_1_2842646912388348097.png",
+      "sha256": "300808c482d1febff15f93f535615603d31fabd47ec4da4cf2f80c0b6911ceca",
+      "bytes": 998321,
+      "width": 866,
+      "height": 802,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_2_entry_display_2",
+      "pack": "spritepack/ui_zone_home_theme_rogue_2_entry_display_2.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_2_entry_display_2/rogue_2_entry_display_2_4790080512167466703.png",
+      "sha256": "95bdde3b1c407f03a15e8657004c161bbed3719b57adb29c0f54dad09f5462d6",
+      "bytes": 730178,
+      "width": 866,
+      "height": 802,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_2_entry_display_3",
+      "pack": "spritepack/ui_zone_home_theme_rogue_2_entry_display_3.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_2_entry_display_3/rogue_2_entry_display_3_-8490191038030578829.png",
+      "sha256": "a1c9c92101c8997be5d5afdd271b122ff06862ea00ebfe18f7d830b5e5724cee",
+      "bytes": 971002,
+      "width": 865,
+      "height": 809,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_2_entry_display_4",
+      "pack": "spritepack/ui_zone_home_theme_rogue_2_entry_display_4.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_2_entry_display_4/rogue_2_entry_display_4_1029097216590121203.png",
+      "sha256": "3ec57dedb556c03c04445852bfa3726742de067f99b7707f589e06f21dfcd5ab",
+      "bytes": 1403168,
+      "width": 1014,
+      "height": 965,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_3_entry_display_1",
+      "pack": "spritepack/ui_zone_home_theme_rogue_3_entry_display_1.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_3_entry_display_1/rogue_3_entry_display_1_2131993555922694276.png",
+      "sha256": "c906bc0d2db15f0164b6696d3d6fb2ea02800304a6e915dfa3e7205f23b27fcb",
+      "bytes": 940771,
+      "width": 943,
+      "height": 757,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_3_entry_display_2",
+      "pack": "spritepack/ui_zone_home_theme_rogue_3_entry_display_2.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_3_entry_display_2/rogue_3_entry_display_2_-6203074024463564215.png",
+      "sha256": "08547a5278c462813ca9fa18c66ecb4735ab213de2aa37fd92542fab0223a195",
+      "bytes": 890829,
+      "width": 946,
+      "height": 800,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_3_entry_display_3",
+      "pack": "spritepack/ui_zone_home_theme_rogue_3_entry_display_3.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_3_entry_display_3/rogue_3_entry_display_3_-8228837599415424106.png",
+      "sha256": "5453d4a92083ebb946fa7022206e6f1c582bbf95a8139f9d6f3a15a121d856b5",
+      "bytes": 1004357,
+      "width": 946,
+      "height": 766,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_4_entry_display_1",
+      "pack": "spritepack/ui_zone_home_theme_rogue_4_entry_display_1.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_4_entry_display_1/rogue_4_entry_display_1_8083368793879574035.png",
+      "sha256": "9bfe59d839e77d444f9842e6f03854ee089bec4ccdfee1406f57d0835bfb4294",
+      "bytes": 608357,
+      "width": 810,
+      "height": 713,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_4_entry_display_2",
+      "pack": "spritepack/ui_zone_home_theme_rogue_4_entry_display_2.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_4_entry_display_2/rogue_4_entry_display_2_4709408596569838303.png",
+      "sha256": "72e22c655caab6bcae42fedff870b0a5d7c0fc8df1f72156ed5f04ca910e0bdd",
+      "bytes": 834929,
+      "width": 995,
+      "height": 699,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_4_entry_display_3",
+      "pack": "spritepack/ui_zone_home_theme_rogue_4_entry_display_3.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_4_entry_display_3/rogue_4_entry_display_3_3940467890100174246.png",
+      "sha256": "0e8f2648da6f42ac95cb10598e9bf8e4504f45d79e823144587ee87df21a6e1a",
+      "bytes": 634869,
+      "width": 908,
+      "height": 706,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_4_entry_display_4",
+      "pack": "spritepack/ui_zone_home_theme_rogue_4_entry_display_4.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_4_entry_display_4/rogue_4_entry_display_4_7305959937106019928.png",
+      "sha256": "b7247d7f61a9ad1840fa55faae7218f1c521c4c742cb604b815c65ea761f7ab4",
+      "bytes": 1000424,
+      "width": 1024,
+      "height": 949,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_5_entry_display_1",
+      "pack": "spritepack/ui_zone_home_theme_rogue_5_entry_display_1.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_5_entry_display_1/rogue_5_entry_display_1_1424640309222642922.png",
+      "sha256": "48dd00c012c42a5d91e87c3e0386e1cf9baa3b91d795b3603ed13e88a23c8a2e",
+      "bytes": 1306908,
+      "width": 995,
+      "height": 1017,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_5_entry_display_2",
+      "pack": "spritepack/ui_zone_home_theme_rogue_5_entry_display_2.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_5_entry_display_2/rogue_5_entry_display_2_-1235850180306086203.png",
+      "sha256": "514847f1c5ec0f34a1dcc04faf4a565d1b963df5b417ba5b5ff93ef63d08badd",
+      "bytes": 1595422,
+      "width": 907,
+      "height": 1003,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_5_entry_display_3",
+      "pack": "spritepack/ui_zone_home_theme_rogue_5_entry_display_3.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_5_entry_display_3/rogue_5_entry_display_3_-7711764296104099649.png",
+      "sha256": "ab08e4d33797ec0f19ce25795a316999e8c60214430bd621bec65aecdd551408",
+      "bytes": 1344349,
+      "width": 907,
+      "height": 994,
+      "type": "Sprite"
+    },
+    {
+      "name": "rogue_5_entry_display_4",
+      "pack": "spritepack/ui_zone_home_theme_rogue_5_entry_display_4.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_rogue_5_entry_display_4/rogue_5_entry_display_4_4811727264913023570.png",
+      "sha256": "931fa1b2509c53160d6d645bed76407ead251b334bcc75206907edca1308724d",
+      "bytes": 1294653,
+      "width": 1024,
+      "height": 1024,
+      "type": "Sprite"
+    },
+    {
+      "name": "sandbox_1_entry_display_1",
+      "pack": "spritepack/ui_zone_home_theme_sandbox_1_entry_display_1.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_sandbox_1_entry_display_1/sandbox_1_entry_display_1_-7631160773453326399.png",
+      "sha256": "3041a29f5c453d0945cd151cea21efc911d499ffb77982ddef8a26ed6dbb45dd",
+      "bytes": 758266,
+      "width": 850,
+      "height": 876,
+      "type": "Sprite"
+    },
+    {
+      "name": "sandbox_1_entry_display_2",
+      "pack": "spritepack/ui_zone_home_theme_sandbox_1_entry_display_2.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_sandbox_1_entry_display_2/sandbox_1_entry_display_2_-1497258628484922005.png",
+      "sha256": "d30791ebfb87eafd81f6c690b545409ada4532aa8fe17faa3347ac66468e321d",
+      "bytes": 1030296,
+      "width": 849,
+      "height": 797,
+      "type": "Sprite"
+    },
+    {
+      "name": "sandbox_1_entry_display_3",
+      "pack": "spritepack/ui_zone_home_theme_sandbox_1_entry_display_3.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_zone_home_theme_sandbox_1_entry_display_3/sandbox_1_entry_display_3_4677054208339069214.png",
+      "sha256": "1e38de504cf6e08173cf35e8a2290cf722816da530585430c5d4b219706954ea",
+      "bytes": 972327,
+      "width": 849,
+      "height": 811,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_12",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_12_-9078188858637766365.png",
+      "sha256": "023f181a627f6657fee4dd25be6712736052662954f43c94b2d27575d0a6f70a",
+      "bytes": 74051,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act51side",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act51side_-7104714002914901288.png",
+      "sha256": "7dea5f04d1065ecda93e92a7bfa0ea8726b73518030e01aae335cf694cf271b7",
+      "bytes": 90620,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_4",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_4_-5821258868804559512.png",
+      "sha256": "28ec5145c8d112b17c848d4920b1b131ba27f61e3e312772be1794ff94aed5cd",
+      "bytes": 75645,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_7",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_7_-4735733213933869349.png",
+      "sha256": "cfc1f33b22f05493dc137af4309dcb5820bd81298cb5d61be74add0b7b48fd65",
+      "bytes": 76357,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act48side",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act48side_-4517216124579668751.png",
+      "sha256": "459a0b618b89c9bcb374c17914f7494b3e6c1bf383496bd737ccb50121a89542",
+      "bytes": 103767,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_14",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_14_-4125159072858370436.png",
+      "sha256": "9647428546bb337794ab9de53ea5ad894da98578210002f2568e4ebcd17d17fa",
+      "bytes": 85923,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_0",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_0_-1190273535066772911.png",
+      "sha256": "fcf775216bc9788395b12c0c6a697587d986bf53e06b20591ebb0a8276a2eea9",
+      "bytes": 67881,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_13",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_13_-823288001047981434.png",
+      "sha256": "9ace1c1bfe34bf0e5ae07458b5d9802143224a3e5b04b07d3af7a500c6008fdd",
+      "bytes": 78675,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act2break",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act2break_-127366232836192030.png",
+      "sha256": "fef94e5180fd6cac73ed5f5104f3be7b0f276f1681d3830f08d2cc94791c17f3",
+      "bytes": 48731,
+      "width": 279,
+      "height": 165,
+      "type": "Sprite"
+    },
+    {
+      "name": "permanent_main_2_zone1",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/permanent_main_2_zone1_-86994064581226183.png",
+      "sha256": "9ac2e548cfd267df2f8e142fb898f8658fedb802506387042e7a36efdfc7248e",
+      "bytes": 19771,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act3enemyduel",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act3enemyduel_656412902614377796.png",
+      "sha256": "73d6250d307fe89e3a2d0ac6e750d92876f0a13a322d5ab0b49400fa861ff0ff",
+      "bytes": 16870,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act40sre",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act40sre_1582532062559101417.png",
+      "sha256": "def1a226c2b1e118b566cf8b46ccb7614ce235db14fec5d0abe7b5afcd44dc1d",
+      "bytes": 102051,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_11",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_11_1625398884916683383.png",
+      "sha256": "782e7280191effac6999bc7f78191b81e80a34090a37e6c7ac875ba738b854c7",
+      "bytes": 75592,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_2",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_2_1708461301668107283.png",
+      "sha256": "6347a4927b293f58ecca8de1ce48028a33e0792f8c929b794847454cc1147865",
+      "bytes": 76292,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_8",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_8_2005666892313957717.png",
+      "sha256": "c5569ce40bdd186290863632f9fb943309d6e17f049345f7985c85aa1d1a16c8",
+      "bytes": 81954,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_1",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_1_2074220389383647354.png",
+      "sha256": "01f5e2036cc82566fd9f496549ca2344cdc211fbc9f84ffab05c7408f58b1777",
+      "bytes": 66313,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act2autochess",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act2autochess_2397393583470415154.png",
+      "sha256": "18f9cec728c80e65d0ed7728e124989266b6391a4ef48b9df9ccdd2b756e23e1",
+      "bytes": 81882,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act49side",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act49side_2557743253798560868.png",
+      "sha256": "5819160444d52270a9c6f9a5f6de744f7ebb9a5ba364c744bd6d96ab1f848eee",
+      "bytes": 107628,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_9",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_9_4119412321871412690.png",
+      "sha256": "68330c1323dd868d67d17fe364855cd573f26e78fa7cd71c482e7de6a8a870b0",
+      "bytes": 76273,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act41sre",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act41sre_4209719589063950568.png",
+      "sha256": "3c7b23230db6ca5c94d5d999eda7ea20c78a3b78eb40bd57d8d1db8b6e18350f",
+      "bytes": 102922,
+      "width": 279,
+      "height": 165,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_3",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_3_4313688984651115955.png",
+      "sha256": "e78829c3bb63b5b713bb0182ddb910e027a2c21542dc3d85cc10f7daf7c6e907",
+      "bytes": 76414,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_10",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_10_4415245442661317056.png",
+      "sha256": "8fbd95f7aa30c0a5ad55a44b97fc156cfb610949d012cedfacf39f52ceb5e92c",
+      "bytes": 67003,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "act20mini",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/act20mini_4518344452802902057.png",
+      "sha256": "ef83c4c0f03e8cbf897182c4ac89c46e5e454950d9be48d8149f0c9820932503",
+      "bytes": 96002,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_6",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_6_4848610780488037941.png",
+      "sha256": "ae449e72cf35c249fa9bbe2791ca90cf7413a4f829b588a1910673bfb2801125",
+      "bytes": 77577,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "main_5",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/main_5_4883333960611780382.png",
+      "sha256": "61239efd6e30cd71f423a5ed2fe78d275cb4b6cbec49bdd20f74fe3da7722b78",
+      "bytes": 86789,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "permanent_main_1_zone1",
+      "pack": "arts/ui/stage/[uc]homeentry.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/arts_ui_stage_[uc]homeentry/permanent_main_1_zone1_8698681720046194954.png",
+      "sha256": "13bdee2cb2fa17905d5fb4b2846a3c67007af381803afe9257182e3099929671",
+      "bytes": 57404,
+      "width": 280,
+      "height": 166,
+      "type": "Sprite"
+    },
+    {
+      "name": "picSingle_kr_41_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picSingle_kr_41_0_1_-8808052576762862668.png",
+      "sha256": "932dbc586d3ea47dc0ff2fcb27e888c7e71835049fbfbc0f42d370f7c89e81b4",
+      "bytes": 179723,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_11_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_11_0_1_-8262990650811594327.png",
+      "sha256": "408fa427452fa080c90f26231ae7fa34257862d96299218cfcf0ed606abbaed9",
+      "bytes": 206620,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_10_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_10_0_2_-7459875802524899739.png",
+      "sha256": "e4d8f07477e10e54393844e73fbf8d3ae17865454f5e10c207f7e428fcc9a7db",
+      "bytes": 201416,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_40_0_7",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_40_0_7_-7291252959550367987.png",
+      "sha256": "5ea9d318fe599e61a87916c639e522274ae720032c2ff85f5bb123d2349ddbac",
+      "bytes": 188591,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_41_0_6",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_41_0_6_-5878285254036642815.png",
+      "sha256": "73a064e8f8e79f9f2d5baadb9aafd9994114fddfa1fec4f8b5813f362263f5f7",
+      "bytes": 178875,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picAttain_kr_40_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picAttain_kr_40_0_2_-5677962610804017733.png",
+      "sha256": "86ff9f742c07ab75416a0f987ffbd598797f487ddf8429880760fc9ad456b804",
+      "bytes": 185441,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_kr_19_3_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_kr_19_3_2_-4819859743544394621.png",
+      "sha256": "cdaa0953216b1471b82ae43a99dac50d4db4886fbc2006e7e24ebe341677cf4f",
+      "bytes": 194959,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picBoot_0_1_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picBoot_0_1_1_-4311317426967430136.png",
+      "sha256": "5319d55d885682eeec20998fda42cc69448f1bf6d1598c4328db78cd9c3bfcd8",
+      "bytes": 184786,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_10_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_10_0_4_-4160893789991180752.png",
+      "sha256": "e895a3ca99b7ddcacab97a74fa7d375e20e772c2c8aa6672abe67fcee0086d2f",
+      "bytes": 200301,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_11_0_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_11_0_3_-3708756133061957234.png",
+      "sha256": "eec15274c490af626471fb8bcaa07cd0d92bab85cbcf117d2be006fe2b69cc0f",
+      "bytes": 194581,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_kr_41_0_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_kr_41_0_3_-3397602859697701707.png",
+      "sha256": "868099e501771181333381803c0c6ee60aedefd2e5189d0631952231fb1d97c4",
+      "bytes": 194405,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_41_0_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_41_0_2_-2557623127422066670.png",
+      "sha256": "f83f4688856a0512de813b4a93593015e6cd1a4b6b4441815202bb2e997b02e1",
+      "bytes": 198207,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picLimited_kr_40_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picLimited_kr_40_0_4_-2316443692361648338.png",
+      "sha256": "69704e4099e781764262ba4aa25c87185597d7d47adf93b2e89c6cefe6e6f233",
+      "bytes": 203299,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_10_0_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_10_0_3_-458324936354264431.png",
+      "sha256": "622b857dfb6d7845a58a48eea7ef37b57e4fb7cfbf7a2fb491f0b1b3b8c702bf",
+      "bytes": 206483,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_41_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_41_0_5_-136130010329198472.png",
+      "sha256": "5f7e6c3fe6a64e39a73daf7280f43a566333cc93d993254b3c39aeb585c9b841",
+      "bytes": 189651,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picSingle_kr_41_0_4",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picSingle_kr_41_0_4_164640192356207116.png",
+      "sha256": "0c5ed635a3b0c54fe23c432c34f1ab39f505334e00c48c138968e40560730c8f",
+      "bytes": 188789,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_kr_19_4_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_kr_19_4_1_812286002504613569.png",
+      "sha256": "c875f47a8ef3df10f75e7e0c4fc1adeda5233d0a0ccfd42e77fe434cd31a3e0b",
+      "bytes": 189941,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picSingle_kr_41_0_7",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picSingle_kr_41_0_7_2070796856916061296.png",
+      "sha256": "5a330ee82e16526e1309d555b8caf0e4e92f6d631174e665a90429b6ee5240e9",
+      "bytes": 189859,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picBoot_0_1_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picBoot_0_1_3_2348793833662388815.png",
+      "sha256": "0b186d895d6758fc09080f861f4b5d9ef2ff8b17f443e5ec0cb5c6f30f5853ba",
+      "bytes": 176964,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_9_0_6",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_9_0_6_2606688994370272155.png",
+      "sha256": "be3ae23ba719222cdb196dbbf7391a5db798ec64b7e7cd97154f22f4d806cf69",
+      "bytes": 200068,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_40_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_40_0_5_4125314873820575156.png",
+      "sha256": "3027e59050cf812c1bee70833271f5313c3fd36d8b749c97314530191028f453",
+      "bytes": 183729,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picClassicAttain_kr_40_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picClassicAttain_kr_40_0_1_5011330727182988873.png",
+      "sha256": "6c80cff75902c2601ddafe49e46a05ad566850d880d515cdcbb13e694a4b4170",
+      "bytes": 185025,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picBoot_0_1_2",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picBoot_0_1_2_5656922015644264359.png",
+      "sha256": "736a0dc7ba43323dd71a0828bc7b237e944688097ad3de844a30eafc37c80f28",
+      "bytes": 168187,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picReturn_kr_41_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picReturn_kr_41_0_1_5708247272108797723.png",
+      "sha256": "4be6e3afb1fe4c826fe9607f8748828d7b86571eb9bf4b258c6c4c8e011096f6",
+      "bytes": 192091,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_41_0_9",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_41_0_9_5888047901506882954.png",
+      "sha256": "f9e1d046c5dcd928374a4e3a14c32b26be616716f75f8f98ee216f4fa65d3dc0",
+      "bytes": 201549,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_10_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_10_0_5_9197206611935756104.png",
+      "sha256": "6db6e34f66ce6a6fffea6b6402062b23d94d1b065ce6912a5bb5a19945667ecb",
+      "bytes": 189956,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_10_0_1",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picNorm_10_0_1_6450695632690368141.png",
+      "sha256": "7736b9a2d21e87d36e56d89a0e5d117275b8d9ab72903aacecc05ed2856f4a56",
+      "bytes": 204622,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_40_0_3",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_40_0_3_6843596737673275854.png",
+      "sha256": "8c267502a476368355d3cc77ddd69cd7eee101e6d717f22ad07175eda5af2181",
+      "bytes": 185896,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picDouble_kr_41_0_8",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_kr_h2_0/picDouble_kr_41_0_8_7383244716345456227.png",
+      "sha256": "4020e9ebf6bc5af6e9b89154fb31a9329e51c6f59ad6c87c0fffa84e53ba077a",
+      "bytes": 191307,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    },
+    {
+      "name": "picNorm_11_0_5",
+      "pack": "spritepack/ui_home_act_banner_gacha_kr_h2_0.ab",
+      "path": "data/raw/arknights-assets2/kr-localized/spritepack_ui_home_act_banner_gacha_h2_0/picNorm_11_0_5_278865658996976427.png",
+      "sha256": "9bd17d1e55563cf7ccec5569883f8ed5ff2febfe738b04b289f5b49c378d6fb1",
+      "bytes": 179496,
+      "width": 467,
+      "height": 239,
+      "type": "Sprite"
+    }
+  ],
+  "outputBytes": 62601260,
+  "downloadBytes": 31510809,
+  "uniqueFiles": 216
+}

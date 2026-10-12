@@ -26,6 +26,7 @@ import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import archiveData from "./generated/archive-data.json";
+import { MediaPanel } from "@/components/media-panel";
 
 const professionLabels: Record<string, string> = {
   PIONEER: "뱅가드",
@@ -141,6 +142,7 @@ export default function ArchiveExplorer() {
             </div>
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-400">
               <Link href="/search" className="archive-chip text-lime-200">새 다국어 본문 검색 열기</Link>
+              <Link href="/media" className="archive-chip text-cyan-200">이미지 · 음성</Link>
               <span className="flex items-center gap-2"><CircleCheck className="size-4 text-lime-300" />기존 KR 스냅샷</span>
               <span className="flex items-center gap-2 font-mono text-xs"><GitCommitHorizontal className="size-4 text-cyan-300" />{archiveData.source.commit.slice(0, 10)}</span>
               <span className="font-mono text-xs text-slate-600">{archiveData.source.commitDate.slice(0, 10)}</span>
@@ -245,6 +247,7 @@ export default function ArchiveExplorer() {
                     </div>
                   </div>
                 </div>
+                <div className="border-b border-white/10 bg-[#0b171d] p-5 sm:p-7"><MediaPanel key={selectedOperator.id} operatorId={selectedOperator.id} /></div>
                 <div className="grid gap-px bg-white/10 lg:grid-cols-2">
                   <div className="bg-[#0b171d] p-5 sm:p-7">
                     <div className="flex items-center gap-2"><FileText className="size-4 text-lime-300" /><h3 className="font-semibold">프로필 기록</h3></div>

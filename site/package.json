@@ -8,6 +8,7 @@
   "scripts": {
     "data:build": "node --preserve-symlinks-main scripts/generate-archive-data.mjs",
     "search:build": "node --preserve-symlinks --preserve-symlinks-main ../scripts/build-search-index.mjs",
+    "media:build": "cd .. && node --preserve-symlinks --preserve-symlinks-main scripts/build-media-index.mjs",
     "predev": "npm run data:build",
     "install:ci": "node scripts/install-ci.mjs",
     "dev": "next dev --hostname 127.0.0.1",
